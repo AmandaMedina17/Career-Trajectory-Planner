@@ -10,7 +10,9 @@
       "idioma": "español",
       "proveedor": "OpenEDX",
       "prerequisitos": [],
-      "habilidades_aportadas": ["Programación en Python"],
+      "habilidades_aportadas": [
+        "Programación en Python"
+      ],
       "descripcion": "Introducción completa a Python: sintaxis, funciones, estructuras de datos y POO."
     },
     {
@@ -22,8 +24,13 @@
       "modalidad": "online",
       "idioma": "español",
       "proveedor": "Coursera (audit)",
-      "prerequisitos": ["Programación en Python"],
-      "habilidades_aportadas": ["Estructuras de Datos", "Algoritmos"],
+      "prerequisitos": [
+        "Programación en Python"
+      ],
+      "habilidades_aportadas": [
+        "Estructuras de Datos",
+        "Algoritmos"
+      ],
       "descripcion": "Listas, árboles, grafos, algoritmos de búsqueda y ordenación."
     },
     {
@@ -36,7 +43,12 @@
       "idioma": "español",
       "proveedor": "Khan Academy",
       "prerequisitos": [],
-      "habilidades_aportadas": ["Estadística", "Álgebra Lineal", "Probabilidad", "Cálculo"],
+      "habilidades_aportadas": [
+        "Estadística",
+        "Álgebra Lineal",
+        "Probabilidad",
+        "Cálculo"
+      ],
       "descripcion": "Fundamentos matemáticos esenciales para Machine Learning."
     },
     {
@@ -49,7 +61,9 @@
       "idioma": "español",
       "proveedor": "SQLZoo",
       "prerequisitos": [],
-      "habilidades_aportadas": ["Bases de Datos SQL"],
+      "habilidades_aportadas": [
+        "Bases de Datos SQL"
+      ],
       "descripcion": "Consultas SQL avanzadas, joins, subconsultas y optimización."
     },
     {
@@ -61,8 +75,14 @@
       "modalidad": "online",
       "idioma": "español",
       "proveedor": "Udemy",
-      "prerequisitos": ["Programación en Python", "Estadística"],
-      "habilidades_aportadas": ["Análisis de Datos", "Visualización de Datos"],
+      "prerequisitos": [
+        "Programación en Python",
+        "Estadística"
+      ],
+      "habilidades_aportadas": [
+        "Análisis de Datos",
+        "Visualización de Datos"
+      ],
       "descripcion": "Pandas, NumPy, Matplotlib y Seaborn para análisis exploratorio."
     },
     {
@@ -74,8 +94,15 @@
       "modalidad": "online",
       "idioma": "español",
       "proveedor": "Coursera",
-      "prerequisitos": ["Programación en Python", "Estadística", "Álgebra Lineal", "Análisis de Datos"],
-      "habilidades_aportadas": ["Machine Learning"],
+      "prerequisitos": [
+        "Programación en Python",
+        "Estadística",
+        "Álgebra Lineal",
+        "Análisis de Datos"
+      ],
+      "habilidades_aportadas": [
+        "Machine Learning"
+      ],
       "descripcion": "Regresión, clasificación, clustering, validación de modelos."
     },
     {
@@ -87,8 +114,15 @@
       "modalidad": "online",
       "idioma": "español",
       "proveedor": "Udemy",
-      "prerequisitos": ["Machine Learning", "Álgebra Lineal", "Cálculo"],
-      "habilidades_aportadas": ["Deep Learning", "Redes Neuronales"],
+      "prerequisitos": [
+        "Machine Learning",
+        "Álgebra Lineal",
+        "Cálculo"
+      ],
+      "habilidades_aportadas": [
+        "Deep Learning",
+        "Redes Neuronales"
+      ],
       "descripcion": "Redes neuronales, CNN, RNN, transformers con TensorFlow y Keras."
     },
     {
@@ -100,8 +134,13 @@
       "modalidad": "online",
       "idioma": "español",
       "proveedor": "Coursera",
-      "prerequisitos": ["Deep Learning", "Programación en Python"],
-      "habilidades_aportadas": ["Procesamiento del Lenguaje Natural"],
+      "prerequisitos": [
+        "Deep Learning",
+        "Programación en Python"
+      ],
+      "habilidades_aportadas": [
+        "Procesamiento del Lenguaje Natural"
+      ],
       "descripcion": "Tokenización, embeddings, BERT, transformers para NLP."
     },
     {
@@ -114,7 +153,9 @@
       "idioma": "español",
       "proveedor": "GitHub Learning Lab",
       "prerequisitos": [],
-      "habilidades_aportadas": ["Git y Control de Versiones"],
+      "habilidades_aportadas": [
+        "Git y Control de Versiones"
+      ],
       "descripcion": "Comandos Git, ramas, pull requests y flujos de trabajo colaborativos."
     },
     {
@@ -126,8 +167,12 @@
       "modalidad": "online",
       "idioma": "español",
       "proveedor": "Udemy",
-      "prerequisitos": ["Sistemas Operativos Linux"],
-      "habilidades_aportadas": ["Docker"],
+      "prerequisitos": [
+        "Sistemas Operativos Linux"
+      ],
+      "habilidades_aportadas": [
+        "Docker"
+      ],
       "descripcion": "Creación de imágenes, redes, volúmenes y Docker Compose."
     },
     {
@@ -139,8 +184,12 @@
       "modalidad": "online",
       "idioma": "español",
       "proveedor": "Linux Foundation",
-      "prerequisitos": ["Docker"],
-      "habilidades_aportadas": ["Kubernetes"],
+      "prerequisitos": [
+        "Docker"
+      ],
+      "habilidades_aportadas": [
+        "Kubernetes"
+      ],
       "descripcion": "Pods, deployments, servicios, Helm y gestión de clústeres."
     },
     {
@@ -153,7 +202,9 @@
       "idioma": "español",
       "proveedor": "edX",
       "prerequisitos": [],
-      "habilidades_aportadas": ["Sistemas Operativos Linux"],
+      "habilidades_aportadas": [
+        "Sistemas Operativos Linux"
+      ],
       "descripcion": "Shell scripting, gestión de ficheros, procesos y redes en Linux."
     },
     {
@@ -165,8 +216,12 @@
       "modalidad": "online",
       "idioma": "español",
       "proveedor": "AWS Training",
-      "prerequisitos": ["Sistemas Operativos Linux"],
-      "habilidades_aportadas": ["Cloud Computing (AWS)"],
+      "prerequisitos": [
+        "Sistemas Operativos Linux"
+      ],
+      "habilidades_aportadas": [
+        "Cloud Computing (AWS)"
+      ],
       "descripcion": "EC2, S3, Lambda, RDS, IAM y arquitectura cloud en AWS."
     },
     {
@@ -178,8 +233,14 @@
       "modalidad": "online",
       "idioma": "español",
       "proveedor": "Udemy",
-      "prerequisitos": ["Docker", "Git y Control de Versiones", "Sistemas Operativos Linux"],
-      "habilidades_aportadas": ["DevOps"],
+      "prerequisitos": [
+        "Docker",
+        "Git y Control de Versiones",
+        "Sistemas Operativos Linux"
+      ],
+      "habilidades_aportadas": [
+        "DevOps"
+      ],
       "descripcion": "Jenkins, GitHub Actions, pipelines CI/CD, infraestructura como código."
     },
     {
@@ -191,8 +252,13 @@
       "modalidad": "online",
       "idioma": "español",
       "proveedor": "Udemy",
-      "prerequisitos": ["Programación en Python"],
-      "habilidades_aportadas": ["APIs REST", "FastAPI"],
+      "prerequisitos": [
+        "Programación en Python"
+      ],
+      "habilidades_aportadas": [
+        "APIs REST",
+        "FastAPI"
+      ],
       "descripcion": "Diseño y desarrollo de APIs RESTful con FastAPI, OAuth2 y documentación."
     },
     {
@@ -204,8 +270,15 @@
       "modalidad": "online",
       "idioma": "español",
       "proveedor": "Coursera",
-      "prerequisitos": ["Programación en Python", "Bases de Datos SQL"],
-      "habilidades_aportadas": ["Big Data", "Spark", "Hadoop"],
+      "prerequisitos": [
+        "Programación en Python",
+        "Bases de Datos SQL"
+      ],
+      "habilidades_aportadas": [
+        "Big Data",
+        "Spark",
+        "Hadoop"
+      ],
       "descripcion": "Procesamiento distribuido de datos a gran escala con Apache Spark."
     },
     {
@@ -217,8 +290,13 @@
       "modalidad": "online",
       "idioma": "español",
       "proveedor": "Udemy",
-      "prerequisitos": ["Deep Learning", "Programación en Python"],
-      "habilidades_aportadas": ["Visión por Computador"],
+      "prerequisitos": [
+        "Deep Learning",
+        "Programación en Python"
+      ],
+      "habilidades_aportadas": [
+        "Visión por Computador"
+      ],
       "descripcion": "Detección de objetos, segmentación, CNN para visión artificial."
     },
     {
@@ -231,7 +309,9 @@
       "idioma": "español",
       "proveedor": "MongoDB University",
       "prerequisitos": [],
-      "habilidades_aportadas": ["Bases de Datos NoSQL"],
+      "habilidades_aportadas": [
+        "Bases de Datos NoSQL"
+      ],
       "descripcion": "Modelado de documentos, consultas avanzadas y casos de uso NoSQL."
     },
     {
@@ -243,8 +323,12 @@
       "modalidad": "online",
       "idioma": "español",
       "proveedor": "Cybrary",
-      "prerequisitos": ["Redes y Protocolos TCP/IP"],
-      "habilidades_aportadas": ["Seguridad Informática"],
+      "prerequisitos": [
+        "Redes y Protocolos TCP/IP"
+      ],
+      "habilidades_aportadas": [
+        "Seguridad Informática"
+      ],
       "descripcion": "OWASP, vulnerabilidades comunes, hardening y defensa de sistemas."
     },
     {
@@ -257,7 +341,9 @@
       "idioma": "español",
       "proveedor": "Cisco NetAcad",
       "prerequisitos": [],
-      "habilidades_aportadas": ["Redes y Protocolos TCP/IP"],
+      "habilidades_aportadas": [
+        "Redes y Protocolos TCP/IP"
+      ],
       "descripcion": "Modelo OSI, TCP/IP, enrutamiento, DNS, HTTP y protocolos de red."
     },
     {
@@ -269,8 +355,14 @@
       "modalidad": "online",
       "idioma": "español",
       "proveedor": "TCM Security",
-      "prerequisitos": ["Redes y Protocolos TCP/IP", "Seguridad Informática", "Sistemas Operativos Linux"],
-      "habilidades_aportadas": ["Ciberseguridad Ofensiva"],
+      "prerequisitos": [
+        "Redes y Protocolos TCP/IP",
+        "Seguridad Informática",
+        "Sistemas Operativos Linux"
+      ],
+      "habilidades_aportadas": [
+        "Ciberseguridad Ofensiva"
+      ],
       "descripcion": "Pentesting, exploits, Metasploit, OSINT y metodologías de ataque."
     },
     {
@@ -282,8 +374,12 @@
       "modalidad": "online",
       "idioma": "español",
       "proveedor": "Udemy",
-      "prerequisitos": ["Programación en JavaScript"],
-      "habilidades_aportadas": ["React"],
+      "prerequisitos": [
+        "Programación en JavaScript"
+      ],
+      "habilidades_aportadas": [
+        "React"
+      ],
       "descripcion": "Componentes, hooks, estado, context API y React Router."
     },
     {
@@ -296,7 +392,9 @@
       "idioma": "español",
       "proveedor": "Udemy",
       "prerequisitos": [],
-      "habilidades_aportadas": ["Programación en JavaScript"],
+      "habilidades_aportadas": [
+        "Programación en JavaScript"
+      ],
       "descripcion": "ES6+, async/await, módulos, DOM, Fetch API y patrones modernos."
     },
     {
@@ -308,8 +406,14 @@
       "modalidad": "online",
       "idioma": "español",
       "proveedor": "Udemy",
-      "prerequisitos": ["Programación en JavaScript"],
-      "habilidades_aportadas": ["Node.js", "APIs REST"],
+      "prerequisitos": [
+        "Programación en JavaScript"
+      ],
+      "habilidades_aportadas": [
+        "Node.js",
+        "APIs REST",
+        "Desarrollo Web Backend"
+      ],
       "descripcion": "Servidores web, middleware, autenticación JWT y despliegue."
     },
     {
@@ -321,8 +425,13 @@
       "modalidad": "online",
       "idioma": "español",
       "proveedor": "Coursera",
-      "prerequisitos": ["Estructuras de Datos", "Algoritmos"],
-      "habilidades_aportadas": ["Arquitectura de Software"],
+      "prerequisitos": [
+        "Estructuras de Datos",
+        "Algoritmos"
+      ],
+      "habilidades_aportadas": [
+        "Arquitectura de Software"
+      ],
       "descripcion": "SOLID, patrones de diseño, microservicios, DDD y arquitecturas limpias."
     },
     {
@@ -334,8 +443,12 @@
       "modalidad": "online",
       "idioma": "español",
       "proveedor": "Coursera",
-      "prerequisitos": ["Criptografía"],
-      "habilidades_aportadas": ["Blockchain"],
+      "prerequisitos": [
+        "Criptografía"
+      ],
+      "habilidades_aportadas": [
+        "Blockchain"
+      ],
       "descripcion": "Ethereum, Solidity, Web3.js y desarrollo de contratos inteligentes."
     },
     {
@@ -348,7 +461,9 @@
       "idioma": "español",
       "proveedor": "Stanford Online",
       "prerequisitos": [],
-      "habilidades_aportadas": ["Criptografía"],
+      "habilidades_aportadas": [
+        "Criptografía"
+      ],
       "descripcion": "Cifrado simétrico/asimétrico, hashing, PKI y protocolos seguros."
     },
     {
@@ -361,7 +476,10 @@
       "idioma": "español",
       "proveedor": "Scrum.org",
       "prerequisitos": [],
-      "habilidades_aportadas": ["Metodologías Ágiles", "Gestión de Proyectos"],
+      "habilidades_aportadas": [
+        "Metodologías Ágiles",
+        "Gestión de Proyectos"
+      ],
       "descripcion": "Sprints, backlogs, retrospectivas, Kanban y gestión ágil de equipos."
     },
     {
@@ -374,7 +492,9 @@
       "idioma": "español",
       "proveedor": "GitHub Learning Lab",
       "prerequisitos": [],
-      "habilidades_aportadas": ["Git y Control de Versiones"],
+      "habilidades_aportadas": [
+        "Git y Control de Versiones"
+      ],
       "descripcion": "Comandos Git, ramas, pull requests y flujos de trabajo colaborativos."
     },
     {
@@ -387,7 +507,9 @@
       "idioma": "español",
       "proveedor": "GitHub Learning Lab",
       "prerequisitos": [],
-      "habilidades_aportadas": ["Redes y Protocolos TCP/IP"],
+      "habilidades_aportadas": [
+        "Redes y Protocolos TCP/IP"
+      ],
       "descripcion": "Comandos Git, ramas, pull requests y flujos de trabajo colaborativos."
     },
     {
@@ -400,7 +522,9 @@
       "idioma": "español",
       "proveedor": "Cisco NetAcad",
       "prerequisitos": [],
-      "habilidades_aportadas": ["Redes y Protocolos TCP/IP"],
+      "habilidades_aportadas": [
+        "Redes y Protocolos TCP/IP"
+      ],
       "descripcion": "Conceptos básicos de redes, modelo OSI, direccionamiento IP, subnetting."
     },
     {
@@ -412,8 +536,12 @@
       "modalidad": "online",
       "idioma": "español",
       "proveedor": "Cisco NetAcad",
-      "prerequisitos": ["Redes y Protocolos TCP/IP"],
-      "habilidades_aportadas": ["Redes y Protocolos TCP/IP"],
+      "prerequisitos": [
+        "Redes y Protocolos TCP/IP"
+      ],
+      "habilidades_aportadas": [
+        "Redes y Protocolos TCP/IP"
+      ],
       "descripcion": "Configuración de routers, switches, VLANs, OSPF, EIGRP."
     },
     {
@@ -425,8 +553,13 @@
       "modalidad": "online",
       "idioma": "español",
       "proveedor": "Udemy",
-      "prerequisitos": ["Redes y Protocolos TCP/IP", "Sistemas Operativos Linux"],
-      "habilidades_aportadas": ["Ciberseguridad Ofensiva"],
+      "prerequisitos": [
+        "Redes y Protocolos TCP/IP",
+        "Sistemas Operativos Linux"
+      ],
+      "habilidades_aportadas": [
+        "Ciberseguridad Ofensiva"
+      ],
       "descripcion": "Reconocimiento, escaneo, explotación básica con Kali Linux."
     },
     {
@@ -438,8 +571,12 @@
       "modalidad": "online",
       "idioma": "español",
       "proveedor": "TCM Security",
-      "prerequisitos": ["Ciberseguridad Ofensiva"],
-      "habilidades_aportadas": ["Ciberseguridad Ofensiva"],
+      "prerequisitos": [
+        "Ciberseguridad Ofensiva"
+      ],
+      "habilidades_aportadas": [
+        "Ciberseguridad Ofensiva"
+      ],
       "descripcion": "OWASP Top 10, SQLi, XSS, CSRF, SSRF, exploit development."
     },
     {
@@ -451,8 +588,12 @@
       "modalidad": "online",
       "idioma": "español",
       "proveedor": "Coursera",
-      "prerequisitos": ["Programación en Python"],
-      "habilidades_aportadas": ["Criptografía"],
+      "prerequisitos": [
+        "Programación en Python"
+      ],
+      "habilidades_aportadas": [
+        "Criptografía"
+      ],
       "descripcion": "Hash, cifrado simétrico/asimétrico, firma digital, PKI."
     },
     {
@@ -464,8 +605,13 @@
       "modalidad": "online",
       "idioma": "español",
       "proveedor": "Udemy",
-      "prerequisitos": ["Criptografía", "Programación en Python"],
-      "habilidades_aportadas": ["Criptografía"],
+      "prerequisitos": [
+        "Criptografía",
+        "Programación en Python"
+      ],
+      "habilidades_aportadas": [
+        "Criptografía"
+      ],
       "descripcion": "ECDSA, SHA-256, wallets, firmas y transacciones criptográficas."
     },
     {
@@ -477,8 +623,13 @@
       "modalidad": "online",
       "idioma": "español",
       "proveedor": "A Cloud Guru",
-      "prerequisitos": ["Redes y Protocolos TCP/IP", "Sistemas Operativos Linux"],
-      "habilidades_aportadas": ["Cloud Computing (AWS)"],
+      "prerequisitos": [
+        "Redes y Protocolos TCP/IP",
+        "Sistemas Operativos Linux"
+      ],
+      "habilidades_aportadas": [
+        "Cloud Computing (AWS)"
+      ],
       "descripcion": "EC2, S3, VPC, IAM, RDS, Lambda, CloudFormation."
     },
     {
@@ -491,7 +642,9 @@
       "idioma": "español",
       "proveedor": "AWS Training",
       "prerequisitos": [],
-      "habilidades_aportadas": ["Cloud Computing (AWS)"],
+      "habilidades_aportadas": [
+        "Cloud Computing (AWS)"
+      ],
       "descripcion": "Introducción a servicios AWS, casos de uso, facturación y seguridad."
     },
     {
@@ -503,8 +656,12 @@
       "modalidad": "online",
       "idioma": "español",
       "proveedor": "Google Cloud Skills Boost",
-      "prerequisitos": ["Sistemas Operativos Linux"],
-      "habilidades_aportadas": ["Cloud Computing (GCP)"],
+      "prerequisitos": [
+        "Sistemas Operativos Linux"
+      ],
+      "habilidades_aportadas": [
+        "Cloud Computing (GCP)"
+      ],
       "descripcion": "Compute Engine, Kubernetes Engine, Cloud Storage, IAM, VPC."
     },
     {
@@ -516,8 +673,13 @@
       "modalidad": "online",
       "idioma": "español",
       "proveedor": "Coursera",
-      "prerequisitos": ["Programación en Python", "Bases de Datos SQL"],
-      "habilidades_aportadas": ["Cloud Computing (GCP)"],
+      "prerequisitos": [
+        "Programación en Python",
+        "Bases de Datos SQL"
+      ],
+      "habilidades_aportadas": [
+        "Cloud Computing (GCP)"
+      ],
       "descripcion": "BigQuery, Dataflow, AI Platform, Pub/Sub, Cloud Functions."
     },
     {
@@ -530,7 +692,9 @@
       "idioma": "español",
       "proveedor": "Microsoft Learn",
       "prerequisitos": [],
-      "habilidades_aportadas": ["Cloud Computing (Azure)"],
+      "habilidades_aportadas": [
+        "Cloud Computing (Azure)"
+      ],
       "descripcion": "Conceptos de nube, servicios Azure, seguridad, precios y soporte."
     },
     {
@@ -542,8 +706,13 @@
       "modalidad": "online",
       "idioma": "español",
       "proveedor": "Udemy",
-      "prerequisitos": ["Cloud Computing (Azure)", "Redes y Protocolos TCP/IP"],
-      "habilidades_aportadas": ["Cloud Computing (Azure)"],
+      "prerequisitos": [
+        "Cloud Computing (Azure)",
+        "Redes y Protocolos TCP/IP"
+      ],
+      "habilidades_aportadas": [
+        "Cloud Computing (Azure)"
+      ],
       "descripcion": "Redes virtuales, almacenamiento, máquinas virtuales, identidades y gobernanza."
     },
     {
@@ -555,8 +724,13 @@
       "modalidad": "online",
       "idioma": "español",
       "proveedor": "Udemy",
-      "prerequisitos": ["Git y Control de Versiones", "Sistemas Operativos Linux"],
-      "habilidades_aportadas": ["DevOps"],
+      "prerequisitos": [
+        "Git y Control de Versiones",
+        "Sistemas Operativos Linux"
+      ],
+      "habilidades_aportadas": [
+        "DevOps"
+      ],
       "descripcion": "Integración continua, entrega continua, Jenkins, GitLab CI, automatización."
     },
     {
@@ -568,8 +742,13 @@
       "modalidad": "online",
       "idioma": "español",
       "proveedor": "LinkedIn Learning",
-      "prerequisitos": ["DevOps", "Docker"],
-      "habilidades_aportadas": ["DevOps"],
+      "prerequisitos": [
+        "DevOps",
+        "Docker"
+      ],
+      "habilidades_aportadas": [
+        "DevOps"
+      ],
       "descripcion": "Pipelines, infraestructura como código (Terraform), monitorización y despliegue."
     },
     {
@@ -581,8 +760,12 @@
       "modalidad": "online",
       "idioma": "español",
       "proveedor": "Docker Documentation",
-      "prerequisitos": ["Sistemas Operativos Linux"],
-      "habilidades_aportadas": ["Docker"],
+      "prerequisitos": [
+        "Sistemas Operativos Linux"
+      ],
+      "habilidades_aportadas": [
+        "Docker"
+      ],
       "descripcion": "Instalación, comandos básicos, Dockerfile, volúmenes, redes y Compose."
     },
     {
@@ -594,8 +777,12 @@
       "modalidad": "online",
       "idioma": "español",
       "proveedor": "Udemy",
-      "prerequisitos": ["Docker"],
-      "habilidades_aportadas": ["Docker"],
+      "prerequisitos": [
+        "Docker"
+      ],
+      "habilidades_aportadas": [
+        "Docker"
+      ],
       "descripcion": "Optimización de imágenes, multi-stage builds, swarm, Docker API."
     },
     {
@@ -607,8 +794,13 @@
       "modalidad": "online",
       "idioma": "español",
       "proveedor": "Coursera",
-      "prerequisitos": ["Docker", "Redes y Protocolos TCP/IP"],
-      "habilidades_aportadas": ["Kubernetes"],
+      "prerequisitos": [
+        "Docker",
+        "Redes y Protocolos TCP/IP"
+      ],
+      "habilidades_aportadas": [
+        "Kubernetes"
+      ],
       "descripcion": "Pods, deployments, servicios, configmaps, ingress, Helm básico."
     },
     {
@@ -620,8 +812,12 @@
       "modalidad": "online",
       "idioma": "español",
       "proveedor": "Linux Foundation",
-      "prerequisitos": ["Kubernetes"],
-      "habilidades_aportadas": ["Kubernetes"],
+      "prerequisitos": [
+        "Kubernetes"
+      ],
+      "habilidades_aportadas": [
+        "Kubernetes"
+      ],
       "descripcion": "RBAC, network policies, operadores, cert-manager, service mesh (Istio)."
     },
     {
@@ -633,8 +829,13 @@
       "modalidad": "online",
       "idioma": "español",
       "proveedor": "Cybrary",
-      "prerequisitos": ["Redes y Protocolos TCP/IP", "Sistemas Operativos Linux"],
-      "habilidades_aportadas": ["Seguridad Informática"],
+      "prerequisitos": [
+        "Redes y Protocolos TCP/IP",
+        "Sistemas Operativos Linux"
+      ],
+      "habilidades_aportadas": [
+        "Seguridad Informática"
+      ],
       "descripcion": "Hardening, firewalls, SELinux, detección de intrusos, auditoría."
     },
     {
@@ -646,8 +847,13 @@
       "modalidad": "online",
       "idioma": "español",
       "proveedor": "Udemy",
-      "prerequisitos": ["Programación en JavaScript", "APIs REST"],
-      "habilidades_aportadas": ["Seguridad Informática"],
+      "prerequisitos": [
+        "Programación en JavaScript",
+        "APIs REST"
+      ],
+      "habilidades_aportadas": [
+        "Seguridad Informática"
+      ],
       "descripcion": "Protección contra inyecciones, autenticación segura, JWT, OAuth2, CSP."
     },
     {
@@ -659,8 +865,13 @@
       "modalidad": "online",
       "idioma": "español",
       "proveedor": "Coursera",
-      "prerequisitos": ["Programación en Python", "Redes y Protocolos TCP/IP"],
-      "habilidades_aportadas": ["IoT"],
+      "prerequisitos": [
+        "Programación en Python",
+        "Redes y Protocolos TCP/IP"
+      ],
+      "habilidades_aportadas": [
+        "IoT"
+      ],
       "descripcion": "Sensores, actuadores, MQTT, Node-RED, Raspberry Pi y Arduino."
     },
     {
@@ -672,8 +883,14 @@
       "modalidad": "online",
       "idioma": "español",
       "proveedor": "Udemy",
-      "prerequisitos": ["IoT", "Cloud Computing (AWS)", "Cloud Computing (Azure)"],
-      "habilidades_aportadas": ["IoT"],
+      "prerequisitos": [
+        "IoT",
+        "Cloud Computing (AWS)",
+        "Cloud Computing (Azure)"
+      ],
+      "habilidades_aportadas": [
+        "IoT"
+      ],
       "descripcion": "Ingesta de telemetría, procesamiento en la nube, análisis y visualización."
     },
     {
@@ -686,7 +903,9 @@
       "idioma": "español",
       "proveedor": "OpenEDX",
       "prerequisitos": [],
-      "habilidades_aportadas": ["Programación en Java"],
+      "habilidades_aportadas": [
+        "Programación en Java"
+      ],
       "descripcion": "Fundamentos de Java: sintaxis, OOP, colecciones, excepciones."
     },
     {
@@ -698,8 +917,13 @@
       "modalidad": "online",
       "idioma": "español",
       "proveedor": "Udemy",
-      "prerequisitos": ["Programación en Java", "Bases de Datos SQL"],
-      "habilidades_aportadas": ["Spring Boot"],
+      "prerequisitos": [
+        "Programación en Java",
+        "Bases de Datos SQL"
+      ],
+      "habilidades_aportadas": [
+        "Spring Boot"
+      ],
       "descripcion": "APIs REST, JPA, seguridad, despliegue con Spring Boot."
     },
     {
@@ -712,7 +936,9 @@
       "idioma": "español",
       "proveedor": "Coursera",
       "prerequisitos": [],
-      "habilidades_aportadas": ["Programación en C++"],
+      "habilidades_aportadas": [
+        "Programación en C++"
+      ],
       "descripcion": "Punteros, memoria dinámica, plantillas, STL."
     },
     {
@@ -724,8 +950,12 @@
       "modalidad": "online",
       "idioma": "español",
       "proveedor": "edX",
-      "prerequisitos": ["Sistemas Operativos Linux"],
-      "habilidades_aportadas": ["Sistemas Operativos"],
+      "prerequisitos": [
+        "Sistemas Operativos Linux"
+      ],
+      "habilidades_aportadas": [
+        "Sistemas Operativos"
+      ],
       "descripcion": "Planificación de procesos, memoria virtual, sistemas de archivos."
     },
     {
@@ -737,8 +967,12 @@
       "modalidad": "online",
       "idioma": "español",
       "proveedor": "Cisco",
-      "prerequisitos": ["Sistemas Operativos Linux"],
-      "habilidades_aportadas": ["Redes de Computadoras"],
+      "prerequisitos": [
+        "Sistemas Operativos Linux"
+      ],
+      "habilidades_aportadas": [
+        "Redes de Computadoras"
+      ],
       "descripcion": "Capa física, enlace, red, transporte, aplicación."
     },
     {
@@ -750,8 +984,12 @@
       "modalidad": "online",
       "idioma": "español",
       "proveedor": "Coursera",
-      "prerequisitos": ["Programación en Python"],
-      "habilidades_aportadas": ["Ingeniería de Software"],
+      "prerequisitos": [
+        "Programación en Python"
+      ],
+      "habilidades_aportadas": [
+        "Ingeniería de Software"
+      ],
       "descripcion": "Ciclo de vida, gestión de requisitos, planificación."
     },
     {
@@ -763,8 +1001,12 @@
       "modalidad": "online",
       "idioma": "español",
       "proveedor": "Udemy",
-      "prerequisitos": ["Programación en JavaScript"],
-      "habilidades_aportadas": ["Desarrollo Web Frontend"],
+      "prerequisitos": [
+        "Programación en JavaScript"
+      ],
+      "habilidades_aportadas": [
+        "Desarrollo Web Frontend"
+      ],
       "descripcion": "Componentes, estado, hooks, rutas, despliegue."
     },
     {
@@ -776,8 +1018,13 @@
       "modalidad": "online",
       "idioma": "español",
       "proveedor": "Coursera",
-      "prerequisitos": ["Programación en Python", "Bases de Datos SQL"],
-      "habilidades_aportadas": ["Django"],
+      "prerequisitos": [
+        "Programación en Python",
+        "Bases de Datos SQL"
+      ],
+      "habilidades_aportadas": [
+        "Django"
+      ],
       "descripcion": "Modelos, vistas, formularios, autenticación, ORM."
     },
     {
@@ -790,7 +1037,9 @@
       "idioma": "español",
       "proveedor": "Google Cloud",
       "prerequisitos": [],
-      "habilidades_aportadas": ["Computación en la Nube"],
+      "habilidades_aportadas": [
+        "Computación en la Nube"
+      ],
       "descripcion": "IaaS, PaaS, SaaS, modelos de despliegue, casos de uso."
     },
     {
@@ -802,8 +1051,12 @@
       "modalidad": "online",
       "idioma": "español",
       "proveedor": "Udemy",
-      "prerequisitos": ["Programación en Python"],
-      "habilidades_aportadas": ["Testing y QA"],
+      "prerequisitos": [
+        "Programación en Python"
+      ],
+      "habilidades_aportadas": [
+        "Testing y QA"
+      ],
       "descripcion": "Pruebas unitarias, integración, e2e, Selenium, PyTest."
     },
     {
@@ -816,7 +1069,9 @@
       "idioma": "español",
       "proveedor": "Coursera",
       "prerequisitos": [],
-      "habilidades_aportadas": ["Diseño UX/UI"],
+      "habilidades_aportadas": [
+        "Diseño UX/UI"
+      ],
       "descripcion": "Investigación, wireframes, prototipado, Figma."
     },
     {
@@ -828,8 +1083,12 @@
       "modalidad": "online",
       "idioma": "español",
       "proveedor": "Udemy",
-      "prerequisitos": ["Programación en JavaScript"],
-      "habilidades_aportadas": ["Angular"],
+      "prerequisitos": [
+        "Programación en JavaScript"
+      ],
+      "habilidades_aportadas": [
+        "Angular"
+      ],
       "descripcion": "Componentes, servicios, módulos, RxJS, Angular CLI."
     },
     {
@@ -841,8 +1100,12 @@
       "modalidad": "online",
       "idioma": "español",
       "proveedor": "Coursera",
-      "prerequisitos": ["Programación en JavaScript"],
-      "habilidades_aportadas": ["Vue.js"],
+      "prerequisitos": [
+        "Programación en JavaScript"
+      ],
+      "habilidades_aportadas": [
+        "Vue.js"
+      ],
       "descripcion": "Directivas, componentes, Vue Router, Vuex."
     },
     {
@@ -854,8 +1117,13 @@
       "modalidad": "online",
       "idioma": "español",
       "proveedor": "Udemy",
-      "prerequisitos": ["Node.js", "APIs REST"],
-      "habilidades_aportadas": ["Node.js"],
+      "prerequisitos": [
+        "Node.js",
+        "APIs REST"
+      ],
+      "habilidades_aportadas": [
+        "Node.js"
+      ],
       "descripcion": "Arquitectura de microservicios, JWT, OAuth2, despliegue."
     },
     {
@@ -867,8 +1135,12 @@
       "modalidad": "online",
       "idioma": "español",
       "proveedor": "Udemy",
-      "prerequisitos": ["Programación en Python"],
-      "habilidades_aportadas": ["FastAPI"],
+      "prerequisitos": [
+        "Programación en Python"
+      ],
+      "habilidades_aportadas": [
+        "FastAPI"
+      ],
       "descripcion": "Async, tipos, documentación automática, pruebas."
     },
     {
@@ -881,7 +1153,9 @@
       "idioma": "español",
       "proveedor": "Coursera",
       "prerequisitos": [],
-      "habilidades_aportadas": ["Gestión de Proyectos"],
+      "habilidades_aportadas": [
+        "Gestión de Proyectos"
+      ],
       "descripcion": "WBS, cronogramas, presupuestos, riesgos, stakeholders."
     },
     {
@@ -894,7 +1168,9 @@
       "idioma": "español",
       "proveedor": "Scrum.org",
       "prerequisitos": [],
-      "habilidades_aportadas": ["Metodologías Ágiles"],
+      "habilidades_aportadas": [
+        "Metodologías Ágiles"
+      ],
       "descripcion": "Eventos Scrum, artefactos, roles, mejora continua."
     },
     {
@@ -906,8 +1182,13 @@
       "modalidad": "online",
       "idioma": "español",
       "proveedor": "Coursera",
-      "prerequisitos": ["Programación en Python", "Cálculo Diferencial"],
-      "habilidades_aportadas": ["Procesamiento de Señales"],
+      "prerequisitos": [
+        "Programación en Python",
+        "Cálculo Diferencial"
+      ],
+      "habilidades_aportadas": [
+        "Procesamiento de Señales"
+      ],
       "descripcion": "FFT, filtros digitales, análisis espectral con NumPy/SciPy."
     },
     {
@@ -919,8 +1200,13 @@
       "modalidad": "online",
       "idioma": "español",
       "proveedor": "edX",
-      "prerequisitos": ["Procesamiento de Señales", "Probabilidad"],
-      "habilidades_aportadas": ["Comunicaciones Digitales"],
+      "prerequisitos": [
+        "Procesamiento de Señales",
+        "Probabilidad"
+      ],
+      "habilidades_aportadas": [
+        "Comunicaciones Digitales"
+      ],
       "descripcion": "Modulación QAM, PSK, codificación de canal, BER."
     },
     {
@@ -932,8 +1218,12 @@
       "modalidad": "online",
       "idioma": "español",
       "proveedor": "Coursera",
-      "prerequisitos": ["Electromagnetismo"],
-      "habilidades_aportadas": ["Antenas y Propagación"],
+      "prerequisitos": [
+        "Electromagnetismo"
+      ],
+      "habilidades_aportadas": [
+        "Antenas y Propagación"
+      ],
       "descripcion": "Parámetros de antena, arrays, software de simulación."
     },
     {
@@ -945,8 +1235,13 @@
       "modalidad": "online",
       "idioma": "español",
       "proveedor": "Cisco",
-      "prerequisitos": ["Redes de Computadoras", "Comunicaciones Digitales"],
-      "habilidades_aportadas": ["Sistemas de Telecomunicaciones"],
+      "prerequisitos": [
+        "Redes de Computadoras",
+        "Comunicaciones Digitales"
+      ],
+      "habilidades_aportadas": [
+        "Sistemas de Telecomunicaciones"
+      ],
       "descripcion": "GSM, LTE, 5G, arquitectura y protocolos."
     },
     {
@@ -958,8 +1253,12 @@
       "modalidad": "online",
       "idioma": "español",
       "proveedor": "MIT OpenCourseWare",
-      "prerequisitos": ["Física Clásica"],
-      "habilidades_aportadas": ["Electrónica Analógica"],
+      "prerequisitos": [
+        "Física Clásica"
+      ],
+      "habilidades_aportadas": [
+        "Electrónica Analógica"
+      ],
       "descripcion": "Modelos de transistores, polarización, retroalimentación."
     },
     {
@@ -971,8 +1270,12 @@
       "modalidad": "online",
       "idioma": "español",
       "proveedor": "Coursera",
-      "prerequisitos": ["Electrónica Analógica"],
-      "habilidades_aportadas": ["Electrónica Digital"],
+      "prerequisitos": [
+        "Electrónica Analógica"
+      ],
+      "habilidades_aportadas": [
+        "Electrónica Digital"
+      ],
       "descripcion": "Álgebra de Boole, flip-flops, registros, contadores."
     },
     {
@@ -984,8 +1287,13 @@
       "modalidad": "online",
       "idioma": "español",
       "proveedor": "Udemy",
-      "prerequisitos": ["Electrónica Digital", "Programación en Python"],
-      "habilidades_aportadas": ["Microcontroladores"],
+      "prerequisitos": [
+        "Electrónica Digital",
+        "Programación en Python"
+      ],
+      "habilidades_aportadas": [
+        "Microcontroladores"
+      ],
       "descripcion": "Arquitectura, periféricos, comunicación I2C/SPI, interrupciones."
     },
     {
@@ -997,8 +1305,13 @@
       "modalidad": "online",
       "idioma": "español",
       "proveedor": "Coursera",
-      "prerequisitos": ["Ecuaciones Diferenciales", "Mecánica de Sólidos"],
-      "habilidades_aportadas": ["Control Automático"],
+      "prerequisitos": [
+        "Ecuaciones Diferenciales",
+        "Mecánica de Sólidos"
+      ],
+      "habilidades_aportadas": [
+        "Control Automático"
+      ],
       "descripcion": "Lugar de las raíces, respuesta en frecuencia, PID."
     },
     {
@@ -1010,8 +1323,13 @@
       "modalidad": "online",
       "idioma": "español",
       "proveedor": "edX",
-      "prerequisitos": ["Control Automático", "Microcontroladores"],
-      "habilidades_aportadas": ["Robótica Móvil"],
+      "prerequisitos": [
+        "Control Automático",
+        "Microcontroladores"
+      ],
+      "habilidades_aportadas": [
+        "Robótica Móvil"
+      ],
       "descripcion": "Cinemática diferencial, odometría, planificación de trayectorias."
     },
     {
@@ -1023,8 +1341,13 @@
       "modalidad": "online",
       "idioma": "español",
       "proveedor": "Coursera",
-      "prerequisitos": ["Electrónica Analógica", "Microcontroladores"],
-      "habilidades_aportadas": ["Sensores y Actuadores"],
+      "prerequisitos": [
+        "Electrónica Analógica",
+        "Microcontroladores"
+      ],
+      "habilidades_aportadas": [
+        "Sensores y Actuadores"
+      ],
       "descripcion": "Tipos de sensores, acondicionamiento de señal, motores."
     },
     {
@@ -1036,8 +1359,13 @@
       "modalidad": "online",
       "idioma": "español",
       "proveedor": "Coursera",
-      "prerequisitos": ["Programación en Python", "Álgebra Lineal"],
-      "habilidades_aportadas": ["Visión por Computador"],
+      "prerequisitos": [
+        "Programación en Python",
+        "Álgebra Lineal"
+      ],
+      "habilidades_aportadas": [
+        "Visión por Computador"
+      ],
       "descripcion": "Haar cascades, YOLO, detección de rostros y objetos."
     },
     {
@@ -1050,7 +1378,9 @@
       "idioma": "español",
       "proveedor": "SolidWorks",
       "prerequisitos": [],
-      "habilidades_aportadas": ["Diseño Asistido por Computador (CAD)"],
+      "habilidades_aportadas": [
+        "Diseño Asistido por Computador (CAD)"
+      ],
       "descripcion": "Modelado 3D, ensamblajes, planos, simulación básica."
     },
     {
@@ -1062,8 +1392,12 @@
       "modalidad": "online",
       "idioma": "español",
       "proveedor": "Autodesk",
-      "prerequisitos": ["Diseño Asistido por Computador (CAD)"],
-      "habilidades_aportadas": ["Modelado de Información de Construcción (BIM)"],
+      "prerequisitos": [
+        "Diseño Asistido por Computador (CAD)"
+      ],
+      "habilidades_aportadas": [
+        "Modelado de Información de Construcción (BIM)"
+      ],
       "descripcion": "Modelado paramétrico, extracción de cantidades, coordinación."
     },
     {
@@ -1076,7 +1410,9 @@
       "idioma": "español",
       "proveedor": "Coursera",
       "prerequisitos": [],
-      "habilidades_aportadas": ["Materiales de Construcción"],
+      "habilidades_aportadas": [
+        "Materiales de Construcción"
+      ],
       "descripcion": "Hormigón, acero, madera, ensayos de laboratorio."
     },
     {
@@ -1088,8 +1424,13 @@
       "modalidad": "online",
       "idioma": "español",
       "proveedor": "Coursera",
-      "prerequisitos": ["Materiales de Construcción", "Mecánica de Sólidos"],
-      "habilidades_aportadas": ["Estructuras de Hormigón"],
+      "prerequisitos": [
+        "Materiales de Construcción",
+        "Mecánica de Sólidos"
+      ],
+      "habilidades_aportadas": [
+        "Estructuras de Hormigón"
+      ],
       "descripcion": "Flexión, cortante, fisuración, armaduras."
     },
     {
@@ -1101,8 +1442,13 @@
       "modalidad": "online",
       "idioma": "español",
       "proveedor": "edX",
-      "prerequisitos": ["Mecánica de Sólidos", "Materiales de Construcción"],
-      "habilidades_aportadas": ["Estructuras Metálicas"],
+      "prerequisitos": [
+        "Mecánica de Sólidos",
+        "Materiales de Construcción"
+      ],
+      "habilidades_aportadas": [
+        "Estructuras Metálicas"
+      ],
       "descripcion": "Perfiles laminados, soldadura, atornillado, pandeo."
     },
     {
@@ -1114,8 +1460,13 @@
       "modalidad": "online",
       "idioma": "español",
       "proveedor": "Coursera",
-      "prerequisitos": ["Mecánica de Sólidos", "Materiales de Construcción"],
-      "habilidades_aportadas": ["Geotecnia"],
+      "prerequisitos": [
+        "Mecánica de Sólidos",
+        "Materiales de Construcción"
+      ],
+      "habilidades_aportadas": [
+        "Geotecnia"
+      ],
       "descripcion": "Clasificación, compactación, capacidad portante, asentamientos."
     },
     {
@@ -1127,8 +1478,12 @@
       "modalidad": "online",
       "idioma": "español",
       "proveedor": "edX",
-      "prerequisitos": ["Mecánica de Fluidos"],
-      "habilidades_aportadas": ["Hidráulica"],
+      "prerequisitos": [
+        "Mecánica de Fluidos"
+      ],
+      "habilidades_aportadas": [
+        "Hidráulica"
+      ],
       "descripcion": "Flujo a presión, flujo libre, pérdidas de carga."
     },
     {
@@ -1140,8 +1495,13 @@
       "modalidad": "online",
       "idioma": "español",
       "proveedor": "MIT OpenCourseWare",
-      "prerequisitos": ["Cálculo Diferencial", "Física Clásica"],
-      "habilidades_aportadas": ["Termodinámica"],
+      "prerequisitos": [
+        "Cálculo Diferencial",
+        "Física Clásica"
+      ],
+      "habilidades_aportadas": [
+        "Termodinámica"
+      ],
       "descripcion": "Ciclos Rankine, Brayton, refrigeración, bombas de calor."
     },
     {
@@ -1153,8 +1513,13 @@
       "modalidad": "online",
       "idioma": "español",
       "proveedor": "Coursera",
-      "prerequisitos": ["Cálculo Diferencial", "Física Clásica"],
-      "habilidades_aportadas": ["Mecánica de Fluidos"],
+      "prerequisitos": [
+        "Cálculo Diferencial",
+        "Física Clásica"
+      ],
+      "habilidades_aportadas": [
+        "Mecánica de Fluidos"
+      ],
       "descripcion": "Ecuaciones de Navier-Stokes, capa límite, turbulencia."
     },
     {
@@ -1166,8 +1531,13 @@
       "modalidad": "online",
       "idioma": "español",
       "proveedor": "edX",
-      "prerequisitos": ["Termodinámica", "Mecánica de Fluidos"],
-      "habilidades_aportadas": ["Transferencia de Calor"],
+      "prerequisitos": [
+        "Termodinámica",
+        "Mecánica de Fluidos"
+      ],
+      "habilidades_aportadas": [
+        "Transferencia de Calor"
+      ],
       "descripcion": "Resistencia térmica, intercambiadores, convección forzada."
     },
     {
@@ -1179,8 +1549,13 @@
       "modalidad": "online",
       "idioma": "español",
       "proveedor": "MIT OpenCourseWare",
-      "prerequisitos": ["Cálculo Diferencial", "Física Clásica"],
-      "habilidades_aportadas": ["Mecánica de Sólidos"],
+      "prerequisitos": [
+        "Cálculo Diferencial",
+        "Física Clásica"
+      ],
+      "habilidades_aportadas": [
+        "Mecánica de Sólidos"
+      ],
       "descripcion": "Ley de Hooke, tensores, deformaciones, criterios de falla."
     },
     {
@@ -1193,7 +1568,9 @@
       "idioma": "español",
       "proveedor": "edX",
       "prerequisitos": [],
-      "habilidades_aportadas": ["Dibujo Técnico"],
+      "habilidades_aportadas": [
+        "Dibujo Técnico"
+      ],
       "descripcion": "Vistas, cortes, acotación, normas ISO."
     },
     {
@@ -1205,8 +1582,12 @@
       "modalidad": "online",
       "idioma": "español",
       "proveedor": "Coursera",
-      "prerequisitos": ["Diseño Asistido por Computador (CAD)"],
-      "habilidades_aportadas": ["Manufactura Asistida por Computador (CAM)"],
+      "prerequisitos": [
+        "Diseño Asistido por Computador (CAD)"
+      ],
+      "habilidades_aportadas": [
+        "Manufactura Asistida por Computador (CAM)"
+      ],
       "descripcion": "Generación de código G, simulación, postprocesado."
     },
     {
@@ -1218,8 +1599,12 @@
       "modalidad": "online",
       "idioma": "español",
       "proveedor": "Coursera",
-      "prerequisitos": ["Química Inorgánica"],
-      "habilidades_aportadas": ["Química Orgánica"],
+      "prerequisitos": [
+        "Química Inorgánica"
+      ],
+      "habilidades_aportadas": [
+        "Química Orgánica"
+      ],
       "descripcion": "Reacciones, mecanismos, estereoquímica, análisis."
     },
     {
@@ -1232,7 +1617,9 @@
       "idioma": "español",
       "proveedor": "MIT OpenCourseWare",
       "prerequisitos": [],
-      "habilidades_aportadas": ["Química Inorgánica"],
+      "habilidades_aportadas": [
+        "Química Inorgánica"
+      ],
       "descripcion": "Estructura molecular, compuestos de coordinación, catálisis."
     },
     {
@@ -1244,8 +1631,13 @@
       "modalidad": "online",
       "idioma": "español",
       "proveedor": "Coursera",
-      "prerequisitos": ["Química Inorgánica", "Estadística"],
-      "habilidades_aportadas": ["Química Analítica"],
+      "prerequisitos": [
+        "Química Inorgánica",
+        "Estadística"
+      ],
+      "habilidades_aportadas": [
+        "Química Analítica"
+      ],
       "descripcion": "Espectroscopía, cromatografía, electroquímica."
     },
     {
@@ -1257,8 +1649,13 @@
       "modalidad": "online",
       "idioma": "español",
       "proveedor": "edX",
-      "prerequisitos": ["Química Orgánica", "Cálculo Diferencial"],
-      "habilidades_aportadas": ["Cinética Química"],
+      "prerequisitos": [
+        "Química Orgánica",
+        "Cálculo Diferencial"
+      ],
+      "habilidades_aportadas": [
+        "Cinética Química"
+      ],
       "descripcion": "Leyes de velocidad, mecanismos, catálisis, energía de activación."
     },
     {
@@ -1270,8 +1667,13 @@
       "modalidad": "online",
       "idioma": "español",
       "proveedor": "Coursera",
-      "prerequisitos": ["Termodinámica", "Química Inorgánica"],
-      "habilidades_aportadas": ["Termoquímica"],
+      "prerequisitos": [
+        "Termodinámica",
+        "Química Inorgánica"
+      ],
+      "habilidades_aportadas": [
+        "Termoquímica"
+      ],
       "descripcion": "Calor de formación, entalpía, leyes de Hess."
     },
     {
@@ -1284,7 +1686,9 @@
       "idioma": "español",
       "proveedor": "Khan Academy",
       "prerequisitos": [],
-      "habilidades_aportadas": ["Cálculo Diferencial"],
+      "habilidades_aportadas": [
+        "Cálculo Diferencial"
+      ],
       "descripcion": "Continuidad, reglas de derivación, aplicaciones."
     },
     {
@@ -1296,8 +1700,12 @@
       "modalidad": "online",
       "idioma": "español",
       "proveedor": "Khan Academy",
-      "prerequisitos": ["Cálculo Diferencial"],
-      "habilidades_aportadas": ["Cálculo Integral"],
+      "prerequisitos": [
+        "Cálculo Diferencial"
+      ],
+      "habilidades_aportadas": [
+        "Cálculo Integral"
+      ],
       "descripcion": "Integración por partes, fracciones parciales, áreas, volúmenes."
     },
     {
@@ -1309,8 +1717,13 @@
       "modalidad": "online",
       "idioma": "español",
       "proveedor": "Coursera",
-      "prerequisitos": ["Cálculo Diferencial", "Cálculo Integral"],
-      "habilidades_aportadas": ["Ecuaciones Diferenciales"],
+      "prerequisitos": [
+        "Cálculo Diferencial",
+        "Cálculo Integral"
+      ],
+      "habilidades_aportadas": [
+        "Ecuaciones Diferenciales"
+      ],
       "descripcion": "EDO lineales, sistemas, transformada de Laplace."
     },
     {
@@ -1322,8 +1735,13 @@
       "modalidad": "online",
       "idioma": "español",
       "proveedor": "MIT OpenCourseWare",
-      "prerequisitos": ["Cálculo Diferencial", "Cálculo Integral"],
-      "habilidades_aportadas": ["Análisis Matemático"],
+      "prerequisitos": [
+        "Cálculo Diferencial",
+        "Cálculo Integral"
+      ],
+      "habilidades_aportadas": [
+        "Análisis Matemático"
+      ],
       "descripcion": "Convergencia, series de potencias, Fourier."
     },
     {
@@ -1335,8 +1753,13 @@
       "modalidad": "online",
       "idioma": "español",
       "proveedor": "MIT OpenCourseWare",
-      "prerequisitos": ["Cálculo Diferencial", "Cálculo Integral"],
-      "habilidades_aportadas": ["Física Clásica"],
+      "prerequisitos": [
+        "Cálculo Diferencial",
+        "Cálculo Integral"
+      ],
+      "habilidades_aportadas": [
+        "Física Clásica"
+      ],
       "descripcion": "Cinemática, dinámica, trabajo, energía, oscilaciones."
     },
     {
@@ -1348,8 +1771,13 @@
       "modalidad": "online",
       "idioma": "español",
       "proveedor": "Coursera",
-      "prerequisitos": ["Física Clásica", "Cálculo Diferencial"],
-      "habilidades_aportadas": ["Electromagnetismo"],
+      "prerequisitos": [
+        "Física Clásica",
+        "Cálculo Diferencial"
+      ],
+      "habilidades_aportadas": [
+        "Electromagnetismo"
+      ],
       "descripcion": "Ley de Gauss, Faraday, Ampère, ecuaciones de Maxwell."
     },
     {
@@ -1361,8 +1789,13 @@
       "modalidad": "online",
       "idioma": "español",
       "proveedor": "edX",
-      "prerequisitos": ["Física Clásica", "Ecuaciones Diferenciales"],
-      "habilidades_aportadas": ["Mecánica Cuántica"],
+      "prerequisitos": [
+        "Física Clásica",
+        "Ecuaciones Diferenciales"
+      ],
+      "habilidades_aportadas": [
+        "Mecánica Cuántica"
+      ],
       "descripcion": "Postulados, partícula en una caja, átomo de hidrógeno."
     },
     {
@@ -1374,8 +1807,13 @@
       "modalidad": "online",
       "idioma": "español",
       "proveedor": "Coursera",
-      "prerequisitos": ["Física Clásica", "Química Inorgánica"],
-      "habilidades_aportadas": ["Física de Materiales"],
+      "prerequisitos": [
+        "Física Clásica",
+        "Química Inorgánica"
+      ],
+      "habilidades_aportadas": [
+        "Física de Materiales"
+      ],
       "descripcion": "Estructura cristalina, defectos, diagramas de fase."
     },
     {
@@ -1388,7 +1826,9 @@
       "idioma": "español",
       "proveedor": "Coursera",
       "prerequisitos": [],
-      "habilidades_aportadas": ["Derecho Civil"],
+      "habilidades_aportadas": [
+        "Derecho Civil"
+      ],
       "descripcion": "Formación de contratos, efectos, incumplimiento."
     },
     {
@@ -1401,7 +1841,9 @@
       "idioma": "español",
       "proveedor": "edX",
       "prerequisitos": [],
-      "habilidades_aportadas": ["Derecho Penal"],
+      "habilidades_aportadas": [
+        "Derecho Penal"
+      ],
       "descripcion": "Teoría del delito, clasificación de delitos, penas."
     },
     {
@@ -1414,7 +1856,9 @@
       "idioma": "español",
       "proveedor": "Coursera",
       "prerequisitos": [],
-      "habilidades_aportadas": ["Derecho Constitucional"],
+      "habilidades_aportadas": [
+        "Derecho Constitucional"
+      ],
       "descripcion": "Organización del estado, garantías constitucionales."
     },
     {
@@ -1426,8 +1870,12 @@
       "modalidad": "online",
       "idioma": "español",
       "proveedor": "Coursera",
-      "prerequisitos": ["Derecho Civil"],
-      "habilidades_aportadas": ["Derecho Laboral"],
+      "prerequisitos": [
+        "Derecho Civil"
+      ],
+      "habilidades_aportadas": [
+        "Derecho Laboral"
+      ],
       "descripcion": "Contrato de trabajo, jornada, salario, terminación."
     },
     {
@@ -1439,8 +1887,12 @@
       "modalidad": "online",
       "idioma": "español",
       "proveedor": "Coursera",
-      "prerequisitos": ["Derecho Civil"],
-      "habilidades_aportadas": ["Derecho Mercantil"],
+      "prerequisitos": [
+        "Derecho Civil"
+      ],
+      "habilidades_aportadas": [
+        "Derecho Mercantil"
+      ],
       "descripcion": "Tipos de sociedades, constitución, responsabilidad."
     },
     {
@@ -1453,7 +1905,9 @@
       "idioma": "español",
       "proveedor": "edX",
       "prerequisitos": [],
-      "habilidades_aportadas": ["Derecho Administrativo"],
+      "habilidades_aportadas": [
+        "Derecho Administrativo"
+      ],
       "descripcion": "Acto administrativo, recursos, contratación pública."
     },
     {
@@ -1466,7 +1920,9 @@
       "idioma": "español",
       "proveedor": "Coursera",
       "prerequisitos": [],
-      "habilidades_aportadas": ["Microeconomía"],
+      "habilidades_aportadas": [
+        "Microeconomía"
+      ],
       "descripcion": "Utilidad, demanda, elasticidad, equilibrio general."
     },
     {
@@ -1478,8 +1934,12 @@
       "modalidad": "online",
       "idioma": "español",
       "proveedor": "Coursera",
-      "prerequisitos": ["Microeconomía"],
-      "habilidades_aportadas": ["Macroeconomía"],
+      "prerequisitos": [
+        "Microeconomía"
+      ],
+      "habilidades_aportadas": [
+        "Macroeconomía"
+      ],
       "descripcion": "PIB, inflación, desempleo, políticas fiscal y monetaria."
     },
     {
@@ -1491,8 +1951,13 @@
       "modalidad": "online",
       "idioma": "español",
       "proveedor": "Coursera",
-      "prerequisitos": ["Estadística", "Álgebra Lineal"],
-      "habilidades_aportadas": ["Econometría"],
+      "prerequisitos": [
+        "Estadística",
+        "Álgebra Lineal"
+      ],
+      "habilidades_aportadas": [
+        "Econometría"
+      ],
       "descripcion": "MCO, endogeneidad, modelos ARIMA, cointegración."
     },
     {
@@ -1504,8 +1969,12 @@
       "modalidad": "online",
       "idioma": "español",
       "proveedor": "Coursera",
-      "prerequisitos": ["Contabilidad"],
-      "habilidades_aportadas": ["Finanzas Corporativas"],
+      "prerequisitos": [
+        "Contabilidad"
+      ],
+      "habilidades_aportadas": [
+        "Finanzas Corporativas"
+      ],
       "descripcion": "VPN, TIR, WACC, valoración de empresas."
     },
     {
@@ -1518,7 +1987,9 @@
       "idioma": "español",
       "proveedor": "Coursera",
       "prerequisitos": [],
-      "habilidades_aportadas": ["Contabilidad"],
+      "habilidades_aportadas": [
+        "Contabilidad"
+      ],
       "descripcion": "Partida doble, libros contables, balance, PYG."
     },
     {
@@ -1531,7 +2002,9 @@
       "idioma": "español",
       "proveedor": "Coursera",
       "prerequisitos": [],
-      "habilidades_aportadas": ["Redacción Periodística"],
+      "habilidades_aportadas": [
+        "Redacción Periodística"
+      ],
       "descripcion": "Noticia, reportaje, crónica, entrevista, opinión."
     },
     {
@@ -1543,8 +2016,12 @@
       "modalidad": "online",
       "idioma": "español",
       "proveedor": "Coursera",
-      "prerequisitos": ["Redacción Periodística"],
-      "habilidades_aportadas": ["Entrevista Periodística"],
+      "prerequisitos": [
+        "Redacción Periodística"
+      ],
+      "habilidades_aportadas": [
+        "Entrevista Periodística"
+      ],
       "descripcion": "Preparación, preguntas, escucha activa, ética."
     },
     {
@@ -1556,8 +2033,12 @@
       "modalidad": "online",
       "idioma": "español",
       "proveedor": "Coursera",
-      "prerequisitos": ["Redacción Periodística"],
-      "habilidades_aportadas": ["Edición de Contenidos"],
+      "prerequisitos": [
+        "Redacción Periodística"
+      ],
+      "habilidades_aportadas": [
+        "Edición de Contenidos"
+      ],
       "descripcion": "Corrección de estilo, optimización SEO, CMS."
     },
     {
@@ -1569,8 +2050,12 @@
       "modalidad": "online",
       "idioma": "español",
       "proveedor": "Coursera",
-      "prerequisitos": ["Fotografía Artística"],
-      "habilidades_aportadas": ["Fotoperiodismo"],
+      "prerequisitos": [
+        "Fotografía Artística"
+      ],
+      "habilidades_aportadas": [
+        "Fotoperiodismo"
+      ],
       "descripcion": "Composición, ética, edición de imágenes, contexto."
     },
     {
@@ -1583,7 +2068,9 @@
       "idioma": "español",
       "proveedor": "Coursera",
       "prerequisitos": [],
-      "habilidades_aportadas": ["Producción Audiovisual"],
+      "habilidades_aportadas": [
+        "Producción Audiovisual"
+      ],
       "descripcion": "Escritura de guion, rodaje, edición, montaje."
     },
     {
@@ -1596,7 +2083,9 @@
       "idioma": "español",
       "proveedor": "Coursera",
       "prerequisitos": [],
-      "habilidades_aportadas": ["Historiografía"],
+      "habilidades_aportadas": [
+        "Historiografía"
+      ],
       "descripcion": "Escuelas históricas, métodos, fuentes, debate historiográfico."
     },
     {
@@ -1609,7 +2098,9 @@
       "idioma": "español",
       "proveedor": "edX",
       "prerequisitos": [],
-      "habilidades_aportadas": ["Paleografía"],
+      "habilidades_aportadas": [
+        "Paleografía"
+      ],
       "descripcion": "Evolución de escritura, abreviaturas, transcripción."
     },
     {
@@ -1621,8 +2112,12 @@
       "modalidad": "online",
       "idioma": "español",
       "proveedor": "Coursera",
-      "prerequisitos": ["Historiografía"],
-      "habilidades_aportadas": ["Archivística"],
+      "prerequisitos": [
+        "Historiografía"
+      ],
+      "habilidades_aportadas": [
+        "Archivística"
+      ],
       "descripcion": "Clasificación, descripción, conservación, digitalización."
     },
     {
@@ -1635,7 +2130,9 @@
       "idioma": "español",
       "proveedor": "Khan Academy",
       "prerequisitos": [],
-      "habilidades_aportadas": ["Historia del Arte"],
+      "habilidades_aportadas": [
+        "Historia del Arte"
+      ],
       "descripcion": "Arte prehistórico, clásico, medieval, renacimiento, moderno."
     },
     {
@@ -1647,8 +2144,12 @@
       "modalidad": "online",
       "idioma": "español",
       "proveedor": "Coursera",
-      "prerequisitos": ["Historiografía"],
-      "habilidades_aportadas": ["Metodología de la Investigación Histórica"],
+      "prerequisitos": [
+        "Historiografía"
+      ],
+      "habilidades_aportadas": [
+        "Metodología de la Investigación Histórica"
+      ],
       "descripcion": "Crítica de fuentes, heurística, redacción académica."
     },
     {
@@ -1661,7 +2162,9 @@
       "idioma": "español",
       "proveedor": "Domestika",
       "prerequisitos": [],
-      "habilidades_aportadas": ["Dibujo Artístico"],
+      "habilidades_aportadas": [
+        "Dibujo Artístico"
+      ],
       "descripcion": "Perspectiva, proporción, claroscuro, figura humana."
     },
     {
@@ -1673,8 +2176,12 @@
       "modalidad": "online",
       "idioma": "español",
       "proveedor": "Coursera",
-      "prerequisitos": ["Dibujo Artístico"],
-      "habilidades_aportadas": ["Pintura al Óleo"],
+      "prerequisitos": [
+        "Dibujo Artístico"
+      ],
+      "habilidades_aportadas": [
+        "Pintura al Óleo"
+      ],
       "descripcion": "Preparación de lienzo, mezcla de colores, empaste."
     },
     {
@@ -1686,8 +2193,12 @@
       "modalidad": "online",
       "idioma": "español",
       "proveedor": "Coursera",
-      "prerequisitos": ["Dibujo Artístico"],
-      "habilidades_aportadas": ["Escultura"],
+      "prerequisitos": [
+        "Dibujo Artístico"
+      ],
+      "habilidades_aportadas": [
+        "Escultura"
+      ],
       "descripcion": "Arcilla, yeso, moldes, técnicas de vaciado."
     },
     {
@@ -1699,8 +2210,12 @@
       "modalidad": "online",
       "idioma": "español",
       "proveedor": "Domestika",
-      "prerequisitos": ["Dibujo Artístico"],
-      "habilidades_aportadas": ["Grabado"],
+      "prerequisitos": [
+        "Dibujo Artístico"
+      ],
+      "habilidades_aportadas": [
+        "Grabado"
+      ],
       "descripcion": "Xilografía, punta seca, aguafuerte, serigrafía."
     },
     {
@@ -1713,7 +2228,9 @@
       "idioma": "español",
       "proveedor": "Coursera",
       "prerequisitos": [],
-      "habilidades_aportadas": ["Diseño Gráfico"],
+      "habilidades_aportadas": [
+        "Diseño Gráfico"
+      ],
       "descripcion": "Photoshop, Illustrator, InDesign, branding."
     },
     {
@@ -1726,7 +2243,9 @@
       "idioma": "español",
       "proveedor": "Coursera",
       "prerequisitos": [],
-      "habilidades_aportadas": ["Fotografía Artística"],
+      "habilidades_aportadas": [
+        "Fotografía Artística"
+      ],
       "descripcion": "Luz, color, encuadre, serie fotográfica."
     },
     {
@@ -1738,8 +2257,12 @@
       "modalidad": "online",
       "idioma": "español",
       "proveedor": "Coursera",
-      "prerequisitos": ["Estadística"],
-      "habilidades_aportadas": ["Psicometría"],
+      "prerequisitos": [
+        "Estadística"
+      ],
+      "habilidades_aportadas": [
+        "Psicometría"
+      ],
       "descripcion": "Fiabilidad, validez, baremación, análisis de ítems."
     },
     {
@@ -1751,8 +2274,12 @@
       "modalidad": "online",
       "idioma": "español",
       "proveedor": "Coursera",
-      "prerequisitos": ["Psicometría"],
-      "habilidades_aportadas": ["Psicología Clínica"],
+      "prerequisitos": [
+        "Psicometría"
+      ],
+      "habilidades_aportadas": [
+        "Psicología Clínica"
+      ],
       "descripcion": "Entrevista clínica, diagnóstico, planes de intervención."
     },
     {
@@ -1764,8 +2291,12 @@
       "modalidad": "online",
       "idioma": "español",
       "proveedor": "Coursera",
-      "prerequisitos": ["Psicología Clínica"],
-      "habilidades_aportadas": ["Terapia Cognitivo-Conductual"],
+      "prerequisitos": [
+        "Psicología Clínica"
+      ],
+      "habilidades_aportadas": [
+        "Terapia Cognitivo-Conductual"
+      ],
       "descripcion": "Reestructuración cognitiva, exposición, activación conductual."
     },
     {
@@ -1778,7 +2309,9 @@
       "idioma": "español",
       "proveedor": "Coursera",
       "prerequisitos": [],
-      "habilidades_aportadas": ["Psicología Social"],
+      "habilidades_aportadas": [
+        "Psicología Social"
+      ],
       "descripcion": "Conformidad, obediencia, estereotipos, liderazgo."
     },
     {
@@ -1790,8 +2323,13 @@
       "modalidad": "online",
       "idioma": "español",
       "proveedor": "edX",
-      "prerequisitos": ["Psicometría", "Anatomía Humana"],
-      "habilidades_aportadas": ["Neuropsicología"],
+      "prerequisitos": [
+        "Psicometría",
+        "Anatomía Humana"
+      ],
+      "habilidades_aportadas": [
+        "Neuropsicología"
+      ],
       "descripcion": "Evaluación neuropsicológica, daño cerebral, rehabilitación."
     },
     {
@@ -1804,7 +2342,9 @@
       "idioma": "español",
       "proveedor": "Khan Academy",
       "prerequisitos": [],
-      "habilidades_aportadas": ["Anatomía Humana"],
+      "habilidades_aportadas": [
+        "Anatomía Humana"
+      ],
       "descripcion": "Sistema esquelético, muscular, nervioso, cardiovascular."
     },
     {
@@ -1816,8 +2356,13 @@
       "modalidad": "online",
       "idioma": "español",
       "proveedor": "Coursera",
-      "prerequisitos": ["Anatomía Humana", "Química Orgánica"],
-      "habilidades_aportadas": ["Fisiología"],
+      "prerequisitos": [
+        "Anatomía Humana",
+        "Química Orgánica"
+      ],
+      "habilidades_aportadas": [
+        "Fisiología"
+      ],
       "descripcion": "Homeostasis, sistemas, regulación endocrina y nerviosa."
     },
     {
@@ -1829,8 +2374,13 @@
       "modalidad": "online",
       "idioma": "español",
       "proveedor": "Coursera",
-      "prerequisitos": ["Fisiología", "Química Orgánica"],
-      "habilidades_aportadas": ["Farmacología"],
+      "prerequisitos": [
+        "Fisiología",
+        "Química Orgánica"
+      ],
+      "habilidades_aportadas": [
+        "Farmacología"
+      ],
       "descripcion": "Absorción, distribución, metabolismo, excreción, fármacos."
     },
     {
@@ -1842,8 +2392,13 @@
       "modalidad": "online",
       "idioma": "español",
       "proveedor": "edX",
-      "prerequisitos": ["Anatomía Humana", "Fisiología"],
-      "habilidades_aportadas": ["Patología"],
+      "prerequisitos": [
+        "Anatomía Humana",
+        "Fisiología"
+      ],
+      "habilidades_aportadas": [
+        "Patología"
+      ],
       "descripcion": "Inflamación, neoplasias, degeneración, trastornos inmunitarios."
     },
     {
@@ -1855,8 +2410,13 @@
       "modalidad": "online",
       "idioma": "español",
       "proveedor": "Coursera",
-      "prerequisitos": ["Anatomía Humana", "Patología"],
-      "habilidades_aportadas": ["Cirugía General"],
+      "prerequisitos": [
+        "Anatomía Humana",
+        "Patología"
+      ],
+      "habilidades_aportadas": [
+        "Cirugía General"
+      ],
       "descripcion": "Asepsia, suturas, laparotomía, cirugía menor."
     },
     {
@@ -1868,8 +2428,14 @@
       "modalidad": "online",
       "idioma": "español",
       "proveedor": "Coursera",
-      "prerequisitos": ["Fisiología", "Patología", "Farmacología"],
-      "habilidades_aportadas": ["Medicina Interna"],
+      "prerequisitos": [
+        "Fisiología",
+        "Patología",
+        "Farmacología"
+      ],
+      "habilidades_aportadas": [
+        "Medicina Interna"
+      ],
       "descripcion": "Enfermedades sistémicas, abordaje diagnóstico, terapéutica."
     },
     {
@@ -1882,7 +2448,9 @@
       "idioma": "español",
       "proveedor": "Coursera",
       "prerequisitos": [],
-      "habilidades_aportadas": ["Traducción Literaria"],
+      "habilidades_aportadas": [
+        "Traducción Literaria"
+      ],
       "descripcion": "Contexto cultural, registro, figuras literarias."
     },
     {
@@ -1895,7 +2463,9 @@
       "idioma": "español",
       "proveedor": "Coursera",
       "prerequisitos": [],
-      "habilidades_aportadas": ["Traducción Técnica"],
+      "habilidades_aportadas": [
+        "Traducción Técnica"
+      ],
       "descripcion": "Manuales, informes, software de traducción asistida."
     },
     {
@@ -1907,8 +2477,12 @@
       "modalidad": "online",
       "idioma": "español",
       "proveedor": "Coursera",
-      "prerequisitos": ["Traducción Literaria"],
-      "habilidades_aportadas": ["Interpretación Simultánea"],
+      "prerequisitos": [
+        "Traducción Literaria"
+      ],
+      "habilidades_aportadas": [
+        "Interpretación Simultánea"
+      ],
       "descripcion": "Memoria, velocidad, manejo del estrés, ética."
     },
     {
@@ -1921,7 +2495,9 @@
       "idioma": "español",
       "proveedor": "Coursera",
       "prerequisitos": [],
-      "habilidades_aportadas": ["Lingüística Aplicada"],
+      "habilidades_aportadas": [
+        "Lingüística Aplicada"
+      ],
       "descripcion": "Teorías de adquisición, enseñanza de lenguas, evaluación."
     },
     {
@@ -1934,7 +2510,9 @@
       "idioma": "español",
       "proveedor": "edX",
       "prerequisitos": [],
-      "habilidades_aportadas": ["Fonética y Fonología"],
+      "habilidades_aportadas": [
+        "Fonética y Fonología"
+      ],
       "descripcion": "Aparato fonador, clasificación de sonidos, transcripción."
     },
     {
@@ -1946,8 +2524,13 @@
       "modalidad": "online",
       "idioma": "español",
       "proveedor": "Coursera",
-      "prerequisitos": ["Control Automático", "Microcontroladores"],
-      "habilidades_aportadas": ["Robótica"],
+      "prerequisitos": [
+        "Control Automático",
+        "Microcontroladores"
+      ],
+      "habilidades_aportadas": [
+        "Robótica"
+      ],
       "descripcion": "Lenguajes de programación, trayectorias, aplicaciones."
     },
     {
@@ -1959,8 +2542,13 @@
       "modalidad": "online",
       "idioma": "español",
       "proveedor": "Coursera",
-      "prerequisitos": ["Microcontroladores", "Redes de Computadoras"],
-      "habilidades_aportadas": ["IoT"],
+      "prerequisitos": [
+        "Microcontroladores",
+        "Redes de Computadoras"
+      ],
+      "habilidades_aportadas": [
+        "IoT"
+      ],
       "descripcion": "MQTT, CoAP, LoRaWAN, plataformas IoT."
     },
     {
@@ -1972,9 +2560,4123 @@
       "modalidad": "online",
       "idioma": "español",
       "proveedor": "Coursera",
-      "prerequisitos": ["Cloud Computing (AWS)", "Cloud Computing (GCP)", "Cloud Computing (Azure)"],
-      "habilidades_aportadas": ["Computación en la Nube"],
+      "prerequisitos": [
+        "Cloud Computing (AWS)",
+        "Cloud Computing (GCP)",
+        "Cloud Computing (Azure)"
+      ],
+      "habilidades_aportadas": [
+        "Computación en la Nube"
+      ],
       "descripcion": "Estrategias lift-and-shift, refactorización, híbridas."
+    },
+    {
+      "id": "C153",
+      "nombre": "Programación en C++ desde Cero",
+      "duracion_semanas": 5,
+      "horas_semana": 7,
+      "coste": 0,
+      "modalidad": "online",
+      "idioma": "español",
+      "proveedor": "edX",
+      "prerequisitos": [],
+      "habilidades_aportadas": [
+        "Programación en C++"
+      ],
+      "descripcion": "Punteros, memoria dinámica, plantillas, STL."
+    },
+    {
+      "id": "C154",
+      "nombre": "Biología Celular y Molecular",
+      "duracion_semanas": 6,
+      "horas_semana": 8,
+      "coste": 49,
+      "modalidad": "online",
+      "idioma": "español",
+      "proveedor": "Coursera",
+      "prerequisitos": [
+        "Química Orgánica"
+      ],
+      "habilidades_aportadas": [
+        "Biología Celular",
+        "Bioquímica"
+      ],
+      "descripcion": "Estructura y función de la célula, orgánulos, membrana, metabolismo."
+    },
+    {
+      "id": "C155",
+      "nombre": "Genética: Fundamentos y Herencia",
+      "duracion_semanas": 5,
+      "horas_semana": 6,
+      "coste": 0,
+      "modalidad": "online",
+      "idioma": "español",
+      "proveedor": "MIT OpenCourseWare",
+      "prerequisitos": [
+        "Biología Celular"
+      ],
+      "habilidades_aportadas": [
+        "Genética"
+      ],
+      "descripcion": "Leyes de Mendel, herencia ligada al sexo, mutaciones, ingeniería genética."
+    },
+    {
+      "id": "C156",
+      "nombre": "Ecología y Medio Ambiente",
+      "duracion_semanas": 5,
+      "horas_semana": 6,
+      "coste": 0,
+      "modalidad": "online",
+      "idioma": "español",
+      "proveedor": "Coursera",
+      "prerequisitos": [
+        "Biología Celular"
+      ],
+      "habilidades_aportadas": [
+        "Ecología"
+      ],
+      "descripcion": "Ecosistemas, ciclos biogeoquímicos, dinámica de poblaciones, conservación."
+    },
+    {
+      "id": "C157",
+      "nombre": "Microbiología General",
+      "duracion_semanas": 6,
+      "horas_semana": 7,
+      "coste": 39,
+      "modalidad": "online",
+      "idioma": "español",
+      "proveedor": "Coursera",
+      "prerequisitos": [
+        "Química Orgánica",
+        "Biología Celular"
+      ],
+      "habilidades_aportadas": [
+        "Microbiología"
+      ],
+      "descripcion": "Bacterias, virus, hongos, cultivo, esterilización."
+    },
+    {
+      "id": "C158",
+      "nombre": "Botánica: Morfología y Fisiología Vegetal",
+      "duracion_semanas": 5,
+      "horas_semana": 6,
+      "coste": 29,
+      "modalidad": "online",
+      "idioma": "español",
+      "proveedor": "edX",
+      "prerequisitos": [
+        "Biología Celular"
+      ],
+      "habilidades_aportadas": [
+        "Botánica"
+      ],
+      "descripcion": "Tejidos, órganos, fotosíntesis, reproducción de plantas."
+    },
+    {
+      "id": "C159",
+      "nombre": "Zoología: Diversidad Animal",
+      "duracion_semanas": 5,
+      "horas_semana": 6,
+      "coste": 0,
+      "modalidad": "online",
+      "idioma": "español",
+      "proveedor": "Coursera",
+      "prerequisitos": [
+        "Biología Celular"
+      ],
+      "habilidades_aportadas": [
+        "Zoología"
+      ],
+      "descripcion": "Clasificación, anatomía, fisiología y comportamiento animal."
+    },
+    {
+      "id": "C160",
+      "nombre": "Mineralogía y Cristalografía",
+      "duracion_semanas": 5,
+      "horas_semana": 6,
+      "coste": 0,
+      "modalidad": "online",
+      "idioma": "español",
+      "proveedor": "Coursera",
+      "prerequisitos": [
+        "Química Inorgánica"
+      ],
+      "habilidades_aportadas": [
+        "Mineralogía"
+      ],
+      "descripcion": "Propiedades físicas y químicas de minerales, sistemas cristalinos."
+    },
+    {
+      "id": "C161",
+      "nombre": "Petrología: Rocas Ígneas y Metamórficas",
+      "duracion_semanas": 5,
+      "horas_semana": 6,
+      "coste": 49,
+      "modalidad": "online",
+      "idioma": "español",
+      "proveedor": "edX",
+      "prerequisitos": [
+        "Mineralogía"
+      ],
+      "habilidades_aportadas": [
+        "Petrología"
+      ],
+      "descripcion": "Clasificación, texturas, génesis de rocas ígneas y metamórficas."
+    },
+    {
+      "id": "C162",
+      "nombre": "Estratigrafía y Sedimentología",
+      "duracion_semanas": 5,
+      "horas_semana": 6,
+      "coste": 0,
+      "modalidad": "online",
+      "idioma": "español",
+      "proveedor": "Coursera",
+      "prerequisitos": [
+        "Mineralogía"
+      ],
+      "habilidades_aportadas": [
+        "Estratigrafía"
+      ],
+      "descripcion": "Principios estratigráficos, ambientes sedimentarios, fósiles."
+    },
+    {
+      "id": "C163",
+      "nombre": "Geología Estructural",
+      "duracion_semanas": 6,
+      "horas_semana": 7,
+      "coste": 59,
+      "modalidad": "online",
+      "idioma": "español",
+      "proveedor": "Coursera",
+      "prerequisitos": [
+        "Mecánica de Sólidos",
+        "Mineralogía"
+      ],
+      "habilidades_aportadas": [
+        "Geología Estructural"
+      ],
+      "descripcion": "Pliegues, fallas, diaclasas, tectónica de placas."
+    },
+    {
+      "id": "C164",
+      "nombre": "Paleontología: Fósiles y Evolución",
+      "duracion_semanas": 5,
+      "horas_semana": 6,
+      "coste": 0,
+      "modalidad": "online",
+      "idioma": "español",
+      "proveedor": "Coursera",
+      "prerequisitos": [
+        "Estratigrafía",
+        "Zoología"
+      ],
+      "habilidades_aportadas": [
+        "Paleontología"
+      ],
+      "descripcion": "Procesos de fosilización, taxonomía fósil, registro evolutivo."
+    },
+    {
+      "id": "C165",
+      "nombre": "Lógica: Introducción al Razonamiento",
+      "duracion_semanas": 4,
+      "horas_semana": 5,
+      "coste": 0,
+      "modalidad": "online",
+      "idioma": "español",
+      "proveedor": "Coursera",
+      "prerequisitos": [],
+      "habilidades_aportadas": [
+        "Lógica"
+      ],
+      "descripcion": "Proposiciones, tablas de verdad, silogismos, falacias."
+    },
+    {
+      "id": "C166",
+      "nombre": "Ética y Filosofía Moral",
+      "duracion_semanas": 5,
+      "horas_semana": 5,
+      "coste": 0,
+      "modalidad": "online",
+      "idioma": "español",
+      "proveedor": "edX",
+      "prerequisitos": [],
+      "habilidades_aportadas": [
+        "Ética"
+      ],
+      "descripcion": "Teorías éticas, dilemas morales, bioética, ética aplicada."
+    },
+    {
+      "id": "C167",
+      "nombre": "Metafísica: Realidad y Ser",
+      "duracion_semanas": 5,
+      "horas_semana": 5,
+      "coste": 0,
+      "modalidad": "online",
+      "idioma": "español",
+      "proveedor": "Coursera",
+      "prerequisitos": [
+        "Lógica"
+      ],
+      "habilidades_aportadas": [
+        "Metafísica"
+      ],
+      "descripcion": "Existencia, tiempo, causalidad, libre albedrío."
+    },
+    {
+      "id": "C168",
+      "nombre": "Epistemología: Teoría del Conocimiento",
+      "duracion_semanas": 5,
+      "horas_semana": 5,
+      "coste": 0,
+      "modalidad": "online",
+      "idioma": "español",
+      "proveedor": "Coursera",
+      "prerequisitos": [
+        "Lógica"
+      ],
+      "habilidades_aportadas": [
+        "Epistemología"
+      ],
+      "descripcion": "Fuentes del conocimiento, justificación, escepticismo."
+    },
+    {
+      "id": "C169",
+      "nombre": "Historia de la Filosofía Antigua y Moderna",
+      "duracion_semanas": 6,
+      "horas_semana": 6,
+      "coste": 0,
+      "modalidad": "online",
+      "idioma": "español",
+      "proveedor": "Coursera",
+      "prerequisitos": [
+        "Historia del Arte"
+      ],
+      "habilidades_aportadas": [
+        "Historia de la Filosofía"
+      ],
+      "descripcion": "Presocráticos, Platón, Aristóteles, Descartes, Kant, Nietzsche."
+    },
+    {
+      "id": "C170",
+      "nombre": "Teoría Sociológica Clásica y Contemporánea",
+      "duracion_semanas": 6,
+      "horas_semana": 6,
+      "coste": 0,
+      "modalidad": "online",
+      "idioma": "español",
+      "proveedor": "Coursera",
+      "prerequisitos": [],
+      "habilidades_aportadas": [
+        "Teoría Sociológica"
+      ],
+      "descripcion": "Marx, Durkheim, Weber, Bourdieu, Foucault, teorías críticas."
+    },
+    {
+      "id": "C171",
+      "nombre": "Métodos de Investigación Social",
+      "duracion_semanas": 5,
+      "horas_semana": 6,
+      "coste": 39,
+      "modalidad": "online",
+      "idioma": "español",
+      "proveedor": "Coursera",
+      "prerequisitos": [
+        "Estadística"
+      ],
+      "habilidades_aportadas": [
+        "Métodos de Investigación Social"
+      ],
+      "descripcion": "Encuestas, entrevistas, grupos focales, análisis cuantitativo y cualitativo."
+    },
+    {
+      "id": "C172",
+      "nombre": "Sociología de la Educación",
+      "duracion_semanas": 4,
+      "horas_semana": 5,
+      "coste": 0,
+      "modalidad": "online",
+      "idioma": "español",
+      "proveedor": "edX",
+      "prerequisitos": [
+        "Teoría Sociológica"
+      ],
+      "habilidades_aportadas": [
+        "Sociología de la Educación"
+      ],
+      "descripcion": "Sistema educativo, desigualdad, currículo oculto, movilidad social."
+    },
+    {
+      "id": "C173",
+      "nombre": "Sociología del Trabajo y las Organizaciones",
+      "duracion_semanas": 4,
+      "horas_semana": 5,
+      "coste": 0,
+      "modalidad": "online",
+      "idioma": "español",
+      "proveedor": "Coursera",
+      "prerequisitos": [
+        "Teoría Sociológica"
+      ],
+      "habilidades_aportadas": [
+        "Sociología del Trabajo"
+      ],
+      "descripcion": "División del trabajo, mercado laboral, culturas organizacionales."
+    },
+    {
+      "id": "C174",
+      "nombre": "Antropología Cultural",
+      "duracion_semanas": 5,
+      "horas_semana": 6,
+      "coste": 0,
+      "modalidad": "online",
+      "idioma": "español",
+      "proveedor": "Coursera",
+      "prerequisitos": [],
+      "habilidades_aportadas": [
+        "Antropología Cultural"
+      ],
+      "descripcion": "Parentesco, religión, economía, rituales, diversidad cultural."
+    },
+    {
+      "id": "C175",
+      "nombre": "Antropología Física y Evolución Humana",
+      "duracion_semanas": 5,
+      "horas_semana": 6,
+      "coste": 0,
+      "modalidad": "online",
+      "idioma": "español",
+      "proveedor": "edX",
+      "prerequisitos": [
+        "Genética",
+        "Zoología"
+      ],
+      "habilidades_aportadas": [
+        "Antropología Física"
+      ],
+      "descripcion": "Primatología, hominización, paleoantropología, adaptación biológica."
+    },
+    {
+      "id": "C176",
+      "nombre": "Arqueología: Métodos y Teorías",
+      "duracion_semanas": 5,
+      "horas_semana": 6,
+      "coste": 29,
+      "modalidad": "online",
+      "idioma": "español",
+      "proveedor": "Coursera",
+      "prerequisitos": [
+        "Estratigrafía",
+        "Paleontología"
+      ],
+      "habilidades_aportadas": [
+        "Arqueología"
+      ],
+      "descripcion": "Excavación, datación, análisis de materiales, interpretación cultural."
+    },
+    {
+      "id": "C177",
+      "nombre": "Etnografía: Trabajo de Campo",
+      "duracion_semanas": 4,
+      "horas_semana": 5,
+      "coste": 0,
+      "modalidad": "online",
+      "idioma": "español",
+      "proveedor": "Coursera",
+      "prerequisitos": [
+        "Antropología Cultural"
+      ],
+      "habilidades_aportadas": [
+        "Etnografía"
+      ],
+      "descripcion": "Observación participante, diarios de campo, análisis cualitativo."
+    },
+    {
+      "id": "C178",
+      "nombre": "Optimización de Procesos Industriales",
+      "duracion_semanas": 6,
+      "horas_semana": 7,
+      "coste": 59,
+      "modalidad": "online",
+      "idioma": "español",
+      "proveedor": "Coursera",
+      "prerequisitos": [
+        "Estadística",
+        "Álgebra Lineal"
+      ],
+      "habilidades_aportadas": [
+        "Optimización de Procesos"
+      ],
+      "descripcion": "Simulación, programación lineal, teoría de colas, mejora continua."
+    },
+    {
+      "id": "C179",
+      "nombre": "Gestión de Calidad: Normas ISO y Six Sigma",
+      "duracion_semanas": 5,
+      "horas_semana": 6,
+      "coste": 49,
+      "modalidad": "online",
+      "idioma": "español",
+      "proveedor": "edX",
+      "prerequisitos": [
+        "Estadística"
+      ],
+      "habilidades_aportadas": [
+        "Gestión de Calidad"
+      ],
+      "descripcion": "Control estadístico de procesos, DMAIC, certificación."
+    },
+    {
+      "id": "C180",
+      "nombre": "Logística y Cadena de Suministro",
+      "duracion_semanas": 5,
+      "horas_semana": 6,
+      "coste": 39,
+      "modalidad": "online",
+      "idioma": "español",
+      "proveedor": "Coursera",
+      "prerequisitos": [
+        "Gestión de Proyectos"
+      ],
+      "habilidades_aportadas": [
+        "Logística"
+      ],
+      "descripcion": "Gestión de inventarios, almacenes, transporte, distribución."
+    },
+    {
+      "id": "C181",
+      "nombre": "Ergonomía y Factores Humanos",
+      "duracion_semanas": 4,
+      "horas_semana": 5,
+      "coste": 0,
+      "modalidad": "online",
+      "idioma": "español",
+      "proveedor": "Coursera",
+      "prerequisitos": [
+        "Anatomía Humana"
+      ],
+      "habilidades_aportadas": [
+        "Ergonomía"
+      ],
+      "descripcion": "Diseño de puestos de trabajo, antropometría, prevención de riesgos."
+    },
+    {
+      "id": "C182",
+      "nombre": "Simulación de Sistemas con Software",
+      "duracion_semanas": 5,
+      "horas_semana": 7,
+      "coste": 59,
+      "modalidad": "online",
+      "idioma": "español",
+      "proveedor": "Coursera",
+      "prerequisitos": [
+        "Programación en Python",
+        "Estadística"
+      ],
+      "habilidades_aportadas": [
+        "Simulación de Sistemas"
+      ],
+      "descripcion": "Modelado de eventos discretos, sistemas dinámicos, simulación Montecarlo."
+    },
+    {
+      "id": "C183",
+      "nombre": "Ciencia de Materiales: Fundamentos",
+      "duracion_semanas": 6,
+      "horas_semana": 7,
+      "coste": 0,
+      "modalidad": "online",
+      "idioma": "español",
+      "proveedor": "MIT OpenCourseWare",
+      "prerequisitos": [
+        "Química Inorgánica",
+        "Física Clásica"
+      ],
+      "habilidades_aportadas": [
+        "Ciencia de Materiales"
+      ],
+      "descripcion": "Estructura cristalina, defectos, diagramas de fase, propiedades mecánicas."
+    },
+    {
+      "id": "C184",
+      "nombre": "Materiales Compuestos",
+      "duracion_semanas": 5,
+      "horas_semana": 6,
+      "coste": 49,
+      "modalidad": "online",
+      "idioma": "español",
+      "proveedor": "Coursera",
+      "prerequisitos": [
+        "Ciencia de Materiales"
+      ],
+      "habilidades_aportadas": [
+        "Materiales Compuestos"
+      ],
+      "descripcion": "Fibras, matrices, laminados, fabricación y ensayos."
+    },
+    {
+      "id": "C185",
+      "nombre": "Corrosión y Protección de Materiales",
+      "duracion_semanas": 4,
+      "horas_semana": 5,
+      "coste": 39,
+      "modalidad": "online",
+      "idioma": "español",
+      "proveedor": "edX",
+      "prerequisitos": [
+        "Ciencia de Materiales",
+        "Electroquímica"
+      ],
+      "habilidades_aportadas": [
+        "Corrosión"
+      ],
+      "descripcion": "Tipos de corrosión, inhibidores, recubrimientos, protección catódica."
+    },
+    {
+      "id": "C186",
+      "nombre": "Nanomateriales y Nanotecnología",
+      "duracion_semanas": 5,
+      "horas_semana": 6,
+      "coste": 59,
+      "modalidad": "online",
+      "idioma": "español",
+      "proveedor": "Coursera",
+      "prerequisitos": [
+        "Ciencia de Materiales",
+        "Física Cuántica"
+      ],
+      "habilidades_aportadas": [
+        "Nanomateriales"
+      ],
+      "descripcion": "Síntesis, caracterización, aplicaciones en electrónica y biomedicina."
+    },
+    {
+      "id": "C187",
+      "nombre": "Tratamiento de Aguas Residuales",
+      "duracion_semanas": 5,
+      "horas_semana": 6,
+      "coste": 0,
+      "modalidad": "online",
+      "idioma": "español",
+      "proveedor": "Coursera",
+      "prerequisitos": [
+        "Química Analítica",
+        "Hidráulica"
+      ],
+      "habilidades_aportadas": [
+        "Tratamiento de Aguas"
+      ],
+      "descripcion": "Procesos físicos, químicos y biológicos, normativa ambiental."
+    },
+    {
+      "id": "C188",
+      "nombre": "Gestión de Residuos Sólidos",
+      "duracion_semanas": 4,
+      "horas_semana": 5,
+      "coste": 0,
+      "modalidad": "online",
+      "idioma": "español",
+      "proveedor": "edX",
+      "prerequisitos": [
+        "Ecología"
+      ],
+      "habilidades_aportadas": [
+        "Gestión de Residuos"
+      ],
+      "descripcion": "Reciclaje, compostaje, vertederos, economía circular."
+    },
+    {
+      "id": "C189",
+      "nombre": "Evaluación de Impacto Ambiental",
+      "duracion_semanas": 5,
+      "horas_semana": 6,
+      "coste": 39,
+      "modalidad": "online",
+      "idioma": "español",
+      "proveedor": "Coursera",
+      "prerequisitos": [
+        "Ecología",
+        "Derecho Administrativo"
+      ],
+      "habilidades_aportadas": [
+        "Evaluación de Impacto Ambiental"
+      ],
+      "descripcion": "Metodología, legislación, medidas correctoras, participación pública."
+    },
+    {
+      "id": "C190",
+      "nombre": "Energías Renovables: Solar y Eólica",
+      "duracion_semanas": 6,
+      "horas_semana": 7,
+      "coste": 49,
+      "modalidad": "online",
+      "idioma": "español",
+      "proveedor": "Coursera",
+      "prerequisitos": [
+        "Física Clásica",
+        "Electromagnetismo"
+      ],
+      "habilidades_aportadas": [
+        "Energías Renovables"
+      ],
+      "descripcion": "Paneles fotovoltaicos, aerogeneradores, integración a la red."
+    },
+    {
+      "id": "C191",
+      "nombre": "Patronaje y Confección de Moda",
+      "duracion_semanas": 6,
+      "horas_semana": 8,
+      "coste": 59,
+      "modalidad": "online",
+      "idioma": "español",
+      "proveedor": "Domestika",
+      "prerequisitos": [
+        "Dibujo Técnico"
+      ],
+      "habilidades_aportadas": [
+        "Patronaje",
+        "Confección"
+      ],
+      "descripcion": "Diseño de moldes, corte, costura, acabados."
+    },
+    {
+      "id": "C192",
+      "nombre": "Historia de la Moda y Marketing",
+      "duracion_semanas": 5,
+      "horas_semana": 6,
+      "coste": 39,
+      "modalidad": "online",
+      "idioma": "español",
+      "proveedor": "Coursera",
+      "prerequisitos": [
+        "Historia del Arte"
+      ],
+      "habilidades_aportadas": [
+        "Historia de la Moda",
+        "Marketing de Moda"
+      ],
+      "descripcion": "Evolución de la indumentaria, tendencias, branding, retail."
+    },
+    {
+      "id": "C193",
+      "nombre": "Técnicas Culinarias Básicas",
+      "duracion_semanas": 4,
+      "horas_semana": 6,
+      "coste": 0,
+      "modalidad": "online",
+      "idioma": "español",
+      "proveedor": "Coursera",
+      "prerequisitos": [],
+      "habilidades_aportadas": [
+        "Técnicas Culinarias"
+      ],
+      "descripcion": "Cortes, cocciones, salsas, seguridad e higiene."
+    },
+    {
+      "id": "C194",
+      "nombre": "Seguridad Alimentaria y Control Sanitario",
+      "duracion_semanas": 4,
+      "horas_semana": 5,
+      "coste": 0,
+      "modalidad": "online",
+      "idioma": "español",
+      "proveedor": "edX",
+      "prerequisitos": [
+        "Microbiología"
+      ],
+      "habilidades_aportadas": [
+        "Seguridad Alimentaria"
+      ],
+      "descripcion": "APPCC, trazabilidad, normativa, contaminación."
+    },
+    {
+      "id": "C195",
+      "nombre": "Enología: Vinos y Bebidas Espirituosas",
+      "duracion_semanas": 5,
+      "horas_semana": 6,
+      "coste": 49,
+      "modalidad": "online",
+      "idioma": "español",
+      "proveedor": "Coursera",
+      "prerequisitos": [
+        "Química Orgánica"
+      ],
+      "habilidades_aportadas": [
+        "Enología"
+      ],
+      "descripcion": "Vinificación, cata, maridaje, variedades de uva."
+    },
+    {
+      "id": "C196",
+      "nombre": "Pastelería y Repostería Profesional",
+      "duracion_semanas": 5,
+      "horas_semana": 7,
+      "coste": 39,
+      "modalidad": "online",
+      "idioma": "español",
+      "proveedor": "Coursera",
+      "prerequisitos": [
+        "Técnicas Culinarias"
+      ],
+      "habilidades_aportadas": [
+        "Pastelería"
+      ],
+      "descripcion": "Masas, cremas, decoración, técnicas de cocina dulce."
+    },
+    {
+      "id": "C197",
+      "nombre": "Cocina Internacional: Platos del Mundo",
+      "duracion_semanas": 5,
+      "horas_semana": 7,
+      "coste": 49,
+      "modalidad": "online",
+      "idioma": "español",
+      "proveedor": "Coursera",
+      "prerequisitos": [
+        "Técnicas Culinarias"
+      ],
+      "habilidades_aportadas": [
+        "Cocina Internacional"
+      ],
+      "descripcion": "Gastronomía italiana, japonesa, mexicana, mediterránea, especias."
+    },
+    {
+      "id": "C198",
+      "nombre": "Python desde Cero (versión económica)",
+      "duracion_semanas": 1,
+      "horas_semana": 6,
+      "coste": 0,
+      "modalidad": "online",
+      "idioma": "español",
+      "proveedor": "OpenEDX",
+      "prerequisitos": [],
+      "habilidades_aportadas": [
+        "Programación en Python"
+      ],
+      "descripcion": "Introducción completa a Python: sintaxis, funciones, estructuras de datos y POO."
+    },
+    {
+      "id": "C199",
+      "nombre": "Estructuras de Datos y Algoritmos (versión económica)",
+      "duracion_semanas": 2,
+      "horas_semana": 8,
+      "coste": 0,
+      "modalidad": "online",
+      "idioma": "español",
+      "proveedor": "Coursera (audit)",
+      "prerequisitos": [
+        "Programación en Python"
+      ],
+      "habilidades_aportadas": [
+        "Estructuras de Datos",
+        "Algoritmos"
+      ],
+      "descripcion": "Listas, árboles, grafos, algoritmos de búsqueda y ordenación."
+    },
+    {
+      "id": "C200",
+      "nombre": "Matemáticas para Data Science (versión económica)",
+      "duracion_semanas": 2,
+      "horas_semana": 6,
+      "coste": 0,
+      "modalidad": "online",
+      "idioma": "español",
+      "proveedor": "Khan Academy",
+      "prerequisitos": [],
+      "habilidades_aportadas": [
+        "Estadística",
+        "Álgebra Lineal",
+        "Probabilidad",
+        "Cálculo"
+      ],
+      "descripcion": "Fundamentos matemáticos esenciales para Machine Learning."
+    },
+    {
+      "id": "C201",
+      "nombre": "SQL para Análisis de Datos (versión económica)",
+      "duracion_semanas": 2,
+      "horas_semana": 5,
+      "coste": 0,
+      "modalidad": "online",
+      "idioma": "español",
+      "proveedor": "SQLZoo",
+      "prerequisitos": [],
+      "habilidades_aportadas": [
+        "Bases de Datos SQL"
+      ],
+      "descripcion": "Consultas SQL avanzadas, joins, subconsultas y optimización."
+    },
+    {
+      "id": "C202",
+      "nombre": "Análisis de Datos con Python (versión económica)",
+      "duracion_semanas": 3,
+      "horas_semana": 7,
+      "coste": 34,
+      "modalidad": "online",
+      "idioma": "español",
+      "proveedor": "Udemy",
+      "prerequisitos": [
+        "Programación en Python",
+        "Estadística"
+      ],
+      "habilidades_aportadas": [
+        "Análisis de Datos",
+        "Visualización de Datos"
+      ],
+      "descripcion": "Pandas, NumPy, Matplotlib y Seaborn para análisis exploratorio."
+    },
+    {
+      "id": "C203",
+      "nombre": "Machine Learning con Scikit-Learn (versión económica)",
+      "duracion_semanas": 5,
+      "horas_semana": 10,
+      "coste": 55,
+      "modalidad": "online",
+      "idioma": "español",
+      "proveedor": "Coursera",
+      "prerequisitos": [
+        "Programación en Python",
+        "Estadística",
+        "Álgebra Lineal",
+        "Análisis de Datos"
+      ],
+      "habilidades_aportadas": [
+        "Machine Learning"
+      ],
+      "descripcion": "Regresión, clasificación, clustering, validación de modelos."
+    },
+    {
+      "id": "C204",
+      "nombre": "Deep Learning con TensorFlow (versión económica)",
+      "duracion_semanas": 7,
+      "horas_semana": 12,
+      "coste": 69,
+      "modalidad": "online",
+      "idioma": "español",
+      "proveedor": "Udemy",
+      "prerequisitos": [
+        "Machine Learning",
+        "Álgebra Lineal",
+        "Cálculo"
+      ],
+      "habilidades_aportadas": [
+        "Deep Learning",
+        "Redes Neuronales"
+      ],
+      "descripcion": "Redes neuronales, CNN, RNN, transformers con TensorFlow y Keras."
+    },
+    {
+      "id": "C205",
+      "nombre": "Procesamiento de Lenguaje Natural (versión económica)",
+      "duracion_semanas": 4,
+      "horas_semana": 8,
+      "coste": 62,
+      "modalidad": "online",
+      "idioma": "español",
+      "proveedor": "Coursera",
+      "prerequisitos": [
+        "Deep Learning",
+        "Programación en Python"
+      ],
+      "habilidades_aportadas": [
+        "Procesamiento del Lenguaje Natural"
+      ],
+      "descripcion": "Tokenización, embeddings, BERT, transformers para NLP."
+    },
+    {
+      "id": "C206",
+      "nombre": "Git y GitHub: Control de Versiones (gratuito) (versión económica)",
+      "duracion_semanas": 5,
+      "horas_semana": 4,
+      "coste": 0,
+      "modalidad": "online",
+      "idioma": "español",
+      "proveedor": "GitHub Learning Lab",
+      "prerequisitos": [],
+      "habilidades_aportadas": [
+        "Git y Control de Versiones"
+      ],
+      "descripcion": "Comandos Git, ramas, pull requests y flujos de trabajo colaborativos."
+    },
+    {
+      "id": "C207",
+      "nombre": "Docker y Contenedores (versión económica)",
+      "duracion_semanas": 2,
+      "horas_semana": 6,
+      "coste": 27,
+      "modalidad": "online",
+      "idioma": "español",
+      "proveedor": "Udemy",
+      "prerequisitos": [
+        "Sistemas Operativos Linux"
+      ],
+      "habilidades_aportadas": [
+        "Docker"
+      ],
+      "descripcion": "Creación de imágenes, redes, volúmenes y Docker Compose."
+    },
+    {
+      "id": "C208",
+      "nombre": "Kubernetes para DevOps (versión económica)",
+      "duracion_semanas": 3,
+      "horas_semana": 8,
+      "coste": 55,
+      "modalidad": "online",
+      "idioma": "español",
+      "proveedor": "Linux Foundation",
+      "prerequisitos": [
+        "Docker"
+      ],
+      "habilidades_aportadas": [
+        "Kubernetes"
+      ],
+      "descripcion": "Pods, deployments, servicios, Helm y gestión de clústeres."
+    },
+    {
+      "id": "C209",
+      "nombre": "Linux para Desarrolladores (versión económica)",
+      "duracion_semanas": 2,
+      "horas_semana": 5,
+      "coste": 0,
+      "modalidad": "online",
+      "idioma": "español",
+      "proveedor": "edX",
+      "prerequisitos": [],
+      "habilidades_aportadas": [
+        "Sistemas Operativos Linux"
+      ],
+      "descripcion": "Shell scripting, gestión de ficheros, procesos y redes en Linux."
+    },
+    {
+      "id": "C210",
+      "nombre": "AWS Cloud Practitioner (versión económica)",
+      "duracion_semanas": 3,
+      "horas_semana": 6,
+      "coste": 104,
+      "modalidad": "online",
+      "idioma": "español",
+      "proveedor": "AWS Training",
+      "prerequisitos": [
+        "Sistemas Operativos Linux"
+      ],
+      "habilidades_aportadas": [
+        "Cloud Computing (AWS)"
+      ],
+      "descripcion": "EC2, S3, Lambda, RDS, IAM y arquitectura cloud en AWS."
+    },
+    {
+      "id": "C211",
+      "nombre": "DevOps: CI/CD y Automatización (versión económica)",
+      "duracion_semanas": 4,
+      "horas_semana": 8,
+      "coste": 48,
+      "modalidad": "online",
+      "idioma": "español",
+      "proveedor": "Udemy",
+      "prerequisitos": [
+        "Docker",
+        "Git y Control de Versiones",
+        "Sistemas Operativos Linux"
+      ],
+      "habilidades_aportadas": [
+        "DevOps"
+      ],
+      "descripcion": "Jenkins, GitHub Actions, pipelines CI/CD, infraestructura como código."
+    },
+    {
+      "id": "C212",
+      "nombre": "APIs REST con FastAPI (versión económica)",
+      "duracion_semanas": 2,
+      "horas_semana": 6,
+      "coste": 27,
+      "modalidad": "online",
+      "idioma": "español",
+      "proveedor": "Udemy",
+      "prerequisitos": [
+        "Programación en Python"
+      ],
+      "habilidades_aportadas": [
+        "APIs REST",
+        "FastAPI"
+      ],
+      "descripcion": "Diseño y desarrollo de APIs RESTful con FastAPI, OAuth2 y documentación."
+    },
+    {
+      "id": "C213",
+      "nombre": "Big Data con Spark y Hadoop (versión económica)",
+      "duracion_semanas": 4,
+      "horas_semana": 9,
+      "coste": 62,
+      "modalidad": "online",
+      "idioma": "español",
+      "proveedor": "Coursera",
+      "prerequisitos": [
+        "Programación en Python",
+        "Bases de Datos SQL"
+      ],
+      "habilidades_aportadas": [
+        "Big Data",
+        "Spark",
+        "Hadoop"
+      ],
+      "descripcion": "Procesamiento distribuido de datos a gran escala con Apache Spark."
+    },
+    {
+      "id": "C214",
+      "nombre": "Visión por Computador con OpenCV (versión económica)",
+      "duracion_semanas": 4,
+      "horas_semana": 8,
+      "coste": 41,
+      "modalidad": "online",
+      "idioma": "español",
+      "proveedor": "Udemy",
+      "prerequisitos": [
+        "Deep Learning",
+        "Programación en Python"
+      ],
+      "habilidades_aportadas": [
+        "Visión por Computador"
+      ],
+      "descripcion": "Detección de objetos, segmentación, CNN para visión artificial."
+    },
+    {
+      "id": "C215",
+      "nombre": "Bases de Datos NoSQL: MongoDB y Redis (versión económica)",
+      "duracion_semanas": 2,
+      "horas_semana": 5,
+      "coste": 20,
+      "modalidad": "online",
+      "idioma": "español",
+      "proveedor": "MongoDB University",
+      "prerequisitos": [],
+      "habilidades_aportadas": [
+        "Bases de Datos NoSQL"
+      ],
+      "descripcion": "Modelado de documentos, consultas avanzadas y casos de uso NoSQL."
+    },
+    {
+      "id": "C216",
+      "nombre": "Seguridad Informática Fundamentos (versión económica)",
+      "duracion_semanas": 3,
+      "horas_semana": 7,
+      "coste": 0,
+      "modalidad": "online",
+      "idioma": "español",
+      "proveedor": "Cybrary",
+      "prerequisitos": [
+        "Redes y Protocolos TCP/IP"
+      ],
+      "habilidades_aportadas": [
+        "Seguridad Informática"
+      ],
+      "descripcion": "OWASP, vulnerabilidades comunes, hardening y defensa de sistemas."
+    },
+    {
+      "id": "C217",
+      "nombre": "Redes: TCP/IP y Protocolos (versión económica)",
+      "duracion_semanas": 2,
+      "horas_semana": 6,
+      "coste": 0,
+      "modalidad": "online",
+      "idioma": "español",
+      "proveedor": "Cisco NetAcad",
+      "prerequisitos": [],
+      "habilidades_aportadas": [
+        "Redes y Protocolos TCP/IP"
+      ],
+      "descripcion": "Modelo OSI, TCP/IP, enrutamiento, DNS, HTTP y protocolos de red."
+    },
+    {
+      "id": "C218",
+      "nombre": "Ciberseguridad Ofensiva: Ethical Hacking (versión económica)",
+      "duracion_semanas": 5,
+      "horas_semana": 10,
+      "coste": 69,
+      "modalidad": "online",
+      "idioma": "español",
+      "proveedor": "TCM Security",
+      "prerequisitos": [
+        "Redes y Protocolos TCP/IP",
+        "Seguridad Informática",
+        "Sistemas Operativos Linux"
+      ],
+      "habilidades_aportadas": [
+        "Ciberseguridad Ofensiva"
+      ],
+      "descripcion": "Pentesting, exploits, Metasploit, OSINT y metodologías de ataque."
+    },
+    {
+      "id": "C219",
+      "nombre": "React: Desarrollo Web Frontend (versión económica)",
+      "duracion_semanas": 4,
+      "horas_semana": 8,
+      "coste": 34,
+      "modalidad": "online",
+      "idioma": "español",
+      "proveedor": "Udemy",
+      "prerequisitos": [
+        "Programación en JavaScript"
+      ],
+      "habilidades_aportadas": [
+        "React"
+      ],
+      "descripcion": "Componentes, hooks, estado, context API y React Router."
+    },
+    {
+      "id": "C220",
+      "nombre": "JavaScript Moderno (ES6+) (versión económica)",
+      "duracion_semanas": 2,
+      "horas_semana": 7,
+      "coste": 20,
+      "modalidad": "online",
+      "idioma": "español",
+      "proveedor": "Udemy",
+      "prerequisitos": [],
+      "habilidades_aportadas": [
+        "Programación en JavaScript"
+      ],
+      "descripcion": "ES6+, async/await, módulos, DOM, Fetch API y patrones modernos."
+    },
+    {
+      "id": "C221",
+      "nombre": "Node.js y APIs con Express (versión económica)",
+      "duracion_semanas": 3,
+      "horas_semana": 7,
+      "coste": 34,
+      "modalidad": "online",
+      "idioma": "español",
+      "proveedor": "Udemy",
+      "prerequisitos": [
+        "Programación en JavaScript"
+      ],
+      "habilidades_aportadas": [
+        "Node.js",
+        "APIs REST",
+        "Desarrollo Web Backend"
+      ],
+      "descripcion": "Servidores web, middleware, autenticación JWT y despliegue."
+    },
+    {
+      "id": "C222",
+      "nombre": "Arquitectura de Software y Patrones (versión económica)",
+      "duracion_semanas": 3,
+      "horas_semana": 6,
+      "coste": 41,
+      "modalidad": "online",
+      "idioma": "español",
+      "proveedor": "Coursera",
+      "prerequisitos": [
+        "Estructuras de Datos",
+        "Algoritmos"
+      ],
+      "habilidades_aportadas": [
+        "Arquitectura de Software"
+      ],
+      "descripcion": "SOLID, patrones de diseño, microservicios, DDD y arquitecturas limpias."
+    },
+    {
+      "id": "C223",
+      "nombre": "Blockchain y Smart Contracts (versión económica)",
+      "duracion_semanas": 4,
+      "horas_semana": 7,
+      "coste": 62,
+      "modalidad": "online",
+      "idioma": "español",
+      "proveedor": "Coursera",
+      "prerequisitos": [
+        "Criptografía"
+      ],
+      "habilidades_aportadas": [
+        "Blockchain"
+      ],
+      "descripcion": "Ethereum, Solidity, Web3.js y desarrollo de contratos inteligentes."
+    },
+    {
+      "id": "C224",
+      "nombre": "Criptografía Aplicada (versión económica)",
+      "duracion_semanas": 2,
+      "horas_semana": 5,
+      "coste": 0,
+      "modalidad": "online",
+      "idioma": "español",
+      "proveedor": "Stanford Online",
+      "prerequisitos": [],
+      "habilidades_aportadas": [
+        "Criptografía"
+      ],
+      "descripcion": "Cifrado simétrico/asimétrico, hashing, PKI y protocolos seguros."
+    },
+    {
+      "id": "C225",
+      "nombre": "Metodologías Ágiles: Scrum y Kanban (versión económica)",
+      "duracion_semanas": 1,
+      "horas_semana": 4,
+      "coste": 0,
+      "modalidad": "online",
+      "idioma": "español",
+      "proveedor": "Scrum.org",
+      "prerequisitos": [],
+      "habilidades_aportadas": [
+        "Metodologías Ágiles",
+        "Gestión de Proyectos"
+      ],
+      "descripcion": "Sprints, backlogs, retrospectivas, Kanban y gestión ágil de equipos."
+    },
+    {
+      "id": "C226",
+      "nombre": "Git y GitHub: Control de Versiones (pago) (versión económica)",
+      "duracion_semanas": 1,
+      "horas_semana": 4,
+      "coste": 35,
+      "modalidad": "online",
+      "idioma": "español",
+      "proveedor": "GitHub Learning Lab",
+      "prerequisitos": [],
+      "habilidades_aportadas": [
+        "Git y Control de Versiones"
+      ],
+      "descripcion": "Comandos Git, ramas, pull requests y flujos de trabajo colaborativos."
+    },
+    {
+      "id": "C227",
+      "nombre": "Redes (introductorio) (versión económica)",
+      "duracion_semanas": 1,
+      "horas_semana": 4,
+      "coste": 35,
+      "modalidad": "online",
+      "idioma": "español",
+      "proveedor": "GitHub Learning Lab",
+      "prerequisitos": [],
+      "habilidades_aportadas": [
+        "Redes y Protocolos TCP/IP"
+      ],
+      "descripcion": "Comandos Git, ramas, pull requests y flujos de trabajo colaborativos."
+    },
+    {
+      "id": "C228",
+      "nombre": "Fundamentos de Redes (CCNA Intro) (versión económica)",
+      "duracion_semanas": 4,
+      "horas_semana": 5,
+      "coste": 0,
+      "modalidad": "online",
+      "idioma": "español",
+      "proveedor": "Cisco NetAcad",
+      "prerequisitos": [],
+      "habilidades_aportadas": [
+        "Redes y Protocolos TCP/IP"
+      ],
+      "descripcion": "Conceptos básicos de redes, modelo OSI, direccionamiento IP, subnetting."
+    },
+    {
+      "id": "C229",
+      "nombre": "Redes Avanzadas: Enrutamiento y Switching (versión económica)",
+      "duracion_semanas": 5,
+      "horas_semana": 6,
+      "coste": 0,
+      "modalidad": "online",
+      "idioma": "español",
+      "proveedor": "Cisco NetAcad",
+      "prerequisitos": [
+        "Redes y Protocolos TCP/IP"
+      ],
+      "habilidades_aportadas": [
+        "Redes y Protocolos TCP/IP"
+      ],
+      "descripcion": "Configuración de routers, switches, VLANs, OSPF, EIGRP."
+    },
+    {
+      "id": "C230",
+      "nombre": "Introducción al Ethical Hacking (versión económica)",
+      "duracion_semanas": 3,
+      "horas_semana": 8,
+      "coste": 34,
+      "modalidad": "online",
+      "idioma": "español",
+      "proveedor": "Udemy",
+      "prerequisitos": [
+        "Redes y Protocolos TCP/IP",
+        "Sistemas Operativos Linux"
+      ],
+      "habilidades_aportadas": [
+        "Ciberseguridad Ofensiva"
+      ],
+      "descripcion": "Reconocimiento, escaneo, explotación básica con Kali Linux."
+    },
+    {
+      "id": "C231",
+      "nombre": "Pentesting Web Avanzado (versión económica)",
+      "duracion_semanas": 4,
+      "horas_semana": 9,
+      "coste": 62,
+      "modalidad": "online",
+      "idioma": "español",
+      "proveedor": "TCM Security",
+      "prerequisitos": [
+        "Ciberseguridad Ofensiva"
+      ],
+      "habilidades_aportadas": [
+        "Ciberseguridad Ofensiva"
+      ],
+      "descripcion": "OWASP Top 10, SQLi, XSS, CSRF, SSRF, exploit development."
+    },
+    {
+      "id": "C232",
+      "nombre": "Criptografía para Desarrolladores (versión económica)",
+      "duracion_semanas": 2,
+      "horas_semana": 5,
+      "coste": 0,
+      "modalidad": "online",
+      "idioma": "español",
+      "proveedor": "Coursera",
+      "prerequisitos": [
+        "Programación en Python"
+      ],
+      "habilidades_aportadas": [
+        "Criptografía"
+      ],
+      "descripcion": "Hash, cifrado simétrico/asimétrico, firma digital, PKI."
+    },
+    {
+      "id": "C233",
+      "nombre": "Criptografía Aplicada en Blockchain (versión económica)",
+      "duracion_semanas": 3,
+      "horas_semana": 6,
+      "coste": 41,
+      "modalidad": "online",
+      "idioma": "español",
+      "proveedor": "Udemy",
+      "prerequisitos": [
+        "Criptografía",
+        "Programación en Python"
+      ],
+      "habilidades_aportadas": [
+        "Criptografía"
+      ],
+      "descripcion": "ECDSA, SHA-256, wallets, firmas y transacciones criptográficas."
+    },
+    {
+      "id": "C234",
+      "nombre": "AWS Solutions Architect Associate (Preparación) (versión económica)",
+      "duracion_semanas": 5,
+      "horas_semana": 10,
+      "coste": 90,
+      "modalidad": "online",
+      "idioma": "español",
+      "proveedor": "A Cloud Guru",
+      "prerequisitos": [
+        "Redes y Protocolos TCP/IP",
+        "Sistemas Operativos Linux"
+      ],
+      "habilidades_aportadas": [
+        "Cloud Computing (AWS)"
+      ],
+      "descripcion": "EC2, S3, VPC, IAM, RDS, Lambda, CloudFormation."
+    },
+    {
+      "id": "C235",
+      "nombre": "AWS desde Cero (Certificación Cloud Practitioner) (versión económica)",
+      "duracion_semanas": 3,
+      "horas_semana": 6,
+      "coste": 0,
+      "modalidad": "online",
+      "idioma": "español",
+      "proveedor": "AWS Training",
+      "prerequisitos": [],
+      "habilidades_aportadas": [
+        "Cloud Computing (AWS)"
+      ],
+      "descripcion": "Introducción a servicios AWS, casos de uso, facturación y seguridad."
+    },
+    {
+      "id": "C236",
+      "nombre": "Google Cloud Associate Cloud Engineer (versión económica)",
+      "duracion_semanas": 4,
+      "horas_semana": 8,
+      "coste": 69,
+      "modalidad": "online",
+      "idioma": "español",
+      "proveedor": "Google Cloud Skills Boost",
+      "prerequisitos": [
+        "Sistemas Operativos Linux"
+      ],
+      "habilidades_aportadas": [
+        "Cloud Computing (GCP)"
+      ],
+      "descripcion": "Compute Engine, Kubernetes Engine, Cloud Storage, IAM, VPC."
+    },
+    {
+      "id": "C237",
+      "nombre": "GCP para Data Scientists (versión económica)",
+      "duracion_semanas": 4,
+      "horas_semana": 7,
+      "coste": 55,
+      "modalidad": "online",
+      "idioma": "español",
+      "proveedor": "Coursera",
+      "prerequisitos": [
+        "Programación en Python",
+        "Bases de Datos SQL"
+      ],
+      "habilidades_aportadas": [
+        "Cloud Computing (GCP)"
+      ],
+      "descripcion": "BigQuery, Dataflow, AI Platform, Pub/Sub, Cloud Functions."
+    },
+    {
+      "id": "C238",
+      "nombre": "Microsoft Azure Fundamentals (AZ-900) (versión económica)",
+      "duracion_semanas": 2,
+      "horas_semana": 5,
+      "coste": 0,
+      "modalidad": "online",
+      "idioma": "español",
+      "proveedor": "Microsoft Learn",
+      "prerequisitos": [],
+      "habilidades_aportadas": [
+        "Cloud Computing (Azure)"
+      ],
+      "descripcion": "Conceptos de nube, servicios Azure, seguridad, precios y soporte."
+    },
+    {
+      "id": "C239",
+      "nombre": "Azure Administrator Associate (AZ-104) (versión económica)",
+      "duracion_semanas": 6,
+      "horas_semana": 9,
+      "coste": 104,
+      "modalidad": "online",
+      "idioma": "español",
+      "proveedor": "Udemy",
+      "prerequisitos": [
+        "Cloud Computing (Azure)",
+        "Redes y Protocolos TCP/IP"
+      ],
+      "habilidades_aportadas": [
+        "Cloud Computing (Azure)"
+      ],
+      "descripcion": "Redes virtuales, almacenamiento, máquinas virtuales, identidades y gobernanza."
+    },
+    {
+      "id": "C240",
+      "nombre": "DevOps Fundamentos: CI/CD y Automatización (versión económica)",
+      "duracion_semanas": 3,
+      "horas_semana": 6,
+      "coste": 27,
+      "modalidad": "online",
+      "idioma": "español",
+      "proveedor": "Udemy",
+      "prerequisitos": [
+        "Git y Control de Versiones",
+        "Sistemas Operativos Linux"
+      ],
+      "habilidades_aportadas": [
+        "DevOps"
+      ],
+      "descripcion": "Integración continua, entrega continua, Jenkins, GitLab CI, automatización."
+    },
+    {
+      "id": "C241",
+      "nombre": "DevOps con GitHub Actions y Azure DevOps (versión económica)",
+      "duracion_semanas": 4,
+      "horas_semana": 7,
+      "coste": 48,
+      "modalidad": "online",
+      "idioma": "español",
+      "proveedor": "LinkedIn Learning",
+      "prerequisitos": [
+        "DevOps",
+        "Docker"
+      ],
+      "habilidades_aportadas": [
+        "DevOps"
+      ],
+      "descripcion": "Pipelines, infraestructura como código (Terraform), monitorización y despliegue."
+    },
+    {
+      "id": "C242",
+      "nombre": "Docker desde Cero (Imágenes, Contenedores y Compose) (versión económica)",
+      "duracion_semanas": 2,
+      "horas_semana": 5,
+      "coste": 0,
+      "modalidad": "online",
+      "idioma": "español",
+      "proveedor": "Docker Documentation",
+      "prerequisitos": [
+        "Sistemas Operativos Linux"
+      ],
+      "habilidades_aportadas": [
+        "Docker"
+      ],
+      "descripcion": "Instalación, comandos básicos, Dockerfile, volúmenes, redes y Compose."
+    },
+    {
+      "id": "C243",
+      "nombre": "Docker para Desarrolladores: Avanzado (versión económica)",
+      "duracion_semanas": 2,
+      "horas_semana": 6,
+      "coste": 34,
+      "modalidad": "online",
+      "idioma": "español",
+      "proveedor": "Udemy",
+      "prerequisitos": [
+        "Docker"
+      ],
+      "habilidades_aportadas": [
+        "Docker"
+      ],
+      "descripcion": "Optimización de imágenes, multi-stage builds, swarm, Docker API."
+    },
+    {
+      "id": "C244",
+      "nombre": "Kubernetes: Fundamentos y Despliegue de Aplicaciones (versión económica)",
+      "duracion_semanas": 3,
+      "horas_semana": 7,
+      "coste": 34,
+      "modalidad": "online",
+      "idioma": "español",
+      "proveedor": "Coursera",
+      "prerequisitos": [
+        "Docker",
+        "Redes y Protocolos TCP/IP"
+      ],
+      "habilidades_aportadas": [
+        "Kubernetes"
+      ],
+      "descripcion": "Pods, deployments, servicios, configmaps, ingress, Helm básico."
+    },
+    {
+      "id": "C245",
+      "nombre": "Kubernetes Avanzado: Operadores y Seguridad (versión económica)",
+      "duracion_semanas": 4,
+      "horas_semana": 8,
+      "coste": 62,
+      "modalidad": "online",
+      "idioma": "español",
+      "proveedor": "Linux Foundation",
+      "prerequisitos": [
+        "Kubernetes"
+      ],
+      "habilidades_aportadas": [
+        "Kubernetes"
+      ],
+      "descripcion": "RBAC, network policies, operadores, cert-manager, service mesh (Istio)."
+    },
+    {
+      "id": "C246",
+      "nombre": "Seguridad Informática para Sysadmins (versión económica)",
+      "duracion_semanas": 3,
+      "horas_semana": 6,
+      "coste": 0,
+      "modalidad": "online",
+      "idioma": "español",
+      "proveedor": "Cybrary",
+      "prerequisitos": [
+        "Redes y Protocolos TCP/IP",
+        "Sistemas Operativos Linux"
+      ],
+      "habilidades_aportadas": [
+        "Seguridad Informática"
+      ],
+      "descripcion": "Hardening, firewalls, SELinux, detección de intrusos, auditoría."
+    },
+    {
+      "id": "C247",
+      "nombre": "Seguridad Informática en Aplicaciones Web (versión económica)",
+      "duracion_semanas": 4,
+      "horas_semana": 8,
+      "coste": 41,
+      "modalidad": "online",
+      "idioma": "español",
+      "proveedor": "Udemy",
+      "prerequisitos": [
+        "Programación en JavaScript",
+        "APIs REST"
+      ],
+      "habilidades_aportadas": [
+        "Seguridad Informática"
+      ],
+      "descripcion": "Protección contra inyecciones, autenticación segura, JWT, OAuth2, CSP."
+    },
+    {
+      "id": "C248",
+      "nombre": "Internet de las Cosas (IoT) con Raspberry Pi (versión económica)",
+      "duracion_semanas": 2,
+      "horas_semana": 6,
+      "coste": 27,
+      "modalidad": "online",
+      "idioma": "español",
+      "proveedor": "Coursera",
+      "prerequisitos": [
+        "Programación en Python",
+        "Redes y Protocolos TCP/IP"
+      ],
+      "habilidades_aportadas": [
+        "IoT"
+      ],
+      "descripcion": "Sensores, actuadores, MQTT, Node-RED, Raspberry Pi y Arduino."
+    },
+    {
+      "id": "C249",
+      "nombre": "IoT y Cloud: Azure IoT Hub / AWS IoT Core (versión económica)",
+      "duracion_semanas": 3,
+      "horas_semana": 7,
+      "coste": 55,
+      "modalidad": "online",
+      "idioma": "español",
+      "proveedor": "Udemy",
+      "prerequisitos": [
+        "IoT",
+        "Cloud Computing (AWS)",
+        "Cloud Computing (Azure)"
+      ],
+      "habilidades_aportadas": [
+        "IoT"
+      ],
+      "descripcion": "Ingesta de telemetría, procesamiento en la nube, análisis y visualización."
+    },
+    {
+      "id": "C250",
+      "nombre": "Programación en Java desde Cero (versión económica)",
+      "duracion_semanas": 2,
+      "horas_semana": 6,
+      "coste": 0,
+      "modalidad": "online",
+      "idioma": "español",
+      "proveedor": "OpenEDX",
+      "prerequisitos": [],
+      "habilidades_aportadas": [
+        "Programación en Java"
+      ],
+      "descripcion": "Fundamentos de Java: sintaxis, OOP, colecciones, excepciones."
+    },
+    {
+      "id": "C251",
+      "nombre": "Spring Boot: Desarrollo Backend (versión económica)",
+      "duracion_semanas": 3,
+      "horas_semana": 7,
+      "coste": 34,
+      "modalidad": "online",
+      "idioma": "español",
+      "proveedor": "Udemy",
+      "prerequisitos": [
+        "Programación en Java",
+        "Bases de Datos SQL"
+      ],
+      "habilidades_aportadas": [
+        "Spring Boot"
+      ],
+      "descripcion": "APIs REST, JPA, seguridad, despliegue con Spring Boot."
+    },
+    {
+      "id": "C252",
+      "nombre": "Programación en C++ para Sistemas (versión económica)",
+      "duracion_semanas": 3,
+      "horas_semana": 7,
+      "coste": 0,
+      "modalidad": "online",
+      "idioma": "español",
+      "proveedor": "Coursera",
+      "prerequisitos": [],
+      "habilidades_aportadas": [
+        "Programación en C++"
+      ],
+      "descripcion": "Punteros, memoria dinámica, plantillas, STL."
+    },
+    {
+      "id": "C253",
+      "nombre": "Sistemas Operativos: Conceptos Avanzados (versión económica)",
+      "duracion_semanas": 2,
+      "horas_semana": 6,
+      "coste": 0,
+      "modalidad": "online",
+      "idioma": "español",
+      "proveedor": "edX",
+      "prerequisitos": [
+        "Sistemas Operativos Linux"
+      ],
+      "habilidades_aportadas": [
+        "Sistemas Operativos"
+      ],
+      "descripcion": "Planificación de procesos, memoria virtual, sistemas de archivos."
+    },
+    {
+      "id": "C254",
+      "nombre": "Redes de Computadoras: Fundamentos (versión económica)",
+      "duracion_semanas": 2,
+      "horas_semana": 5,
+      "coste": 0,
+      "modalidad": "online",
+      "idioma": "español",
+      "proveedor": "Cisco",
+      "prerequisitos": [
+        "Sistemas Operativos Linux"
+      ],
+      "habilidades_aportadas": [
+        "Redes de Computadoras"
+      ],
+      "descripcion": "Capa física, enlace, red, transporte, aplicación."
+    },
+    {
+      "id": "C255",
+      "nombre": "Ingeniería de Software: Planificación y Gestión (versión económica)",
+      "duracion_semanas": 2,
+      "horas_semana": 5,
+      "coste": 27,
+      "modalidad": "online",
+      "idioma": "español",
+      "proveedor": "Coursera",
+      "prerequisitos": [
+        "Programación en Python"
+      ],
+      "habilidades_aportadas": [
+        "Ingeniería de Software"
+      ],
+      "descripcion": "Ciclo de vida, gestión de requisitos, planificación."
+    },
+    {
+      "id": "C256",
+      "nombre": "Desarrollo Web Frontend con React (versión económica)",
+      "duracion_semanas": 4,
+      "horas_semana": 7,
+      "coste": 41,
+      "modalidad": "online",
+      "idioma": "español",
+      "proveedor": "Udemy",
+      "prerequisitos": [
+        "Programación en JavaScript"
+      ],
+      "habilidades_aportadas": [
+        "Desarrollo Web Frontend"
+      ],
+      "descripcion": "Componentes, estado, hooks, rutas, despliegue."
+    },
+    {
+      "id": "C257",
+      "nombre": "Desarrollo Web Backend con Django (versión económica)",
+      "duracion_semanas": 3,
+      "horas_semana": 6,
+      "coste": 34,
+      "modalidad": "online",
+      "idioma": "español",
+      "proveedor": "Coursera",
+      "prerequisitos": [
+        "Programación en Python",
+        "Bases de Datos SQL"
+      ],
+      "habilidades_aportadas": [
+        "Django"
+      ],
+      "descripcion": "Modelos, vistas, formularios, autenticación, ORM."
+    },
+    {
+      "id": "C258",
+      "nombre": "Cloud Computing: Conceptos y Proveedores (versión económica)",
+      "duracion_semanas": 2,
+      "horas_semana": 5,
+      "coste": 0,
+      "modalidad": "online",
+      "idioma": "español",
+      "proveedor": "Google Cloud",
+      "prerequisitos": [],
+      "habilidades_aportadas": [
+        "Computación en la Nube"
+      ],
+      "descripcion": "IaaS, PaaS, SaaS, modelos de despliegue, casos de uso."
+    },
+    {
+      "id": "C259",
+      "nombre": "Testing y QA Automatizado (versión económica)",
+      "duracion_semanas": 2,
+      "horas_semana": 6,
+      "coste": 27,
+      "modalidad": "online",
+      "idioma": "español",
+      "proveedor": "Udemy",
+      "prerequisitos": [
+        "Programación en Python"
+      ],
+      "habilidades_aportadas": [
+        "Testing y QA"
+      ],
+      "descripcion": "Pruebas unitarias, integración, e2e, Selenium, PyTest."
+    },
+    {
+      "id": "C260",
+      "nombre": "Diseño UX/UI: Principios y Herramientas (versión económica)",
+      "duracion_semanas": 2,
+      "horas_semana": 5,
+      "coste": 0,
+      "modalidad": "online",
+      "idioma": "español",
+      "proveedor": "Coursera",
+      "prerequisitos": [],
+      "habilidades_aportadas": [
+        "Diseño UX/UI"
+      ],
+      "descripcion": "Investigación, wireframes, prototipado, Figma."
+    },
+    {
+      "id": "C261",
+      "nombre": "Angular: Framework Frontend (versión económica)",
+      "duracion_semanas": 4,
+      "horas_semana": 7,
+      "coste": 41,
+      "modalidad": "online",
+      "idioma": "español",
+      "proveedor": "Udemy",
+      "prerequisitos": [
+        "Programación en JavaScript"
+      ],
+      "habilidades_aportadas": [
+        "Angular"
+      ],
+      "descripcion": "Componentes, servicios, módulos, RxJS, Angular CLI."
+    },
+    {
+      "id": "C262",
+      "nombre": "Vue.js: Desarrollo Web Progresivo (versión económica)",
+      "duracion_semanas": 3,
+      "horas_semana": 6,
+      "coste": 34,
+      "modalidad": "online",
+      "idioma": "español",
+      "proveedor": "Coursera",
+      "prerequisitos": [
+        "Programación en JavaScript"
+      ],
+      "habilidades_aportadas": [
+        "Vue.js"
+      ],
+      "descripcion": "Directivas, componentes, Vue Router, Vuex."
+    },
+    {
+      "id": "C263",
+      "nombre": "Node.js Avanzado: Microservicios y Seguridad (versión económica)",
+      "duracion_semanas": 3,
+      "horas_semana": 7,
+      "coste": 48,
+      "modalidad": "online",
+      "idioma": "español",
+      "proveedor": "Udemy",
+      "prerequisitos": [
+        "Node.js",
+        "APIs REST"
+      ],
+      "habilidades_aportadas": [
+        "Node.js"
+      ],
+      "descripcion": "Arquitectura de microservicios, JWT, OAuth2, despliegue."
+    },
+    {
+      "id": "C264",
+      "nombre": "FastAPI: Creación de APIs de Alto Rendimiento (versión económica)",
+      "duracion_semanas": 2,
+      "horas_semana": 6,
+      "coste": 27,
+      "modalidad": "online",
+      "idioma": "español",
+      "proveedor": "Udemy",
+      "prerequisitos": [
+        "Programación en Python"
+      ],
+      "habilidades_aportadas": [
+        "FastAPI"
+      ],
+      "descripcion": "Async, tipos, documentación automática, pruebas."
+    },
+    {
+      "id": "C265",
+      "nombre": "Gestión de Proyectos: PMP Essentials (versión económica)",
+      "duracion_semanas": 2,
+      "horas_semana": 5,
+      "coste": 34,
+      "modalidad": "online",
+      "idioma": "español",
+      "proveedor": "Coursera",
+      "prerequisitos": [],
+      "habilidades_aportadas": [
+        "Gestión de Proyectos"
+      ],
+      "descripcion": "WBS, cronogramas, presupuestos, riesgos, stakeholders."
+    },
+    {
+      "id": "C266",
+      "nombre": "Metodologías Ágiles: Scrum Master (versión económica)",
+      "duracion_semanas": 2,
+      "horas_semana": 4,
+      "coste": 20,
+      "modalidad": "online",
+      "idioma": "español",
+      "proveedor": "Scrum.org",
+      "prerequisitos": [],
+      "habilidades_aportadas": [
+        "Metodologías Ágiles"
+      ],
+      "descripcion": "Eventos Scrum, artefactos, roles, mejora continua."
+    },
+    {
+      "id": "C267",
+      "nombre": "Procesamiento de Señales con Python (versión económica)",
+      "duracion_semanas": 3,
+      "horas_semana": 6,
+      "coste": 27,
+      "modalidad": "online",
+      "idioma": "español",
+      "proveedor": "Coursera",
+      "prerequisitos": [
+        "Programación en Python",
+        "Cálculo Diferencial"
+      ],
+      "habilidades_aportadas": [
+        "Procesamiento de Señales"
+      ],
+      "descripcion": "FFT, filtros digitales, análisis espectral con NumPy/SciPy."
+    },
+    {
+      "id": "C268",
+      "nombre": "Comunicaciones Digitales: Teoría y Simulación (versión económica)",
+      "duracion_semanas": 4,
+      "horas_semana": 7,
+      "coste": 41,
+      "modalidad": "online",
+      "idioma": "español",
+      "proveedor": "edX",
+      "prerequisitos": [
+        "Procesamiento de Señales",
+        "Probabilidad"
+      ],
+      "habilidades_aportadas": [
+        "Comunicaciones Digitales"
+      ],
+      "descripcion": "Modulación QAM, PSK, codificación de canal, BER."
+    },
+    {
+      "id": "C269",
+      "nombre": "Antenas y Propagación: Diseño y Simulación (versión económica)",
+      "duracion_semanas": 4,
+      "horas_semana": 8,
+      "coste": 48,
+      "modalidad": "online",
+      "idioma": "español",
+      "proveedor": "Coursera",
+      "prerequisitos": [
+        "Electromagnetismo"
+      ],
+      "habilidades_aportadas": [
+        "Antenas y Propagación"
+      ],
+      "descripcion": "Parámetros de antena, arrays, software de simulación."
+    },
+    {
+      "id": "C270",
+      "nombre": "Sistemas de Telecomunicaciones: Redes Móviles (versión económica)",
+      "duracion_semanas": 4,
+      "horas_semana": 7,
+      "coste": 55,
+      "modalidad": "online",
+      "idioma": "español",
+      "proveedor": "Cisco",
+      "prerequisitos": [
+        "Redes de Computadoras",
+        "Comunicaciones Digitales"
+      ],
+      "habilidades_aportadas": [
+        "Sistemas de Telecomunicaciones"
+      ],
+      "descripcion": "GSM, LTE, 5G, arquitectura y protocolos."
+    },
+    {
+      "id": "C271",
+      "nombre": "Electrónica Analógica: Transistores y Amplificadores (versión económica)",
+      "duracion_semanas": 4,
+      "horas_semana": 7,
+      "coste": 0,
+      "modalidad": "online",
+      "idioma": "español",
+      "proveedor": "MIT OpenCourseWare",
+      "prerequisitos": [
+        "Física Clásica"
+      ],
+      "habilidades_aportadas": [
+        "Electrónica Analógica"
+      ],
+      "descripcion": "Modelos de transistores, polarización, retroalimentación."
+    },
+    {
+      "id": "C272",
+      "nombre": "Electrónica Digital: Circuitos Combinacionales y Secuenciales (versión económica)",
+      "duracion_semanas": 3,
+      "horas_semana": 6,
+      "coste": 34,
+      "modalidad": "online",
+      "idioma": "español",
+      "proveedor": "Coursera",
+      "prerequisitos": [
+        "Electrónica Analógica"
+      ],
+      "habilidades_aportadas": [
+        "Electrónica Digital"
+      ],
+      "descripcion": "Álgebra de Boole, flip-flops, registros, contadores."
+    },
+    {
+      "id": "C273",
+      "nombre": "Microcontroladores: Programación en C y Arduino (versión económica)",
+      "duracion_semanas": 3,
+      "horas_semana": 7,
+      "coste": 41,
+      "modalidad": "online",
+      "idioma": "español",
+      "proveedor": "Udemy",
+      "prerequisitos": [
+        "Electrónica Digital",
+        "Programación en Python"
+      ],
+      "habilidades_aportadas": [
+        "Microcontroladores"
+      ],
+      "descripcion": "Arquitectura, periféricos, comunicación I2C/SPI, interrupciones."
+    },
+    {
+      "id": "C274",
+      "nombre": "Control Automático: Sistemas Lineales (versión económica)",
+      "duracion_semanas": 4,
+      "horas_semana": 7,
+      "coste": 48,
+      "modalidad": "online",
+      "idioma": "español",
+      "proveedor": "Coursera",
+      "prerequisitos": [
+        "Ecuaciones Diferenciales",
+        "Mecánica de Sólidos"
+      ],
+      "habilidades_aportadas": [
+        "Control Automático"
+      ],
+      "descripcion": "Lugar de las raíces, respuesta en frecuencia, PID."
+    },
+    {
+      "id": "C275",
+      "nombre": "Robótica Móvil: Cinemática y Navegación (versión económica)",
+      "duracion_semanas": 4,
+      "horas_semana": 8,
+      "coste": 62,
+      "modalidad": "online",
+      "idioma": "español",
+      "proveedor": "edX",
+      "prerequisitos": [
+        "Control Automático",
+        "Microcontroladores"
+      ],
+      "habilidades_aportadas": [
+        "Robótica Móvil"
+      ],
+      "descripcion": "Cinemática diferencial, odometría, planificación de trayectorias."
+    },
+    {
+      "id": "C276",
+      "nombre": "Sensores y Actuadores: Interfaz y Calibración (versión económica)",
+      "duracion_semanas": 2,
+      "horas_semana": 5,
+      "coste": 27,
+      "modalidad": "online",
+      "idioma": "español",
+      "proveedor": "Coursera",
+      "prerequisitos": [
+        "Electrónica Analógica",
+        "Microcontroladores"
+      ],
+      "habilidades_aportadas": [
+        "Sensores y Actuadores"
+      ],
+      "descripcion": "Tipos de sensores, acondicionamiento de señal, motores."
+    },
+    {
+      "id": "C277",
+      "nombre": "Visión por Computador: Detección de Objetos (versión económica)",
+      "duracion_semanas": 4,
+      "horas_semana": 8,
+      "coste": 55,
+      "modalidad": "online",
+      "idioma": "español",
+      "proveedor": "Coursera",
+      "prerequisitos": [
+        "Programación en Python",
+        "Álgebra Lineal"
+      ],
+      "habilidades_aportadas": [
+        "Visión por Computador"
+      ],
+      "descripcion": "Haar cascades, YOLO, detección de rostros y objetos."
+    },
+    {
+      "id": "C278",
+      "nombre": "Diseño Asistido por Computador (CAD): SolidWorks (versión económica)",
+      "duracion_semanas": 3,
+      "horas_semana": 6,
+      "coste": 0,
+      "modalidad": "online",
+      "idioma": "español",
+      "proveedor": "SolidWorks",
+      "prerequisitos": [],
+      "habilidades_aportadas": [
+        "Diseño Asistido por Computador (CAD)"
+      ],
+      "descripcion": "Modelado 3D, ensamblajes, planos, simulación básica."
+    },
+    {
+      "id": "C279",
+      "nombre": "Modelado BIM: Revit y Gestión de Proyectos (versión económica)",
+      "duracion_semanas": 4,
+      "horas_semana": 7,
+      "coste": 62,
+      "modalidad": "online",
+      "idioma": "español",
+      "proveedor": "Autodesk",
+      "prerequisitos": [
+        "Diseño Asistido por Computador (CAD)"
+      ],
+      "habilidades_aportadas": [
+        "Modelado de Información de Construcción (BIM)"
+      ],
+      "descripcion": "Modelado paramétrico, extracción de cantidades, coordinación."
+    },
+    {
+      "id": "C280",
+      "nombre": "Materiales de Construcción: Propiedades y Ensayos (versión económica)",
+      "duracion_semanas": 2,
+      "horas_semana": 5,
+      "coste": 20,
+      "modalidad": "online",
+      "idioma": "español",
+      "proveedor": "Coursera",
+      "prerequisitos": [],
+      "habilidades_aportadas": [
+        "Materiales de Construcción"
+      ],
+      "descripcion": "Hormigón, acero, madera, ensayos de laboratorio."
+    },
+    {
+      "id": "C281",
+      "nombre": "Estructuras de Hormigón Armado: Cálculo (versión económica)",
+      "duracion_semanas": 4,
+      "horas_semana": 7,
+      "coste": 48,
+      "modalidad": "online",
+      "idioma": "español",
+      "proveedor": "Coursera",
+      "prerequisitos": [
+        "Materiales de Construcción",
+        "Mecánica de Sólidos"
+      ],
+      "habilidades_aportadas": [
+        "Estructuras de Hormigón"
+      ],
+      "descripcion": "Flexión, cortante, fisuración, armaduras."
+    },
+    {
+      "id": "C282",
+      "nombre": "Estructuras Metálicas: Diseño de Uniones (versión económica)",
+      "duracion_semanas": 4,
+      "horas_semana": 7,
+      "coste": 55,
+      "modalidad": "online",
+      "idioma": "español",
+      "proveedor": "edX",
+      "prerequisitos": [
+        "Mecánica de Sólidos",
+        "Materiales de Construcción"
+      ],
+      "habilidades_aportadas": [
+        "Estructuras Metálicas"
+      ],
+      "descripcion": "Perfiles laminados, soldadura, atornillado, pandeo."
+    },
+    {
+      "id": "C283",
+      "nombre": "Geotecnia: Mecánica de Suelos Aplicada (versión económica)",
+      "duracion_semanas": 3,
+      "horas_semana": 6,
+      "coste": 34,
+      "modalidad": "online",
+      "idioma": "español",
+      "proveedor": "Coursera",
+      "prerequisitos": [
+        "Mecánica de Sólidos",
+        "Materiales de Construcción"
+      ],
+      "habilidades_aportadas": [
+        "Geotecnia"
+      ],
+      "descripcion": "Clasificación, compactación, capacidad portante, asentamientos."
+    },
+    {
+      "id": "C284",
+      "nombre": "Hidráulica: Tuberías y Canales (versión económica)",
+      "duracion_semanas": 3,
+      "horas_semana": 6,
+      "coste": 41,
+      "modalidad": "online",
+      "idioma": "español",
+      "proveedor": "edX",
+      "prerequisitos": [
+        "Mecánica de Fluidos"
+      ],
+      "habilidades_aportadas": [
+        "Hidráulica"
+      ],
+      "descripcion": "Flujo a presión, flujo libre, pérdidas de carga."
+    },
+    {
+      "id": "C285",
+      "nombre": "Termodinámica: Ciclos y Aplicaciones (versión económica)",
+      "duracion_semanas": 4,
+      "horas_semana": 7,
+      "coste": 0,
+      "modalidad": "online",
+      "idioma": "español",
+      "proveedor": "MIT OpenCourseWare",
+      "prerequisitos": [
+        "Cálculo Diferencial",
+        "Física Clásica"
+      ],
+      "habilidades_aportadas": [
+        "Termodinámica"
+      ],
+      "descripcion": "Ciclos Rankine, Brayton, refrigeración, bombas de calor."
+    },
+    {
+      "id": "C286",
+      "nombre": "Mecánica de Fluidos: Dinámica (versión económica)",
+      "duracion_semanas": 4,
+      "horas_semana": 7,
+      "coste": 34,
+      "modalidad": "online",
+      "idioma": "español",
+      "proveedor": "Coursera",
+      "prerequisitos": [
+        "Cálculo Diferencial",
+        "Física Clásica"
+      ],
+      "habilidades_aportadas": [
+        "Mecánica de Fluidos"
+      ],
+      "descripcion": "Ecuaciones de Navier-Stokes, capa límite, turbulencia."
+    },
+    {
+      "id": "C287",
+      "nombre": "Transferencia de Calor: Conducción y Convección (versión económica)",
+      "duracion_semanas": 3,
+      "horas_semana": 6,
+      "coste": 41,
+      "modalidad": "online",
+      "idioma": "español",
+      "proveedor": "edX",
+      "prerequisitos": [
+        "Termodinámica",
+        "Mecánica de Fluidos"
+      ],
+      "habilidades_aportadas": [
+        "Transferencia de Calor"
+      ],
+      "descripcion": "Resistencia térmica, intercambiadores, convección forzada."
+    },
+    {
+      "id": "C288",
+      "nombre": "Mecánica de Sólidos: Elasticidad (versión económica)",
+      "duracion_semanas": 4,
+      "horas_semana": 7,
+      "coste": 0,
+      "modalidad": "online",
+      "idioma": "español",
+      "proveedor": "MIT OpenCourseWare",
+      "prerequisitos": [
+        "Cálculo Diferencial",
+        "Física Clásica"
+      ],
+      "habilidades_aportadas": [
+        "Mecánica de Sólidos"
+      ],
+      "descripcion": "Ley de Hooke, tensores, deformaciones, criterios de falla."
+    },
+    {
+      "id": "C289",
+      "nombre": "Dibujo Técnico: Planos y Normalización (versión económica)",
+      "duracion_semanas": 2,
+      "horas_semana": 4,
+      "coste": 0,
+      "modalidad": "online",
+      "idioma": "español",
+      "proveedor": "edX",
+      "prerequisitos": [],
+      "habilidades_aportadas": [
+        "Dibujo Técnico"
+      ],
+      "descripcion": "Vistas, cortes, acotación, normas ISO."
+    },
+    {
+      "id": "C290",
+      "nombre": "Manufactura Asistida: CNC (versión económica)",
+      "duracion_semanas": 3,
+      "horas_semana": 6,
+      "coste": 55,
+      "modalidad": "online",
+      "idioma": "español",
+      "proveedor": "Coursera",
+      "prerequisitos": [
+        "Diseño Asistido por Computador (CAD)"
+      ],
+      "habilidades_aportadas": [
+        "Manufactura Asistida por Computador (CAM)"
+      ],
+      "descripcion": "Generación de código G, simulación, postprocesado."
+    },
+    {
+      "id": "C291",
+      "nombre": "Química Orgánica: Síntesis y Mecanismos (versión económica)",
+      "duracion_semanas": 5,
+      "horas_semana": 8,
+      "coste": 34,
+      "modalidad": "online",
+      "idioma": "español",
+      "proveedor": "Coursera",
+      "prerequisitos": [
+        "Química Inorgánica"
+      ],
+      "habilidades_aportadas": [
+        "Química Orgánica"
+      ],
+      "descripcion": "Reacciones, mecanismos, estereoquímica, análisis."
+    },
+    {
+      "id": "C292",
+      "nombre": "Química Inorgánica: Teoría y Aplicaciones (versión económica)",
+      "duracion_semanas": 4,
+      "horas_semana": 7,
+      "coste": 0,
+      "modalidad": "online",
+      "idioma": "español",
+      "proveedor": "MIT OpenCourseWare",
+      "prerequisitos": [],
+      "habilidades_aportadas": [
+        "Química Inorgánica"
+      ],
+      "descripcion": "Estructura molecular, compuestos de coordinación, catálisis."
+    },
+    {
+      "id": "C293",
+      "nombre": "Química Analítica: Métodos Instrumentales (versión económica)",
+      "duracion_semanas": 4,
+      "horas_semana": 7,
+      "coste": 41,
+      "modalidad": "online",
+      "idioma": "español",
+      "proveedor": "Coursera",
+      "prerequisitos": [
+        "Química Inorgánica",
+        "Estadística"
+      ],
+      "habilidades_aportadas": [
+        "Química Analítica"
+      ],
+      "descripcion": "Espectroscopía, cromatografía, electroquímica."
+    },
+    {
+      "id": "C294",
+      "nombre": "Cinética Química: Velocidad de Reacción (versión económica)",
+      "duracion_semanas": 3,
+      "horas_semana": 6,
+      "coste": 34,
+      "modalidad": "online",
+      "idioma": "español",
+      "proveedor": "edX",
+      "prerequisitos": [
+        "Química Orgánica",
+        "Cálculo Diferencial"
+      ],
+      "habilidades_aportadas": [
+        "Cinética Química"
+      ],
+      "descripcion": "Leyes de velocidad, mecanismos, catálisis, energía de activación."
+    },
+    {
+      "id": "C295",
+      "nombre": "Termoquímica: Calor en Reacciones (versión económica)",
+      "duracion_semanas": 2,
+      "horas_semana": 5,
+      "coste": 20,
+      "modalidad": "online",
+      "idioma": "español",
+      "proveedor": "Coursera",
+      "prerequisitos": [
+        "Termodinámica",
+        "Química Inorgánica"
+      ],
+      "habilidades_aportadas": [
+        "Termoquímica"
+      ],
+      "descripcion": "Calor de formación, entalpía, leyes de Hess."
+    },
+    {
+      "id": "C296",
+      "nombre": "Cálculo Diferencial: Límites y Derivadas (versión económica)",
+      "duracion_semanas": 3,
+      "horas_semana": 6,
+      "coste": 0,
+      "modalidad": "online",
+      "idioma": "español",
+      "proveedor": "Khan Academy",
+      "prerequisitos": [],
+      "habilidades_aportadas": [
+        "Cálculo Diferencial"
+      ],
+      "descripcion": "Continuidad, reglas de derivación, aplicaciones."
+    },
+    {
+      "id": "C297",
+      "nombre": "Cálculo Integral: Técnicas y Aplicaciones (versión económica)",
+      "duracion_semanas": 4,
+      "horas_semana": 7,
+      "coste": 0,
+      "modalidad": "online",
+      "idioma": "español",
+      "proveedor": "Khan Academy",
+      "prerequisitos": [
+        "Cálculo Diferencial"
+      ],
+      "habilidades_aportadas": [
+        "Cálculo Integral"
+      ],
+      "descripcion": "Integración por partes, fracciones parciales, áreas, volúmenes."
+    },
+    {
+      "id": "C298",
+      "nombre": "Ecuaciones Diferenciales: Modelado (versión económica)",
+      "duracion_semanas": 4,
+      "horas_semana": 8,
+      "coste": 34,
+      "modalidad": "online",
+      "idioma": "español",
+      "proveedor": "Coursera",
+      "prerequisitos": [
+        "Cálculo Diferencial",
+        "Cálculo Integral"
+      ],
+      "habilidades_aportadas": [
+        "Ecuaciones Diferenciales"
+      ],
+      "descripcion": "EDO lineales, sistemas, transformada de Laplace."
+    },
+    {
+      "id": "C299",
+      "nombre": "Análisis Matemático: Sucesiones y Series (versión económica)",
+      "duracion_semanas": 5,
+      "horas_semana": 8,
+      "coste": 41,
+      "modalidad": "online",
+      "idioma": "español",
+      "proveedor": "MIT OpenCourseWare",
+      "prerequisitos": [
+        "Cálculo Diferencial",
+        "Cálculo Integral"
+      ],
+      "habilidades_aportadas": [
+        "Análisis Matemático"
+      ],
+      "descripcion": "Convergencia, series de potencias, Fourier."
+    },
+    {
+      "id": "C300",
+      "nombre": "Física Clásica: Mecánica y Ondas (versión económica)",
+      "duracion_semanas": 4,
+      "horas_semana": 7,
+      "coste": 0,
+      "modalidad": "online",
+      "idioma": "español",
+      "proveedor": "MIT OpenCourseWare",
+      "prerequisitos": [
+        "Cálculo Diferencial",
+        "Cálculo Integral"
+      ],
+      "habilidades_aportadas": [
+        "Física Clásica"
+      ],
+      "descripcion": "Cinemática, dinámica, trabajo, energía, oscilaciones."
+    },
+    {
+      "id": "C301",
+      "nombre": "Electromagnetismo: Campos y Ondas (versión económica)",
+      "duracion_semanas": 4,
+      "horas_semana": 8,
+      "coste": 34,
+      "modalidad": "online",
+      "idioma": "español",
+      "proveedor": "Coursera",
+      "prerequisitos": [
+        "Física Clásica",
+        "Cálculo Diferencial"
+      ],
+      "habilidades_aportadas": [
+        "Electromagnetismo"
+      ],
+      "descripcion": "Ley de Gauss, Faraday, Ampère, ecuaciones de Maxwell."
+    },
+    {
+      "id": "C302",
+      "nombre": "Mecánica Cuántica: Fundamentos (versión económica)",
+      "duracion_semanas": 5,
+      "horas_semana": 9,
+      "coste": 55,
+      "modalidad": "online",
+      "idioma": "español",
+      "proveedor": "edX",
+      "prerequisitos": [
+        "Física Clásica",
+        "Ecuaciones Diferenciales"
+      ],
+      "habilidades_aportadas": [
+        "Mecánica Cuántica"
+      ],
+      "descripcion": "Postulados, partícula en una caja, átomo de hidrógeno."
+    },
+    {
+      "id": "C303",
+      "nombre": "Física de Materiales: Propiedades y Aplicaciones (versión económica)",
+      "duracion_semanas": 4,
+      "horas_semana": 7,
+      "coste": 41,
+      "modalidad": "online",
+      "idioma": "español",
+      "proveedor": "Coursera",
+      "prerequisitos": [
+        "Física Clásica",
+        "Química Inorgánica"
+      ],
+      "habilidades_aportadas": [
+        "Física de Materiales"
+      ],
+      "descripcion": "Estructura cristalina, defectos, diagramas de fase."
+    },
+    {
+      "id": "C304",
+      "nombre": "Derecho Civil: Contratos y Obligaciones (versión económica)",
+      "duracion_semanas": 4,
+      "horas_semana": 6,
+      "coste": 0,
+      "modalidad": "online",
+      "idioma": "español",
+      "proveedor": "Coursera",
+      "prerequisitos": [],
+      "habilidades_aportadas": [
+        "Derecho Civil"
+      ],
+      "descripcion": "Formación de contratos, efectos, incumplimiento."
+    },
+    {
+      "id": "C305",
+      "nombre": "Derecho Penal: Delitos y Penas (versión económica)",
+      "duracion_semanas": 4,
+      "horas_semana": 6,
+      "coste": 0,
+      "modalidad": "online",
+      "idioma": "español",
+      "proveedor": "edX",
+      "prerequisitos": [],
+      "habilidades_aportadas": [
+        "Derecho Penal"
+      ],
+      "descripcion": "Teoría del delito, clasificación de delitos, penas."
+    },
+    {
+      "id": "C306",
+      "nombre": "Derecho Constitucional: Derechos Fundamentales (versión económica)",
+      "duracion_semanas": 3,
+      "horas_semana": 5,
+      "coste": 0,
+      "modalidad": "online",
+      "idioma": "español",
+      "proveedor": "Coursera",
+      "prerequisitos": [],
+      "habilidades_aportadas": [
+        "Derecho Constitucional"
+      ],
+      "descripcion": "Organización del estado, garantías constitucionales."
+    },
+    {
+      "id": "C307",
+      "nombre": "Derecho Laboral: Relaciones Individuales (versión económica)",
+      "duracion_semanas": 3,
+      "horas_semana": 5,
+      "coste": 20,
+      "modalidad": "online",
+      "idioma": "español",
+      "proveedor": "Coursera",
+      "prerequisitos": [
+        "Derecho Civil"
+      ],
+      "habilidades_aportadas": [
+        "Derecho Laboral"
+      ],
+      "descripcion": "Contrato de trabajo, jornada, salario, terminación."
+    },
+    {
+      "id": "C308",
+      "nombre": "Derecho Mercantil: Sociedades (versión económica)",
+      "duracion_semanas": 3,
+      "horas_semana": 5,
+      "coste": 27,
+      "modalidad": "online",
+      "idioma": "español",
+      "proveedor": "Coursera",
+      "prerequisitos": [
+        "Derecho Civil"
+      ],
+      "habilidades_aportadas": [
+        "Derecho Mercantil"
+      ],
+      "descripcion": "Tipos de sociedades, constitución, responsabilidad."
+    },
+    {
+      "id": "C309",
+      "nombre": "Derecho Administrativo: Procedimiento (versión económica)",
+      "duracion_semanas": 3,
+      "horas_semana": 5,
+      "coste": 0,
+      "modalidad": "online",
+      "idioma": "español",
+      "proveedor": "edX",
+      "prerequisitos": [],
+      "habilidades_aportadas": [
+        "Derecho Administrativo"
+      ],
+      "descripcion": "Acto administrativo, recursos, contratación pública."
+    },
+    {
+      "id": "C310",
+      "nombre": "Microeconomía: Teoría del Consumidor (versión económica)",
+      "duracion_semanas": 4,
+      "horas_semana": 6,
+      "coste": 0,
+      "modalidad": "online",
+      "idioma": "español",
+      "proveedor": "Coursera",
+      "prerequisitos": [],
+      "habilidades_aportadas": [
+        "Microeconomía"
+      ],
+      "descripcion": "Utilidad, demanda, elasticidad, equilibrio general."
+    },
+    {
+      "id": "C311",
+      "nombre": "Macroeconomía: Ciclos y Políticas (versión económica)",
+      "duracion_semanas": 4,
+      "horas_semana": 6,
+      "coste": 0,
+      "modalidad": "online",
+      "idioma": "español",
+      "proveedor": "Coursera",
+      "prerequisitos": [
+        "Microeconomía"
+      ],
+      "habilidades_aportadas": [
+        "Macroeconomía"
+      ],
+      "descripcion": "PIB, inflación, desempleo, políticas fiscal y monetaria."
+    },
+    {
+      "id": "C312",
+      "nombre": "Econometría: Regresión y Series Temporales (versión económica)",
+      "duracion_semanas": 4,
+      "horas_semana": 7,
+      "coste": 41,
+      "modalidad": "online",
+      "idioma": "español",
+      "proveedor": "Coursera",
+      "prerequisitos": [
+        "Estadística",
+        "Álgebra Lineal"
+      ],
+      "habilidades_aportadas": [
+        "Econometría"
+      ],
+      "descripcion": "MCO, endogeneidad, modelos ARIMA, cointegración."
+    },
+    {
+      "id": "C313",
+      "nombre": "Finanzas Corporativas: Valoración (versión económica)",
+      "duracion_semanas": 3,
+      "horas_semana": 6,
+      "coste": 34,
+      "modalidad": "online",
+      "idioma": "español",
+      "proveedor": "Coursera",
+      "prerequisitos": [
+        "Contabilidad"
+      ],
+      "habilidades_aportadas": [
+        "Finanzas Corporativas"
+      ],
+      "descripcion": "VPN, TIR, WACC, valoración de empresas."
+    },
+    {
+      "id": "C314",
+      "nombre": "Contabilidad: Registros y Estados (versión económica)",
+      "duracion_semanas": 3,
+      "horas_semana": 5,
+      "coste": 0,
+      "modalidad": "online",
+      "idioma": "español",
+      "proveedor": "Coursera",
+      "prerequisitos": [],
+      "habilidades_aportadas": [
+        "Contabilidad"
+      ],
+      "descripcion": "Partida doble, libros contables, balance, PYG."
+    },
+    {
+      "id": "C315",
+      "nombre": "Redacción Periodística: Géneros y Estilo (versión económica)",
+      "duracion_semanas": 2,
+      "horas_semana": 5,
+      "coste": 0,
+      "modalidad": "online",
+      "idioma": "español",
+      "proveedor": "Coursera",
+      "prerequisitos": [],
+      "habilidades_aportadas": [
+        "Redacción Periodística"
+      ],
+      "descripcion": "Noticia, reportaje, crónica, entrevista, opinión."
+    },
+    {
+      "id": "C316",
+      "nombre": "Entrevista Periodística: Técnicas (versión económica)",
+      "duracion_semanas": 2,
+      "horas_semana": 4,
+      "coste": 20,
+      "modalidad": "online",
+      "idioma": "español",
+      "proveedor": "Coursera",
+      "prerequisitos": [
+        "Redacción Periodística"
+      ],
+      "habilidades_aportadas": [
+        "Entrevista Periodística"
+      ],
+      "descripcion": "Preparación, preguntas, escucha activa, ética."
+    },
+    {
+      "id": "C317",
+      "nombre": "Edición de Contenidos: Corrección y SEO (versión económica)",
+      "duracion_semanas": 2,
+      "horas_semana": 5,
+      "coste": 27,
+      "modalidad": "online",
+      "idioma": "español",
+      "proveedor": "Coursera",
+      "prerequisitos": [
+        "Redacción Periodística"
+      ],
+      "habilidades_aportadas": [
+        "Edición de Contenidos"
+      ],
+      "descripcion": "Corrección de estilo, optimización SEO, CMS."
+    },
+    {
+      "id": "C318",
+      "nombre": "Fotoperiodismo: Narrativa Visual (versión económica)",
+      "duracion_semanas": 2,
+      "horas_semana": 6,
+      "coste": 34,
+      "modalidad": "online",
+      "idioma": "español",
+      "proveedor": "Coursera",
+      "prerequisitos": [
+        "Fotografía Artística"
+      ],
+      "habilidades_aportadas": [
+        "Fotoperiodismo"
+      ],
+      "descripcion": "Composición, ética, edición de imágenes, contexto."
+    },
+    {
+      "id": "C319",
+      "nombre": "Producción Audiovisual: Guion y Postproducción (versión económica)",
+      "duracion_semanas": 3,
+      "horas_semana": 6,
+      "coste": 41,
+      "modalidad": "online",
+      "idioma": "español",
+      "proveedor": "Coursera",
+      "prerequisitos": [],
+      "habilidades_aportadas": [
+        "Producción Audiovisual"
+      ],
+      "descripcion": "Escritura de guion, rodaje, edición, montaje."
+    },
+    {
+      "id": "C320",
+      "nombre": "Historiografía: Teoría de la Historia (versión económica)",
+      "duracion_semanas": 3,
+      "horas_semana": 5,
+      "coste": 0,
+      "modalidad": "online",
+      "idioma": "español",
+      "proveedor": "Coursera",
+      "prerequisitos": [],
+      "habilidades_aportadas": [
+        "Historiografía"
+      ],
+      "descripcion": "Escuelas históricas, métodos, fuentes, debate historiográfico."
+    },
+    {
+      "id": "C321",
+      "nombre": "Paleografía: Lectura de Manuscritos (versión económica)",
+      "duracion_semanas": 2,
+      "horas_semana": 4,
+      "coste": 20,
+      "modalidad": "online",
+      "idioma": "español",
+      "proveedor": "edX",
+      "prerequisitos": [],
+      "habilidades_aportadas": [
+        "Paleografía"
+      ],
+      "descripcion": "Evolución de escritura, abreviaturas, transcripción."
+    },
+    {
+      "id": "C322",
+      "nombre": "Archivística: Gestión Documental (versión económica)",
+      "duracion_semanas": 2,
+      "horas_semana": 5,
+      "coste": 0,
+      "modalidad": "online",
+      "idioma": "español",
+      "proveedor": "Coursera",
+      "prerequisitos": [
+        "Historiografía"
+      ],
+      "habilidades_aportadas": [
+        "Archivística"
+      ],
+      "descripcion": "Clasificación, descripción, conservación, digitalización."
+    },
+    {
+      "id": "C323",
+      "nombre": "Historia del Arte: Movimientos y Obras (versión económica)",
+      "duracion_semanas": 4,
+      "horas_semana": 6,
+      "coste": 0,
+      "modalidad": "online",
+      "idioma": "español",
+      "proveedor": "Khan Academy",
+      "prerequisitos": [],
+      "habilidades_aportadas": [
+        "Historia del Arte"
+      ],
+      "descripcion": "Arte prehistórico, clásico, medieval, renacimiento, moderno."
+    },
+    {
+      "id": "C324",
+      "nombre": "Metodología de la Investigación Histórica (versión económica)",
+      "duracion_semanas": 3,
+      "horas_semana": 5,
+      "coste": 27,
+      "modalidad": "online",
+      "idioma": "español",
+      "proveedor": "Coursera",
+      "prerequisitos": [
+        "Historiografía"
+      ],
+      "habilidades_aportadas": [
+        "Metodología de la Investigación Histórica"
+      ],
+      "descripcion": "Crítica de fuentes, heurística, redacción académica."
+    },
+    {
+      "id": "C325",
+      "nombre": "Dibujo Artístico: Técnicas y Composición (versión económica)",
+      "duracion_semanas": 3,
+      "horas_semana": 6,
+      "coste": 0,
+      "modalidad": "online",
+      "idioma": "español",
+      "proveedor": "Domestika",
+      "prerequisitos": [],
+      "habilidades_aportadas": [
+        "Dibujo Artístico"
+      ],
+      "descripcion": "Perspectiva, proporción, claroscuro, figura humana."
+    },
+    {
+      "id": "C326",
+      "nombre": "Pintura al Óleo: Técnicas y Materiales (versión económica)",
+      "duracion_semanas": 4,
+      "horas_semana": 7,
+      "coste": 34,
+      "modalidad": "online",
+      "idioma": "español",
+      "proveedor": "Coursera",
+      "prerequisitos": [
+        "Dibujo Artístico"
+      ],
+      "habilidades_aportadas": [
+        "Pintura al Óleo"
+      ],
+      "descripcion": "Preparación de lienzo, mezcla de colores, empaste."
+    },
+    {
+      "id": "C327",
+      "nombre": "Escultura: Modelado y Vaciado (versión económica)",
+      "duracion_semanas": 4,
+      "horas_semana": 8,
+      "coste": 55,
+      "modalidad": "online",
+      "idioma": "español",
+      "proveedor": "Coursera",
+      "prerequisitos": [
+        "Dibujo Artístico"
+      ],
+      "habilidades_aportadas": [
+        "Escultura"
+      ],
+      "descripcion": "Arcilla, yeso, moldes, técnicas de vaciado."
+    },
+    {
+      "id": "C328",
+      "nombre": "Grabado: Técnicas de Estampación (versión económica)",
+      "duracion_semanas": 2,
+      "horas_semana": 5,
+      "coste": 41,
+      "modalidad": "online",
+      "idioma": "español",
+      "proveedor": "Domestika",
+      "prerequisitos": [
+        "Dibujo Artístico"
+      ],
+      "habilidades_aportadas": [
+        "Grabado"
+      ],
+      "descripcion": "Xilografía, punta seca, aguafuerte, serigrafía."
+    },
+    {
+      "id": "C329",
+      "nombre": "Diseño Gráfico: Adobe Suite (versión económica)",
+      "duracion_semanas": 3,
+      "horas_semana": 6,
+      "coste": 0,
+      "modalidad": "online",
+      "idioma": "español",
+      "proveedor": "Coursera",
+      "prerequisitos": [],
+      "habilidades_aportadas": [
+        "Diseño Gráfico"
+      ],
+      "descripcion": "Photoshop, Illustrator, InDesign, branding."
+    },
+    {
+      "id": "C330",
+      "nombre": "Fotografía Artística: Composición y Narrativa (versión económica)",
+      "duracion_semanas": 3,
+      "horas_semana": 6,
+      "coste": 0,
+      "modalidad": "online",
+      "idioma": "español",
+      "proveedor": "Coursera",
+      "prerequisitos": [],
+      "habilidades_aportadas": [
+        "Fotografía Artística"
+      ],
+      "descripcion": "Luz, color, encuadre, serie fotográfica."
+    },
+    {
+      "id": "C331",
+      "nombre": "Psicometría: Construcción de Tests (versión económica)",
+      "duracion_semanas": 3,
+      "horas_semana": 6,
+      "coste": 34,
+      "modalidad": "online",
+      "idioma": "español",
+      "proveedor": "Coursera",
+      "prerequisitos": [
+        "Estadística"
+      ],
+      "habilidades_aportadas": [
+        "Psicometría"
+      ],
+      "descripcion": "Fiabilidad, validez, baremación, análisis de ítems."
+    },
+    {
+      "id": "C332",
+      "nombre": "Psicología Clínica: Evaluación y Tratamiento (versión económica)",
+      "duracion_semanas": 4,
+      "horas_semana": 7,
+      "coste": 0,
+      "modalidad": "online",
+      "idioma": "español",
+      "proveedor": "Coursera",
+      "prerequisitos": [
+        "Psicometría"
+      ],
+      "habilidades_aportadas": [
+        "Psicología Clínica"
+      ],
+      "descripcion": "Entrevista clínica, diagnóstico, planes de intervención."
+    },
+    {
+      "id": "C333",
+      "nombre": "Terapia Cognitivo-Conductual: Técnicas (versión económica)",
+      "duracion_semanas": 4,
+      "horas_semana": 8,
+      "coste": 55,
+      "modalidad": "online",
+      "idioma": "español",
+      "proveedor": "Coursera",
+      "prerequisitos": [
+        "Psicología Clínica"
+      ],
+      "habilidades_aportadas": [
+        "Terapia Cognitivo-Conductual"
+      ],
+      "descripcion": "Reestructuración cognitiva, exposición, activación conductual."
+    },
+    {
+      "id": "C334",
+      "nombre": "Psicología Social: Influencia y Grupos (versión económica)",
+      "duracion_semanas": 3,
+      "horas_semana": 6,
+      "coste": 0,
+      "modalidad": "online",
+      "idioma": "español",
+      "proveedor": "Coursera",
+      "prerequisitos": [],
+      "habilidades_aportadas": [
+        "Psicología Social"
+      ],
+      "descripcion": "Conformidad, obediencia, estereotipos, liderazgo."
+    },
+    {
+      "id": "C335",
+      "nombre": "Neuropsicología: Bases Cognitivas (versión económica)",
+      "duracion_semanas": 4,
+      "horas_semana": 7,
+      "coste": 41,
+      "modalidad": "online",
+      "idioma": "español",
+      "proveedor": "edX",
+      "prerequisitos": [
+        "Psicometría",
+        "Anatomía Humana"
+      ],
+      "habilidades_aportadas": [
+        "Neuropsicología"
+      ],
+      "descripcion": "Evaluación neuropsicológica, daño cerebral, rehabilitación."
+    },
+    {
+      "id": "C336",
+      "nombre": "Anatomía Humana: Sistemas (versión económica)",
+      "duracion_semanas": 4,
+      "horas_semana": 8,
+      "coste": 0,
+      "modalidad": "online",
+      "idioma": "español",
+      "proveedor": "Khan Academy",
+      "prerequisitos": [],
+      "habilidades_aportadas": [
+        "Anatomía Humana"
+      ],
+      "descripcion": "Sistema esquelético, muscular, nervioso, cardiovascular."
+    },
+    {
+      "id": "C337",
+      "nombre": "Fisiología: Funciones Orgánicas (versión económica)",
+      "duracion_semanas": 4,
+      "horas_semana": 8,
+      "coste": 0,
+      "modalidad": "online",
+      "idioma": "español",
+      "proveedor": "Coursera",
+      "prerequisitos": [
+        "Anatomía Humana",
+        "Química Orgánica"
+      ],
+      "habilidades_aportadas": [
+        "Fisiología"
+      ],
+      "descripcion": "Homeostasis, sistemas, regulación endocrina y nerviosa."
+    },
+    {
+      "id": "C338",
+      "nombre": "Farmacología: Mecanismos de Acción (versión económica)",
+      "duracion_semanas": 4,
+      "horas_semana": 7,
+      "coste": 34,
+      "modalidad": "online",
+      "idioma": "español",
+      "proveedor": "Coursera",
+      "prerequisitos": [
+        "Fisiología",
+        "Química Orgánica"
+      ],
+      "habilidades_aportadas": [
+        "Farmacología"
+      ],
+      "descripcion": "Absorción, distribución, metabolismo, excreción, fármacos."
+    },
+    {
+      "id": "C339",
+      "nombre": "Patología: Mecanismos de Enfermedad (versión económica)",
+      "duracion_semanas": 4,
+      "horas_semana": 7,
+      "coste": 41,
+      "modalidad": "online",
+      "idioma": "español",
+      "proveedor": "edX",
+      "prerequisitos": [
+        "Anatomía Humana",
+        "Fisiología"
+      ],
+      "habilidades_aportadas": [
+        "Patología"
+      ],
+      "descripcion": "Inflamación, neoplasias, degeneración, trastornos inmunitarios."
+    },
+    {
+      "id": "C340",
+      "nombre": "Cirugía General: Principios y Técnicas (versión económica)",
+      "duracion_semanas": 5,
+      "horas_semana": 9,
+      "coste": 69,
+      "modalidad": "online",
+      "idioma": "español",
+      "proveedor": "Coursera",
+      "prerequisitos": [
+        "Anatomía Humana",
+        "Patología"
+      ],
+      "habilidades_aportadas": [
+        "Cirugía General"
+      ],
+      "descripcion": "Asepsia, suturas, laparotomía, cirugía menor."
+    },
+    {
+      "id": "C341",
+      "nombre": "Medicina Interna: Diagnóstico Diferencial (versión económica)",
+      "duracion_semanas": 5,
+      "horas_semana": 9,
+      "coste": 62,
+      "modalidad": "online",
+      "idioma": "español",
+      "proveedor": "Coursera",
+      "prerequisitos": [
+        "Fisiología",
+        "Patología",
+        "Farmacología"
+      ],
+      "habilidades_aportadas": [
+        "Medicina Interna"
+      ],
+      "descripcion": "Enfermedades sistémicas, abordaje diagnóstico, terapéutica."
+    },
+    {
+      "id": "C342",
+      "nombre": "Traducción Literaria: Fidelidad y Estilo (versión económica)",
+      "duracion_semanas": 3,
+      "horas_semana": 6,
+      "coste": 34,
+      "modalidad": "online",
+      "idioma": "español",
+      "proveedor": "Coursera",
+      "prerequisitos": [],
+      "habilidades_aportadas": [
+        "Traducción Literaria"
+      ],
+      "descripcion": "Contexto cultural, registro, figuras literarias."
+    },
+    {
+      "id": "C343",
+      "nombre": "Traducción Técnica: Terminología Especializada (versión económica)",
+      "duracion_semanas": 3,
+      "horas_semana": 6,
+      "coste": 41,
+      "modalidad": "online",
+      "idioma": "español",
+      "proveedor": "Coursera",
+      "prerequisitos": [],
+      "habilidades_aportadas": [
+        "Traducción Técnica"
+      ],
+      "descripcion": "Manuales, informes, software de traducción asistida."
+    },
+    {
+      "id": "C344",
+      "nombre": "Interpretación Simultánea: Técnicas de Cabina (versión económica)",
+      "duracion_semanas": 4,
+      "horas_semana": 7,
+      "coste": 55,
+      "modalidad": "online",
+      "idioma": "español",
+      "proveedor": "Coursera",
+      "prerequisitos": [
+        "Traducción Literaria"
+      ],
+      "habilidades_aportadas": [
+        "Interpretación Simultánea"
+      ],
+      "descripcion": "Memoria, velocidad, manejo del estrés, ética."
+    },
+    {
+      "id": "C345",
+      "nombre": "Lingüística Aplicada: Adquisición de Lenguas (versión económica)",
+      "duracion_semanas": 3,
+      "horas_semana": 6,
+      "coste": 0,
+      "modalidad": "online",
+      "idioma": "español",
+      "proveedor": "Coursera",
+      "prerequisitos": [],
+      "habilidades_aportadas": [
+        "Lingüística Aplicada"
+      ],
+      "descripcion": "Teorías de adquisición, enseñanza de lenguas, evaluación."
+    },
+    {
+      "id": "C346",
+      "nombre": "Fonética y Fonología: Sonidos del Lenguaje (versión económica)",
+      "duracion_semanas": 2,
+      "horas_semana": 5,
+      "coste": 0,
+      "modalidad": "online",
+      "idioma": "español",
+      "proveedor": "edX",
+      "prerequisitos": [],
+      "habilidades_aportadas": [
+        "Fonética y Fonología"
+      ],
+      "descripcion": "Aparato fonador, clasificación de sonidos, transcripción."
+    },
+    {
+      "id": "C347",
+      "nombre": "Robótica Industrial: Programación de Robots (versión económica)",
+      "duracion_semanas": 4,
+      "horas_semana": 8,
+      "coste": 62,
+      "modalidad": "online",
+      "idioma": "español",
+      "proveedor": "Coursera",
+      "prerequisitos": [
+        "Control Automático",
+        "Microcontroladores"
+      ],
+      "habilidades_aportadas": [
+        "Robótica"
+      ],
+      "descripcion": "Lenguajes de programación, trayectorias, aplicaciones."
+    },
+    {
+      "id": "C348",
+      "nombre": "Internet de las Cosas (IoT): Arquitectura y Protocolos (versión económica)",
+      "duracion_semanas": 3,
+      "horas_semana": 6,
+      "coste": 34,
+      "modalidad": "online",
+      "idioma": "español",
+      "proveedor": "Coursera",
+      "prerequisitos": [
+        "Microcontroladores",
+        "Redes de Computadoras"
+      ],
+      "habilidades_aportadas": [
+        "IoT"
+      ],
+      "descripcion": "MQTT, CoAP, LoRaWAN, plataformas IoT."
+    },
+    {
+      "id": "C349",
+      "nombre": "Cloud Computing: Estrategias de Migración (versión económica)",
+      "duracion_semanas": 2,
+      "horas_semana": 5,
+      "coste": 41,
+      "modalidad": "online",
+      "idioma": "español",
+      "proveedor": "Coursera",
+      "prerequisitos": [
+        "Cloud Computing (AWS)",
+        "Cloud Computing (GCP)",
+        "Cloud Computing (Azure)"
+      ],
+      "habilidades_aportadas": [
+        "Computación en la Nube"
+      ],
+      "descripcion": "Estrategias lift-and-shift, refactorización, híbridas."
+    },
+    {
+      "id": "C350",
+      "nombre": "Programación en C++ desde Cero (versión económica)",
+      "duracion_semanas": 3,
+      "horas_semana": 7,
+      "coste": 0,
+      "modalidad": "online",
+      "idioma": "español",
+      "proveedor": "edX",
+      "prerequisitos": [],
+      "habilidades_aportadas": [
+        "Programación en C++"
+      ],
+      "descripcion": "Punteros, memoria dinámica, plantillas, STL."
+    },
+    {
+      "id": "C351",
+      "nombre": "Biología Celular y Molecular (versión económica)",
+      "duracion_semanas": 4,
+      "horas_semana": 8,
+      "coste": 34,
+      "modalidad": "online",
+      "idioma": "español",
+      "proveedor": "Coursera",
+      "prerequisitos": [
+        "Química Orgánica"
+      ],
+      "habilidades_aportadas": [
+        "Biología Celular",
+        "Bioquímica"
+      ],
+      "descripcion": "Estructura y función de la célula, orgánulos, membrana, metabolismo."
+    },
+    {
+      "id": "C352",
+      "nombre": "Genética: Fundamentos y Herencia (versión económica)",
+      "duracion_semanas": 3,
+      "horas_semana": 6,
+      "coste": 0,
+      "modalidad": "online",
+      "idioma": "español",
+      "proveedor": "MIT OpenCourseWare",
+      "prerequisitos": [
+        "Biología Celular"
+      ],
+      "habilidades_aportadas": [
+        "Genética"
+      ],
+      "descripcion": "Leyes de Mendel, herencia ligada al sexo, mutaciones, ingeniería genética."
+    },
+    {
+      "id": "C353",
+      "nombre": "Ecología y Medio Ambiente (versión económica)",
+      "duracion_semanas": 3,
+      "horas_semana": 6,
+      "coste": 0,
+      "modalidad": "online",
+      "idioma": "español",
+      "proveedor": "Coursera",
+      "prerequisitos": [
+        "Biología Celular"
+      ],
+      "habilidades_aportadas": [
+        "Ecología"
+      ],
+      "descripcion": "Ecosistemas, ciclos biogeoquímicos, dinámica de poblaciones, conservación."
+    },
+    {
+      "id": "C354",
+      "nombre": "Microbiología General (versión económica)",
+      "duracion_semanas": 4,
+      "horas_semana": 7,
+      "coste": 27,
+      "modalidad": "online",
+      "idioma": "español",
+      "proveedor": "Coursera",
+      "prerequisitos": [
+        "Química Orgánica",
+        "Biología Celular"
+      ],
+      "habilidades_aportadas": [
+        "Microbiología"
+      ],
+      "descripcion": "Bacterias, virus, hongos, cultivo, esterilización."
+    },
+    {
+      "id": "C355",
+      "nombre": "Botánica: Morfología y Fisiología Vegetal (versión económica)",
+      "duracion_semanas": 3,
+      "horas_semana": 6,
+      "coste": 20,
+      "modalidad": "online",
+      "idioma": "español",
+      "proveedor": "edX",
+      "prerequisitos": [
+        "Biología Celular"
+      ],
+      "habilidades_aportadas": [
+        "Botánica"
+      ],
+      "descripcion": "Tejidos, órganos, fotosíntesis, reproducción de plantas."
+    },
+    {
+      "id": "C356",
+      "nombre": "Zoología: Diversidad Animal (versión económica)",
+      "duracion_semanas": 3,
+      "horas_semana": 6,
+      "coste": 0,
+      "modalidad": "online",
+      "idioma": "español",
+      "proveedor": "Coursera",
+      "prerequisitos": [
+        "Biología Celular"
+      ],
+      "habilidades_aportadas": [
+        "Zoología"
+      ],
+      "descripcion": "Clasificación, anatomía, fisiología y comportamiento animal."
+    },
+    {
+      "id": "C357",
+      "nombre": "Mineralogía y Cristalografía (versión económica)",
+      "duracion_semanas": 3,
+      "horas_semana": 6,
+      "coste": 0,
+      "modalidad": "online",
+      "idioma": "español",
+      "proveedor": "Coursera",
+      "prerequisitos": [
+        "Química Inorgánica"
+      ],
+      "habilidades_aportadas": [
+        "Mineralogía"
+      ],
+      "descripcion": "Propiedades físicas y químicas de minerales, sistemas cristalinos."
+    },
+    {
+      "id": "C358",
+      "nombre": "Petrología: Rocas Ígneas y Metamórficas (versión económica)",
+      "duracion_semanas": 3,
+      "horas_semana": 6,
+      "coste": 34,
+      "modalidad": "online",
+      "idioma": "español",
+      "proveedor": "edX",
+      "prerequisitos": [
+        "Mineralogía"
+      ],
+      "habilidades_aportadas": [
+        "Petrología"
+      ],
+      "descripcion": "Clasificación, texturas, génesis de rocas ígneas y metamórficas."
+    },
+    {
+      "id": "C359",
+      "nombre": "Estratigrafía y Sedimentología (versión económica)",
+      "duracion_semanas": 3,
+      "horas_semana": 6,
+      "coste": 0,
+      "modalidad": "online",
+      "idioma": "español",
+      "proveedor": "Coursera",
+      "prerequisitos": [
+        "Mineralogía"
+      ],
+      "habilidades_aportadas": [
+        "Estratigrafía"
+      ],
+      "descripcion": "Principios estratigráficos, ambientes sedimentarios, fósiles."
+    },
+    {
+      "id": "C360",
+      "nombre": "Geología Estructural (versión económica)",
+      "duracion_semanas": 4,
+      "horas_semana": 7,
+      "coste": 41,
+      "modalidad": "online",
+      "idioma": "español",
+      "proveedor": "Coursera",
+      "prerequisitos": [
+        "Mecánica de Sólidos",
+        "Mineralogía"
+      ],
+      "habilidades_aportadas": [
+        "Geología Estructural"
+      ],
+      "descripcion": "Pliegues, fallas, diaclasas, tectónica de placas."
+    },
+    {
+      "id": "C361",
+      "nombre": "Paleontología: Fósiles y Evolución (versión económica)",
+      "duracion_semanas": 3,
+      "horas_semana": 6,
+      "coste": 0,
+      "modalidad": "online",
+      "idioma": "español",
+      "proveedor": "Coursera",
+      "prerequisitos": [
+        "Estratigrafía",
+        "Zoología"
+      ],
+      "habilidades_aportadas": [
+        "Paleontología"
+      ],
+      "descripcion": "Procesos de fosilización, taxonomía fósil, registro evolutivo."
+    },
+    {
+      "id": "C362",
+      "nombre": "Lógica: Introducción al Razonamiento (versión económica)",
+      "duracion_semanas": 2,
+      "horas_semana": 5,
+      "coste": 0,
+      "modalidad": "online",
+      "idioma": "español",
+      "proveedor": "Coursera",
+      "prerequisitos": [],
+      "habilidades_aportadas": [
+        "Lógica"
+      ],
+      "descripcion": "Proposiciones, tablas de verdad, silogismos, falacias."
+    },
+    {
+      "id": "C363",
+      "nombre": "Ética y Filosofía Moral (versión económica)",
+      "duracion_semanas": 3,
+      "horas_semana": 5,
+      "coste": 0,
+      "modalidad": "online",
+      "idioma": "español",
+      "proveedor": "edX",
+      "prerequisitos": [],
+      "habilidades_aportadas": [
+        "Ética"
+      ],
+      "descripcion": "Teorías éticas, dilemas morales, bioética, ética aplicada."
+    },
+    {
+      "id": "C364",
+      "nombre": "Metafísica: Realidad y Ser (versión económica)",
+      "duracion_semanas": 3,
+      "horas_semana": 5,
+      "coste": 0,
+      "modalidad": "online",
+      "idioma": "español",
+      "proveedor": "Coursera",
+      "prerequisitos": [
+        "Lógica"
+      ],
+      "habilidades_aportadas": [
+        "Metafísica"
+      ],
+      "descripcion": "Existencia, tiempo, causalidad, libre albedrío."
+    },
+    {
+      "id": "C365",
+      "nombre": "Epistemología: Teoría del Conocimiento (versión económica)",
+      "duracion_semanas": 3,
+      "horas_semana": 5,
+      "coste": 0,
+      "modalidad": "online",
+      "idioma": "español",
+      "proveedor": "Coursera",
+      "prerequisitos": [
+        "Lógica"
+      ],
+      "habilidades_aportadas": [
+        "Epistemología"
+      ],
+      "descripcion": "Fuentes del conocimiento, justificación, escepticismo."
+    },
+    {
+      "id": "C366",
+      "nombre": "Historia de la Filosofía Antigua y Moderna (versión económica)",
+      "duracion_semanas": 4,
+      "horas_semana": 6,
+      "coste": 0,
+      "modalidad": "online",
+      "idioma": "español",
+      "proveedor": "Coursera",
+      "prerequisitos": [
+        "Historia del Arte"
+      ],
+      "habilidades_aportadas": [
+        "Historia de la Filosofía"
+      ],
+      "descripcion": "Presocráticos, Platón, Aristóteles, Descartes, Kant, Nietzsche."
+    },
+    {
+      "id": "C367",
+      "nombre": "Teoría Sociológica Clásica y Contemporánea (versión económica)",
+      "duracion_semanas": 4,
+      "horas_semana": 6,
+      "coste": 0,
+      "modalidad": "online",
+      "idioma": "español",
+      "proveedor": "Coursera",
+      "prerequisitos": [],
+      "habilidades_aportadas": [
+        "Teoría Sociológica"
+      ],
+      "descripcion": "Marx, Durkheim, Weber, Bourdieu, Foucault, teorías críticas."
+    },
+    {
+      "id": "C368",
+      "nombre": "Métodos de Investigación Social (versión económica)",
+      "duracion_semanas": 3,
+      "horas_semana": 6,
+      "coste": 27,
+      "modalidad": "online",
+      "idioma": "español",
+      "proveedor": "Coursera",
+      "prerequisitos": [
+        "Estadística"
+      ],
+      "habilidades_aportadas": [
+        "Métodos de Investigación Social"
+      ],
+      "descripcion": "Encuestas, entrevistas, grupos focales, análisis cuantitativo y cualitativo."
+    },
+    {
+      "id": "C369",
+      "nombre": "Sociología de la Educación (versión económica)",
+      "duracion_semanas": 2,
+      "horas_semana": 5,
+      "coste": 0,
+      "modalidad": "online",
+      "idioma": "español",
+      "proveedor": "edX",
+      "prerequisitos": [
+        "Teoría Sociológica"
+      ],
+      "habilidades_aportadas": [
+        "Sociología de la Educación"
+      ],
+      "descripcion": "Sistema educativo, desigualdad, currículo oculto, movilidad social."
+    },
+    {
+      "id": "C370",
+      "nombre": "Sociología del Trabajo y las Organizaciones (versión económica)",
+      "duracion_semanas": 2,
+      "horas_semana": 5,
+      "coste": 0,
+      "modalidad": "online",
+      "idioma": "español",
+      "proveedor": "Coursera",
+      "prerequisitos": [
+        "Teoría Sociológica"
+      ],
+      "habilidades_aportadas": [
+        "Sociología del Trabajo"
+      ],
+      "descripcion": "División del trabajo, mercado laboral, culturas organizacionales."
+    },
+    {
+      "id": "C371",
+      "nombre": "Antropología Cultural (versión económica)",
+      "duracion_semanas": 3,
+      "horas_semana": 6,
+      "coste": 0,
+      "modalidad": "online",
+      "idioma": "español",
+      "proveedor": "Coursera",
+      "prerequisitos": [],
+      "habilidades_aportadas": [
+        "Antropología Cultural"
+      ],
+      "descripcion": "Parentesco, religión, economía, rituales, diversidad cultural."
+    },
+    {
+      "id": "C372",
+      "nombre": "Antropología Física y Evolución Humana (versión económica)",
+      "duracion_semanas": 3,
+      "horas_semana": 6,
+      "coste": 0,
+      "modalidad": "online",
+      "idioma": "español",
+      "proveedor": "edX",
+      "prerequisitos": [
+        "Genética",
+        "Zoología"
+      ],
+      "habilidades_aportadas": [
+        "Antropología Física"
+      ],
+      "descripcion": "Primatología, hominización, paleoantropología, adaptación biológica."
+    },
+    {
+      "id": "C373",
+      "nombre": "Arqueología: Métodos y Teorías (versión económica)",
+      "duracion_semanas": 3,
+      "horas_semana": 6,
+      "coste": 20,
+      "modalidad": "online",
+      "idioma": "español",
+      "proveedor": "Coursera",
+      "prerequisitos": [
+        "Estratigrafía",
+        "Paleontología"
+      ],
+      "habilidades_aportadas": [
+        "Arqueología"
+      ],
+      "descripcion": "Excavación, datación, análisis de materiales, interpretación cultural."
+    },
+    {
+      "id": "C374",
+      "nombre": "Etnografía: Trabajo de Campo (versión económica)",
+      "duracion_semanas": 2,
+      "horas_semana": 5,
+      "coste": 0,
+      "modalidad": "online",
+      "idioma": "español",
+      "proveedor": "Coursera",
+      "prerequisitos": [
+        "Antropología Cultural"
+      ],
+      "habilidades_aportadas": [
+        "Etnografía"
+      ],
+      "descripcion": "Observación participante, diarios de campo, análisis cualitativo."
+    },
+    {
+      "id": "C375",
+      "nombre": "Optimización de Procesos Industriales (versión económica)",
+      "duracion_semanas": 4,
+      "horas_semana": 7,
+      "coste": 41,
+      "modalidad": "online",
+      "idioma": "español",
+      "proveedor": "Coursera",
+      "prerequisitos": [
+        "Estadística",
+        "Álgebra Lineal"
+      ],
+      "habilidades_aportadas": [
+        "Optimización de Procesos"
+      ],
+      "descripcion": "Simulación, programación lineal, teoría de colas, mejora continua."
+    },
+    {
+      "id": "C376",
+      "nombre": "Gestión de Calidad: Normas ISO y Six Sigma (versión económica)",
+      "duracion_semanas": 3,
+      "horas_semana": 6,
+      "coste": 34,
+      "modalidad": "online",
+      "idioma": "español",
+      "proveedor": "edX",
+      "prerequisitos": [
+        "Estadística"
+      ],
+      "habilidades_aportadas": [
+        "Gestión de Calidad"
+      ],
+      "descripcion": "Control estadístico de procesos, DMAIC, certificación."
+    },
+    {
+      "id": "C377",
+      "nombre": "Logística y Cadena de Suministro (versión económica)",
+      "duracion_semanas": 3,
+      "horas_semana": 6,
+      "coste": 27,
+      "modalidad": "online",
+      "idioma": "español",
+      "proveedor": "Coursera",
+      "prerequisitos": [
+        "Gestión de Proyectos"
+      ],
+      "habilidades_aportadas": [
+        "Logística"
+      ],
+      "descripcion": "Gestión de inventarios, almacenes, transporte, distribución."
+    },
+    {
+      "id": "C378",
+      "nombre": "Ergonomía y Factores Humanos (versión económica)",
+      "duracion_semanas": 2,
+      "horas_semana": 5,
+      "coste": 0,
+      "modalidad": "online",
+      "idioma": "español",
+      "proveedor": "Coursera",
+      "prerequisitos": [
+        "Anatomía Humana"
+      ],
+      "habilidades_aportadas": [
+        "Ergonomía"
+      ],
+      "descripcion": "Diseño de puestos de trabajo, antropometría, prevención de riesgos."
+    },
+    {
+      "id": "C379",
+      "nombre": "Simulación de Sistemas con Software (versión económica)",
+      "duracion_semanas": 3,
+      "horas_semana": 7,
+      "coste": 41,
+      "modalidad": "online",
+      "idioma": "español",
+      "proveedor": "Coursera",
+      "prerequisitos": [
+        "Programación en Python",
+        "Estadística"
+      ],
+      "habilidades_aportadas": [
+        "Simulación de Sistemas"
+      ],
+      "descripcion": "Modelado de eventos discretos, sistemas dinámicos, simulación Montecarlo."
+    },
+    {
+      "id": "C380",
+      "nombre": "Ciencia de Materiales: Fundamentos (versión económica)",
+      "duracion_semanas": 4,
+      "horas_semana": 7,
+      "coste": 0,
+      "modalidad": "online",
+      "idioma": "español",
+      "proveedor": "MIT OpenCourseWare",
+      "prerequisitos": [
+        "Química Inorgánica",
+        "Física Clásica"
+      ],
+      "habilidades_aportadas": [
+        "Ciencia de Materiales"
+      ],
+      "descripcion": "Estructura cristalina, defectos, diagramas de fase, propiedades mecánicas."
+    },
+    {
+      "id": "C381",
+      "nombre": "Materiales Compuestos (versión económica)",
+      "duracion_semanas": 3,
+      "horas_semana": 6,
+      "coste": 34,
+      "modalidad": "online",
+      "idioma": "español",
+      "proveedor": "Coursera",
+      "prerequisitos": [
+        "Ciencia de Materiales"
+      ],
+      "habilidades_aportadas": [
+        "Materiales Compuestos"
+      ],
+      "descripcion": "Fibras, matrices, laminados, fabricación y ensayos."
+    },
+    {
+      "id": "C382",
+      "nombre": "Corrosión y Protección de Materiales (versión económica)",
+      "duracion_semanas": 2,
+      "horas_semana": 5,
+      "coste": 27,
+      "modalidad": "online",
+      "idioma": "español",
+      "proveedor": "edX",
+      "prerequisitos": [
+        "Ciencia de Materiales",
+        "Electroquímica"
+      ],
+      "habilidades_aportadas": [
+        "Corrosión"
+      ],
+      "descripcion": "Tipos de corrosión, inhibidores, recubrimientos, protección catódica."
+    },
+    {
+      "id": "C383",
+      "nombre": "Nanomateriales y Nanotecnología (versión económica)",
+      "duracion_semanas": 3,
+      "horas_semana": 6,
+      "coste": 41,
+      "modalidad": "online",
+      "idioma": "español",
+      "proveedor": "Coursera",
+      "prerequisitos": [
+        "Ciencia de Materiales",
+        "Física Cuántica"
+      ],
+      "habilidades_aportadas": [
+        "Nanomateriales"
+      ],
+      "descripcion": "Síntesis, caracterización, aplicaciones en electrónica y biomedicina."
+    },
+    {
+      "id": "C384",
+      "nombre": "Tratamiento de Aguas Residuales (versión económica)",
+      "duracion_semanas": 3,
+      "horas_semana": 6,
+      "coste": 0,
+      "modalidad": "online",
+      "idioma": "español",
+      "proveedor": "Coursera",
+      "prerequisitos": [
+        "Química Analítica",
+        "Hidráulica"
+      ],
+      "habilidades_aportadas": [
+        "Tratamiento de Aguas"
+      ],
+      "descripcion": "Procesos físicos, químicos y biológicos, normativa ambiental."
+    },
+    {
+      "id": "C385",
+      "nombre": "Gestión de Residuos Sólidos (versión económica)",
+      "duracion_semanas": 2,
+      "horas_semana": 5,
+      "coste": 0,
+      "modalidad": "online",
+      "idioma": "español",
+      "proveedor": "edX",
+      "prerequisitos": [
+        "Ecología"
+      ],
+      "habilidades_aportadas": [
+        "Gestión de Residuos"
+      ],
+      "descripcion": "Reciclaje, compostaje, vertederos, economía circular."
+    },
+    {
+      "id": "C386",
+      "nombre": "Evaluación de Impacto Ambiental (versión económica)",
+      "duracion_semanas": 3,
+      "horas_semana": 6,
+      "coste": 27,
+      "modalidad": "online",
+      "idioma": "español",
+      "proveedor": "Coursera",
+      "prerequisitos": [
+        "Ecología",
+        "Derecho Administrativo"
+      ],
+      "habilidades_aportadas": [
+        "Evaluación de Impacto Ambiental"
+      ],
+      "descripcion": "Metodología, legislación, medidas correctoras, participación pública."
+    },
+    {
+      "id": "C387",
+      "nombre": "Energías Renovables: Solar y Eólica (versión económica)",
+      "duracion_semanas": 4,
+      "horas_semana": 7,
+      "coste": 34,
+      "modalidad": "online",
+      "idioma": "español",
+      "proveedor": "Coursera",
+      "prerequisitos": [
+        "Física Clásica",
+        "Electromagnetismo"
+      ],
+      "habilidades_aportadas": [
+        "Energías Renovables"
+      ],
+      "descripcion": "Paneles fotovoltaicos, aerogeneradores, integración a la red."
+    },
+    {
+      "id": "C388",
+      "nombre": "Patronaje y Confección de Moda (versión económica)",
+      "duracion_semanas": 4,
+      "horas_semana": 8,
+      "coste": 41,
+      "modalidad": "online",
+      "idioma": "español",
+      "proveedor": "Domestika",
+      "prerequisitos": [
+        "Dibujo Técnico"
+      ],
+      "habilidades_aportadas": [
+        "Patronaje",
+        "Confección"
+      ],
+      "descripcion": "Diseño de moldes, corte, costura, acabados."
+    },
+    {
+      "id": "C389",
+      "nombre": "Historia de la Moda y Marketing (versión económica)",
+      "duracion_semanas": 3,
+      "horas_semana": 6,
+      "coste": 27,
+      "modalidad": "online",
+      "idioma": "español",
+      "proveedor": "Coursera",
+      "prerequisitos": [
+        "Historia del Arte"
+      ],
+      "habilidades_aportadas": [
+        "Historia de la Moda",
+        "Marketing de Moda"
+      ],
+      "descripcion": "Evolución de la indumentaria, tendencias, branding, retail."
+    },
+    {
+      "id": "C390",
+      "nombre": "Técnicas Culinarias Básicas (versión económica)",
+      "duracion_semanas": 2,
+      "horas_semana": 6,
+      "coste": 0,
+      "modalidad": "online",
+      "idioma": "español",
+      "proveedor": "Coursera",
+      "prerequisitos": [],
+      "habilidades_aportadas": [
+        "Técnicas Culinarias"
+      ],
+      "descripcion": "Cortes, cocciones, salsas, seguridad e higiene."
+    },
+    {
+      "id": "C391",
+      "nombre": "Seguridad Alimentaria y Control Sanitario (versión económica)",
+      "duracion_semanas": 2,
+      "horas_semana": 5,
+      "coste": 0,
+      "modalidad": "online",
+      "idioma": "español",
+      "proveedor": "edX",
+      "prerequisitos": [
+        "Microbiología"
+      ],
+      "habilidades_aportadas": [
+        "Seguridad Alimentaria"
+      ],
+      "descripcion": "APPCC, trazabilidad, normativa, contaminación."
+    },
+    {
+      "id": "C392",
+      "nombre": "Enología: Vinos y Bebidas Espirituosas (versión económica)",
+      "duracion_semanas": 3,
+      "horas_semana": 6,
+      "coste": 34,
+      "modalidad": "online",
+      "idioma": "español",
+      "proveedor": "Coursera",
+      "prerequisitos": [
+        "Química Orgánica"
+      ],
+      "habilidades_aportadas": [
+        "Enología"
+      ],
+      "descripcion": "Vinificación, cata, maridaje, variedades de uva."
+    },
+    {
+      "id": "C393",
+      "nombre": "Pastelería y Repostería Profesional (versión económica)",
+      "duracion_semanas": 3,
+      "horas_semana": 7,
+      "coste": 27,
+      "modalidad": "online",
+      "idioma": "español",
+      "proveedor": "Coursera",
+      "prerequisitos": [
+        "Técnicas Culinarias"
+      ],
+      "habilidades_aportadas": [
+        "Pastelería"
+      ],
+      "descripcion": "Masas, cremas, decoración, técnicas de cocina dulce."
+    },
+    {
+      "id": "C394",
+      "nombre": "Cocina Internacional: Platos del Mundo (versión económica)",
+      "duracion_semanas": 3,
+      "horas_semana": 7,
+      "coste": 34,
+      "modalidad": "online",
+      "idioma": "español",
+      "proveedor": "Coursera",
+      "prerequisitos": [
+        "Técnicas Culinarias"
+      ],
+      "habilidades_aportadas": [
+        "Cocina Internacional"
+      ],
+      "descripcion": "Gastronomía italiana, japonesa, mexicana, mediterránea, especias."
     }
   ]
 }

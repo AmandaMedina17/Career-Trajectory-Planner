@@ -79,10 +79,10 @@ def select_and_run(
             max_hours_per_week=max_hours_per_week
         )
 
-    # CASE 3: A* / UCS
+    # CASE 3: A* 
     if optimize in ("cost", "time"):
         label = "coste mínimo" if optimize == "cost" else "tiempo mínimo"
-        print(f"  [ROUTER] Optimización de {label} → Motor 2: A* / UCS")
+        print(f"  [ROUTER] Optimización de {label} → Motor 2: A* ")
         return strategy_single_objective.run(
             graph=graph,
             missing_skills=missing_skills,
@@ -91,9 +91,10 @@ def select_and_run(
         )
 
     # CASE 4: BFS 
-    print("  [ROUTER] Sin restricciones → Motor 1: BFS (mínimo número de cursos)")
-    return strategy_min_courses.run(
+    print("  [ROUTER] Sin restricciones → Motor 2: A*")
+    return strategy_single_objective.run(
         graph=graph,
         missing_skills=missing_skills,
-        possessed_skills=possessed_skills
+        possessed_skills=possessed_skills,
+        criterion="courses"
     )

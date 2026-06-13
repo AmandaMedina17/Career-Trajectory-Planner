@@ -50,7 +50,7 @@ def extract_skills_from_text(client: Mistral, text: str, text_type: str, catalog
         Dada la siguiente meta profesional: "{text}"
 
         **REGLAS ESTRICTAS**:
-        1. Solo puedes devolver habilidades que EXISTAN EXACTAMENTE en el catálogo oficial que se proporciona.
+        1. Solo puedes devolver habilidades que EXISTAN EXACTAMENTE en el catálogo oficial que se proporciona (menos de 30 habilidades).
         2. NO puedes inventar habilidades. Si la meta profesional requiere una habilidad que no está en el catálogo, NO la incluyas.
         3. Excluye explícitamente habilidades blandas genéricas (comunicación, trabajo en equipo, empatía, pensamiento crítico, etc.) a menos que sean indispensables y estén en el catálogo.
         4. Si no encuentras ninguna habilidad del catálogo relevante para la meta, devuelve {{"habilidades": []}}.
@@ -60,6 +60,7 @@ def extract_skills_from_text(client: Mistral, text: str, text_type: str, catalog
         - Conocimientos científicos o técnicos (estadística, álgebra, biología, anatomía, etc.)
         - Dominios específicos de la profesión (diagnóstico veterinario, cirugía, análisis de datos, etc.)
         - Certificaciones o técnicas especializadas
+        7. Devuelve menos de 30 habilidades, priorizando las más relevantes para la meta profesional.
         
         Catálogo oficial: {catalog_str}
         """
