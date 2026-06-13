@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
-Interfaz gráfica moderna para el Planificador de Trayectoria Profesional.
-Diseño de dos columnas: izquierda formulario, derecha habilidades faltantes y cursos.
+Modern graphical interface for the Professional Trajectory Planner.
+Two-column design: left form, right missing skills and courses.
 """
 
 import tkinter as tk
@@ -15,7 +15,7 @@ try:
     USE_THEMES = True
 except ImportError:
     USE_THEMES = False
-    print("Nota: para mejor apariencia instala 'pip install ttkthemes'")
+    print("Note: for better appearance install 'pip install ttkthemes'")
 
 from src.llm.client import create_client
 from src.planning_engine.graph_manager import SkillsGraph
@@ -27,17 +27,19 @@ from src.llm.trajectory_evaluation import evaluate_trajectory
 from src.llm.trajectory_comparator import compare_trajectories
 from src.llm.step_justifier import justify_steps
 from src.llm.relaxation_suggester import suggest_relaxation
+from src.simulations.discrete_events import run_discrete_event_simulation
+from src.simulations.reactive_agents import run_reactive_agents
 
 load_dotenv()
 API_KEY = os.getenv("MISTRAL_API_KEY")
 if not API_KEY:
-    raise ValueError("No se encontró MISTRAL_API_KEY en .env")
+    raise ValueError("MISTRAL_API_KEY not found in .env")
 
-print("Cargando catálogos...")
+print("Loading catalogs...")
 skills_catalog, courses_catalog = load_data()
-print("Construyendo grafo...")
+print("Building graph...")
 graph = SkillsGraph(courses_catalog)
-print("Inicializando cliente LLM...")
+print("Initializing LLM client...")
 client = create_client(API_KEY)
 
 
@@ -58,7 +60,7 @@ class ModernPlannerGUI:
         self.root.geometry("1200x700")
         self.root.minsize(1000, 600)
 
-        # Variables de control
+        # Control variables
         self.goal_var = tk.StringVar()
         self.base_skills_var = tk.StringVar()
         self.only_free_var = tk.BooleanVar(value=False)
@@ -68,8 +70,9 @@ class ModernPlannerGUI:
         self.max_hpw_var = tk.StringVar()
         self.weight_cost_var = tk.StringVar(value="50")
         self.weight_time_var = tk.StringVar(value="50")
+        self.courses_catalog = courses_catalog   # after load_data()
 
-        # Variables de resultado y estado
+        # Result and state variables
         self.current_missing = None
         self.current_base_skills = None
         self.current_goal = None
@@ -87,7 +90,7 @@ class ModernPlannerGUI:
         main_paned = ttk.PanedWindow(self.root, orient=tk.HORIZONTAL)
         main_paned.pack(fill=tk.BOTH, expand=True, padx=10, pady=10)
 
-        # ----- PANEL IZQUIERDO -----
+        # ----- LEFT PANEL -----
         left_frame = ttk.Frame(main_paned, width=350)
         main_paned.add(left_frame, weight=1)
 
@@ -152,14 +155,14 @@ class ModernPlannerGUI:
         self.plan_btn.configure(style="Black.TButton")
         self.plan_btn.pack(fill="x", pady=20)
 
-        # ----- PANEL DERECHO -----
+        # ----- RIGHT PANEL -----
         right_frame = ttk.Frame(main_paned)
         main_paned.add(right_frame, weight=2)
 
         right_paned = ttk.PanedWindow(right_frame, orient=tk.VERTICAL)
         right_paned.pack(fill=tk.BOTH, expand=True)
 
-        # Habilidades faltantes
+        # Missing skills
         top_frame = ttk.LabelFrame(right_paned, text="Habilidades que debes adquirir")
         right_paned.add(top_frame, weight=1)
 
@@ -173,7 +176,7 @@ class ModernPlannerGUI:
         self.skills_tree.pack(side="left", fill="both", expand=True, padx=5, pady=5)
         scroll_skills.pack(side="right", fill="y", pady=5)
 
-        # Cursos recomendados
+        # Recommended courses
         bottom_frame = ttk.LabelFrame(right_paned, text="Ruta de aprendizaje recomendada")
         right_paned.add(bottom_frame, weight=2)
 
@@ -193,13 +196,13 @@ class ModernPlannerGUI:
         self.courses_tree.pack(side="left", fill="both", expand=True, padx=5, pady=5)
         scroll_courses.pack(side="right", fill="y", pady=5)
 
-        # Resumen
+        # Summary
         summary_frame = ttk.LabelFrame(right_paned, text="Resumen de la trayectoria")
         right_paned.add(summary_frame, weight=0)
         self.summary_label = ttk.Label(summary_frame, text="Semanas: -- | Horas: -- | Coste: --", font=("Segoe UI", 10, "bold"))
         self.summary_label.pack(pady=10)
 
-        # Botones de acciones
+        # Action buttons
         actions_frame = ttk.Frame(right_frame)
         actions_frame.pack(fill="x", pady=10)
 
@@ -212,11 +215,17 @@ class ModernPlannerGUI:
         self.compare_btn = ttk.Button(actions_frame, text="✨ Comparar con otro motor", command=self.compare_alternative, state="disabled")
         self.compare_btn.pack(side="left", padx=5)
 
+        self.simulate_des_btn = ttk.Button(actions_frame, text="✨ Simular curso", command=self.simulate_discrete_events, state="disabled")
+        self.simulate_des_btn.pack(side="left", padx=5)
+
+        self.simulate_agents_btn = ttk.Button(actions_frame, text="✨ Ver competencia profesional simulada", command=self.simulate_reactive_agents)
+        self.simulate_agents_btn.pack(side="left", padx=5)
+
         self.progress = ttk.Progressbar(right_frame, mode='indeterminate')
         self.progress.pack(fill="x", pady=5)
 
     # --------------------------------------------------------------
-    # Planificación
+    # Planning
     # --------------------------------------------------------------
     def plan_thread(self):
         self.plan_btn.config(state="disabled")
@@ -224,6 +233,8 @@ class ModernPlannerGUI:
         self.justify_btn.config(state="disabled")
         self.evaluate_btn.config(state="disabled")
         self.compare_btn.config(state="disabled")
+        self.simulate_des_btn.config(state="disabled")
+        #self.simulate_agents_btn.config(state="disabled")
 
         for item in self.skills_tree.get_children():
             self.skills_tree.delete(item)
@@ -290,7 +301,7 @@ class ModernPlannerGUI:
             self.current_alt_result = None
             self.current_comparison = None
 
-            # Comprobar si la planificación ha fallado (sin cursos o con advertencias)
+            # Check if planning failed (no courses or warnings)
             plan_failed = (not result.get("path") or result.get("warnings"))
             if plan_failed:
                 self.root.after(100, lambda: self._auto_relaxation(result))
@@ -328,9 +339,15 @@ class ModernPlannerGUI:
         self.justify_btn.config(state="normal")
         self.evaluate_btn.config(state="normal")
         self.compare_btn.config(state="normal")
+        if self.current_result and self.current_result.get("path"):
+            self.simulate_des_btn.config(state="normal")
+            self.simulate_agents_btn.config(state="normal")
+        else:
+            self.simulate_des_btn.config(state="disabled")
+            self.simulate_agents_btn.config(state="disabled")
 
     # --------------------------------------------------------------
-    # Restricciones
+    # Constraints
     # --------------------------------------------------------------
     def build_constraints(self):
         priority = self.priority_var.get()
@@ -368,7 +385,7 @@ class ModernPlannerGUI:
         return constraints
 
     # --------------------------------------------------------------
-    # Justificaciones
+    # Justifications
     # --------------------------------------------------------------
     def show_justifications(self):
         if not self.current_result or not self.current_result["path"]:
@@ -419,7 +436,7 @@ class ModernPlannerGUI:
         return "\n".join(lines)
 
     # --------------------------------------------------------------
-    # Evaluación
+    # Evaluation
     # --------------------------------------------------------------
     def show_evaluation(self):
         if not self.current_result or not self.current_result["path"]:
@@ -476,14 +493,14 @@ class ModernPlannerGUI:
         return "\n".join(lines)
 
     # --------------------------------------------------------------
-    # Comparación con motor opuesto
+    # Comparison with opposite engine
     # --------------------------------------------------------------
     def compare_alternative(self):
         if not self.current_missing:
             messagebox.showinfo("Info", "No hay habilidades para comparar.")
             return
 
-        # Determinar criterio opuesto al motor actual
+        # Determine opposite criterion to current engine
         current_criterion = self.current_result.get("criterion", "")
         if "min_time" in current_criterion or "time" in current_criterion:
             opposite_criterion = "cost"
@@ -497,7 +514,6 @@ class ModernPlannerGUI:
             self.compare_btn.config(state="disabled")
             def run():
                 try:
-                    
                     alt = run_single_objective(
                         graph=graph,
                         missing_skills=self.current_missing,
@@ -551,11 +567,10 @@ class ModernPlannerGUI:
         return "\n".join(lines)
     
     def _auto_relaxation(self, result):
-        """Se llama automáticamente cuando la planificación falla."""
+        """Called automatically when planning fails."""
         warnings = result.get("warnings", [])
         if not warnings and result.get("path"):
-            return  # no es fallo real
-        
+            return  # not a real failure
         
         def run():
             try:
@@ -575,7 +590,7 @@ class ModernPlannerGUI:
         self.progress.stop()
         self.plan_btn.config(state="normal")
         
-        # Formatear el texto para mejorar visualización
+        # Format text for better display
         formatted = self._format_suggestion(advice)
         
         self._show_window(
@@ -585,19 +600,19 @@ class ModernPlannerGUI:
         )
 
     def _format_suggestion(self, text: str) -> str:
-        """Mejora el formato de la sugerencia: dobles saltos de línea, sangría de listas."""
+        """Improves suggestion formatting: double line breaks, bullet indentation."""
         lines = text.split('\n')
         formatted_lines = []
         for line in lines:
             line = line.strip()
             if not line:
-                formatted_lines.append('')  # línea vacía
+                formatted_lines.append('')  # empty line
             elif line.startswith('-'):
-                # Añadir sangría y viñeta
+                # Add indentation and bullet
                 formatted_lines.append('  • ' + line[1:].strip())
             else:
                 formatted_lines.append(line)
-        # Unir con doble salto de línea para separar párrafos
+        # Join with double line breaks to separate paragraphs
         result = '\n\n'.join(formatted_lines)
         return result
 
@@ -606,11 +621,151 @@ class ModernPlannerGUI:
         self.plan_btn.config(state="normal")
         messagebox.showerror("Error", f"No se pudo obtener sugerencia: {err}")
 
+    #Simulations
+    def simulate_discrete_events(self):
+        if not self.current_result or not self.current_result["path"]:
+            messagebox.showinfo("Info", "Primero planifica una trayectoria.")
+            return
+
+        # Extract required data
+        trajectory = self.current_result["path"]
+        target_skills = self.current_missing if self.current_missing else []
+        possessed_skills = self.current_base_skills if self.current_base_skills else []
+
+        # Show progress window
+        self.progress.start()
+        self.simulate_des_btn.config(state="disabled")
+
+        def run():
+            try:
+                # Run discrete event simulation
+                result = run_discrete_event_simulation(
+                    trajectory=trajectory,
+                    target_skills=target_skills,
+                    possessed_skills=possessed_skills,
+                    max_weeks=200.0,     # default value, could be taken from constraints
+                    seed=42
+                )
+                self.root.after(0, self._show_discrete_event_result, result)
+            except Exception as e:
+                self.root.after(0, lambda: messagebox.showerror("Error", f"Simulación fallida:\n{e}"))
+            finally:
+                self.progress.stop()
+                self.root.after(0, lambda: self.simulate_des_btn.config(state="normal"))
+
+        threading.Thread(target=run, daemon=True).start()
+
+    def _show_discrete_event_result(self, result):
+        """Displays the simulation result in a table window."""
+        from tkinter import ttk
+
+        win = tk.Toplevel(self.root)
+        win.title("Simulación de Eventos Discretos - Timeline")
+        win.geometry("1100x700")
+        win.transient(self.root)
+        win.grab_set()
+        win.lift()
+
+        # Summary frame (top)
+        summary_frame = ttk.LabelFrame(win, text="Resumen de la simulación")
+        summary_frame.pack(fill="x", padx=10, pady=5)
+        status = "✓ META ALCANZADA" if result["success"] else "✗ TIEMPO AGOTADO"
+        ttk.Label(summary_frame, text=f"Estado: {status}").pack(anchor="w", padx=5, pady=2)
+        ttk.Label(summary_frame, text=f"Semanas totales: {result['total_weeks']}").pack(anchor="w", padx=5)
+        ttk.Label(summary_frame, text=f"Cursos completados: {len(result['completed_courses'])}").pack(anchor="w", padx=5)
+        ttk.Label(summary_frame, text=f"Abandonos: {result['n_dropouts']}").pack(anchor="w", padx=5)
+
+        # Event table
+        table_frame = ttk.LabelFrame(win, text="Timeline de eventos")
+        table_frame.pack(fill="both", expand=True, padx=10, pady=5)
+
+        # Treeview with columns
+        columns = ("semana", "evento", "curso", "prerrequisitos", "habilidades_aportadas")
+        tree = ttk.Treeview(table_frame, columns=columns, show="headings", height=20)
+        tree.heading("semana", text="Semana")
+        tree.heading("evento", text="Evento")
+        tree.heading("curso", text="Curso")
+        tree.heading("prerrequisitos", text="Prerrequisitos")
+        tree.heading("habilidades_aportadas", text="Habilidades aportadas")
+        tree.column("semana", width=80, anchor="center")
+        tree.column("evento", width=120)
+        tree.column("curso", width=250)
+        tree.column("prerrequisitos", width=250)
+        tree.column("habilidades_aportadas", width=300)
+
+        scrollbar = ttk.Scrollbar(table_frame, orient="vertical", command=tree.yview)
+        tree.configure(yscrollcommand=scrollbar.set)
+        tree.pack(side="left", fill="both", expand=True)
+        scrollbar.pack(side="right", fill="y")
+
+        # Insert events
+        for ev in result["event_log"]:
+            week = ev.get("week", "")
+            event = ev.get("event", "")
+            course = ev.get("course_name", "")
+            prereqs = ", ".join(ev.get("prerequisites", [])) if ev.get("prerequisites") else ""
+            skills = ", ".join(ev.get("skills_granted", [])) if ev.get("skills_granted") else ""
+            tree.insert("", "end", values=(week, event, course, prereqs, skills))
+
+        # Close button
+        btn = ttk.Button(win, text="Cerrar", command=win.destroy)
+        btn.pack(pady=10)
+
+
+    def simulate_reactive_agents(self):
+        
+
+        # For agent simulation you need the full course catalog
+        # (already available as courses_catalog, global in module)
+        # But careful: courses_catalog is outside the class; you can pass it as argument or access globally.
+        # Recommendation: save courses_catalog as class attribute in __init__
+        # For simplicity, assume self.courses_catalog is already set.
+
+        self.progress.start()
+        self.simulate_agents_btn.config(state="disabled")
+
+        def run():
+            try:
+                # Run reactive agents simulation
+                result = run_reactive_agents(
+                    available_courses=courses_catalog,   # global variable
+                    n_agents=100,
+                    n_weeks=52,
+                    seed=42
+                )
+                self.root.after(0, self._show_reactive_agents_result, result)
+            except Exception as e:
+                self.root.after(0, lambda: messagebox.showerror("Error", f"Simulación de agentes fallida:\n{e}"))
+            finally:
+                self.progress.stop()
+                self.root.after(0, lambda: self.simulate_agents_btn.config(state="normal"))
+
+        threading.Thread(target=run, daemon=True).start()
+
+    def _show_reactive_agents_result(self, result):
+        lines = []
+        lines.append(f"Tasa de éxito (meta completa): {result['success_rate']*100:.1f}%")
+        lines.append("\nEstadísticas por perfil:")
+        for pf, stats in result["profile_stats"].items():
+            lines.append(f" Agente {pf}: {stats['success_rate']*100:.0f}% éxito ({stats['success']}/{stats['total']})")
+        lines.append("\nTop 5 habilidades más demandadas:")
+        for skill, frac in result["most_competitive_skills"]:
+            lines.append(f"  {frac*100:.0f}%  {skill}")
+        lines.append("\nTop 5 habilidades menos demandadas:")
+        for skill, frac in result["least_competitive_skills"]:
+            lines.append(f"  {frac*100:.0f}%  {skill}")
+        if result["market_insights"]:
+            lines.append("\nPerspectivas del mercado:")
+            for ins in result["market_insights"]:
+                lines.append(f"  → {ins}")
+        content = "\n".join(lines)
+        self._show_window("Simulación de Agentes Reactivos", content, width=800, height=600)
+
     # --------------------------------------------------------------
-    # Ventana emergente genérica
+    # Generic popup window
     # --------------------------------------------------------------
     def _show_window(self, title, content, width=700, height=500):
-        """Crea una ventana emergente con texto formateado (soporta negritas ** ** y viñetas)."""
+        """Creates a popup window with formatted text (supports **bold** and bullet lists)."""
         win = tk.Toplevel(self.root)
         win.title(title)
         win.geometry(f"{width}x{height}")
@@ -624,58 +779,58 @@ class ModernPlannerGUI:
         scrollbar.pack(side=tk.RIGHT, fill=tk.Y)
         text_widget.configure(yscrollcommand=scrollbar.set)
 
-        # Configurar etiquetas de estilo
+        # Configure style tags
         text_widget.tag_configure("bold", font=("Segoe UI", 10, "bold"))
         text_widget.tag_configure("bullet", lmargin1=20, lmargin2=35)
         text_widget.tag_configure("heading", font=("Segoe UI", 11, "bold"), spacing3=5)
 
-        # Insertar contenido formateado
+        # Insert formatted content
         self._insert_formatted_text(text_widget, content)
         text_widget.configure(state="disabled")
 
-        # Botón cerrar
+        # Close button
         btn = ttk.Button(win, text="Cerrar", command=win.destroy)
         btn.pack(pady=10)
 
     def _insert_formatted_text(self, text_widget, raw_text):
         """
-        Inserta texto en el widget Text, interpretando:
-        - **negrita** para texto entre dobles asteriscos
-        - Listas que empiezan con '- ' o '• ' como viñetas
-        - Saltos de línea preservados
+        Inserts text into the Text widget, interpreting:
+        - **bold** for text between double asterisks
+        - Lists starting with '- ' or '• ' as bullets
+        - Preserves line breaks
         """
-        # Primero, reemplazar viñetas de markdown '•' por '- ' para procesar
+        # First, replace markdown bullets '•' with '- ' for processing
         raw_text = raw_text.replace('•', '-')
         lines = raw_text.split('\n')
         in_bold = False
         for line in lines:
-            # Procesar viñetas
+            # Process bullets
             if line.strip().startswith('-'):
-                # Quitar el guión inicial
+                # Remove the leading dash
                 content = line.strip()[1:].lstrip()
                 text_widget.insert(tk.END, "  • ", "bullet")
-                # Procesar negritas dentro del contenido
+                # Process bold inside the content
                 self._insert_with_bold(text_widget, content)
                 text_widget.insert(tk.END, "\n")
             else:
-                # Línea normal
+                # Normal line
                 self._insert_with_bold(text_widget, line)
                 text_widget.insert(tk.END, "\n")
-            # Añadir un espacio extra después de párrafos vacíos (doble salto)
+            # Add extra space after empty paragraphs (double newline)
             if line.strip() == '':
                 text_widget.insert(tk.END, "\n")
 
     def _insert_with_bold(self, text_widget, text):
-        """Inserta texto interpretando **negrita** dentro de la línea."""
+        """Inserts text interpreting **bold** within the line."""
         parts = text.split('**')
         for i, part in enumerate(parts):
-            if i % 2 == 1:  # las partes impares están entre ** ** → negrita
+            if i % 2 == 1:  # odd parts are between ** ** → bold
                 text_widget.insert(tk.END, part, "bold")
             else:
                 text_widget.insert(tk.END, part)
 
     # --------------------------------------------------------------
-    # Utilidades
+    # Utilities
     # --------------------------------------------------------------
     def show_error(self, msg):
         self.progress.stop()
